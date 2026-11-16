@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+extreme_deconvolution:q01	fsusie	Under what additional conditions can the finite split-and-merge search guarantee a global maximum rather than a local solution?	A global convergence theorem for the specified search, initialization, and stopping rule; the paper describes heuristic search and local EM convergence.	extreme_deconvolution:c08; extreme_deconvolution:c09; extreme_deconvolution:c13	extreme_deconvolution

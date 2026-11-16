@@ -1,0 +1,18 @@
+{
+  "paper_id": "flash",
+  "access": "full_text",
+  "version_used": "medRxiv v1 (2023-11-29)",
+  "counts": {
+    "methods.tsv": 2,
+    "claims.tsv": 15,
+    "claims.checked.tsv": 15,
+    "open_questions.tsv": 2,
+    "rejects.tsv": 0
+  },
+  "span_check": "flash kept=15 rejected=0",
+  "source_sha256": "148ca22117ecc82651d0452241056cdaa5e4ddb3ff38285d8bfae0e63410c278",
+  "review": "Required files exist; at most 15 claims and 2 methods; exact spans pass; empirical calibration is labeled empirical; missing model details recorded as open questions; parent step skipped.",
+  "fetch_workaround": "Native fetcher hard-codes tmp/fetch_events.jsonl; invocation replaces only that path in memory with tmp/flash/fetch_events.jsonl. Versioned HTML returned HTTP 403; exact metadata-supplied dated medRxiv JATS and PDF succeeded.",
+  "operator_error": "403 Client Error: Forbidden for url: https://www.medrxiv.org/content/10.1101/2023.11.29.23299181v1.full",
+  "sandbox_error": "error building bubblewrap command: Fatal error: cannot enforce sandbox read-only path /hpc/users/sunh14/.codex because it crosses writable symlink /hpc/users/sunh14/.codex"
+}

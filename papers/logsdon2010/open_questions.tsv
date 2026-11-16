@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+logsdon2010:q01	fsusie	Do the implemented higher-order approximations and initial harsh class-probability updates preserve monotonicity and local convergence of the full-form variational lower bound?	A lower-bound monotonicity or convergence argument for the modified updates, including the expectation substitutions and omitted terms described in Supplementary Methods.	logsdon2010:c08; logsdon2010:c10	vbay

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+mixsqp:q01	fsusie	Under what quantitative conditions does low-rank likelihood replacement preserve the exact-L mixture-weight solution and the stated local quadratic convergence?	A perturbation bound linking likelihood approximation error and log-domain positivity to weight-estimation error and the reduced-Hessian convergence conditions; numerical comparisons alone do not supply such a theorem.	mixsqp:c09; mixsqp:c10; mixsqp:c12	mixsqp

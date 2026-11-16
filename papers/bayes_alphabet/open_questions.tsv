@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+bayes_alphabet:q01	prs	Which likelihood, prior families and fitting algorithms distinguish BayesA from BayesB?	Open full text defining the two variants; the accessible abstract supplies neither names nor variant-specific equations.	bayes_alphabet:c03	bayes_alphabet

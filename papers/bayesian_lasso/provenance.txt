@@ -1,0 +1,9 @@
+Access: full_text via PMC browser route, journal version 2008, PMCID PMC2429858; DOI 10.1534/genetics.107.085589.
+Native fetch: scripts/fetch_paper.py bayesian_lasso --pmcid PMC2429858, executed from an in-memory copy with only diagnostic paths relocated into tmp/bayesian_lasso. Shared script left unchanged.
+Fetcher bugs: hard-coded shared tmp/fetch_events.jsonl and supplemental-response paths; bodyless efetch XML accepted as full text. Worked around by paper-specific path replacement and inspecting XML/body and permitted alternate repository routes.
+Retained browser body: Abstract, introduction, methods, discussion and Appendix A complete; reference list partially retained. Citation labels stripped, NFC applied, browser line wrappers removed; exact prose otherwise retained. Equations and some inline symbols are images; no missing algebra reconstructed. Native abstract-only XML retained separately in sources/bayesian_lasso.raw.xml.
+Route checks: Europe PMC fullTextXML returned 500; direct PMC and Europe PMC HTML requests returned 403. Browser PMC open succeeded. Supplement endpoint: Article with id PMC2429858 is not open access one.
+No formal numbered guarantee extracted: LASSO posterior-mode equivalence is an author-stated relation; convergence monitoring is not a convergence theorem. Two prior-family method rows cover four combinations with residual-dependent/independent priors.
+Parents step skipped. At most 15 claims. No empirical application results extracted.
+Source SHA256: 681a552227f2e437757688da6c1997fd3d702de4bf2ca6f2f594f2b34a83d601
+Final review: all five required TSVs present; 15 checked claims, 0 rejects, 2 methods, 2 open questions; component references and assumption roles resolve; exactly one seed row. Native command python scripts/check_spans.py bayesian_lasso printed bayesian_lasso kept=15 rejected=0.

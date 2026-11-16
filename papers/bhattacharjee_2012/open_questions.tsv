@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+bhattacharjee_2012:q01	fsusie	Under what conditions does the approximate p-value calculation calibrate the exhaustive subset search?	The abstract does not give the null distribution, approximation formula, or conditions for calibration; these require full-text evidence.	bhattacharjee_2012:c02; bhattacharjee_2012:c03	subset_based_meta_analysis

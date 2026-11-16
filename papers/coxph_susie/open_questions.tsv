@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+coxph_susie:q01	fsusie	Can CoxPH-SuSiE fitting be justified as optimizing a specified approximate posterior with a stationary-point convergence guarantee?	An explicit approximate posterior and objective for gIBSS, together with a convergence argument under stated conditions.	coxph_susie:c13	coxph_susie

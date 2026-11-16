@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+varbvs:q01	fsusie	Under what conditions are individual-variable inclusion probabilities accurate for this variational approximation?	The abstract does not supply the model/design conditions distinguishing accurate and inaccurate settings, or a bound for inclusion-probability error.	varbvs:c05; varbvs:c06	varbvs

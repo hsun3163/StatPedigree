@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+sniekers2020:q01	fsusie	Does the counterexample have the sharper Fourier-coefficient asymptotic conjectured at the end of Section 7?	A proof sharpening the integral bounds to establish f_j ~ (sqrt(2)/pi) x^alpha/(j+1/2); the authors state this as a belief rather than a proved result.	sniekers2020:c14	adaptive_gp_bands

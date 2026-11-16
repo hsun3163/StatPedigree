@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+gradvi:q01	fsusie	Under which additional conditions does GradVI optimization reach a global VEB optimum independently of initialization?	A global convergence result with explicit conditions on the design, prior family and initialization for the non-convex objective.	gradvi:c07; gradvi:c11	gradvi

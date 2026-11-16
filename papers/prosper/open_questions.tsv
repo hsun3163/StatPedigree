@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+prosper:q01	prs	Under what conditions does the ensemble improve prediction when the effect-size distribution is misspecified?	A risk comparison or oracle guarantee specifying the candidate learners, tuning-sample size and misspecification class; the source offers a conjecture rather than such a guarantee.	prosper:c10; prosper:c12	prosper

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+knowles2011:q01	fsusie	What finite-run accuracy or convergence-rate guarantee applies to the Gibbs/MH posterior approximation with the modified new-feature proposal?	A stated convergence-rate or finite-time error result under explicit model and proposal conditions; the paper supplies sampling updates and mixing observations.	knowles2011:c06; knowles2011:c09	nsfa

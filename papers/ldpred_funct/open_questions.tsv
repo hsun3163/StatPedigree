@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+ldpred_funct:q01	prs	Under which conditions does bin-based cross-validation provably improve out-of-sample prediction over the infinitesimal posterior score?	A risk or consistency result linking bin estimation, validation size and genetic architecture to prediction improvement.	ldpred_funct:c09; ldpred_funct:c11; ldpred_funct:c12; ldpred_funct:c14	ldpred_funct; ldpred_funct_inf

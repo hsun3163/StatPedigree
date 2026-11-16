@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+bayesr:q01	prs	Does the reduced 500-nonzero-effect sampling scheme preserve the full BayesR posterior, and what finite-run accuracy can be assured?	An invariant-distribution or detailed-balance argument for the state-dependent stopping rule, together with convergence or finite-run error bounds; similar empirical outputs do not establish these properties.	bayesr:c06; bayesr:c14	bayesr

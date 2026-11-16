@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+clayton_2012:q01	prs	How should a link-specific weighting scheme be chosen when the optimal disease model is unknown?	A validated criterion identifying the appropriate link for the association being tested; the paper notes that a generally appropriate link need not always be optimal.	clayton_2012:c09	link_weighted_association

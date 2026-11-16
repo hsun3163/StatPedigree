@@ -1,0 +1,13 @@
+{
+  "paper_id": "dudbridge2013",
+  "access": "full_text",
+  "pmcid": "PMC3605113",
+  "doi": "10.1371/journal.pgen.1003348",
+  "main_source": "sources/dudbridge2013.txt",
+  "raw_source": "sources/dudbridge2013.raw.xml",
+  "supplement_status": "unavailable after three bounded open-repository timeouts; main-text extraction completed",
+  "supplement_error": "HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=60)",
+  "fetch_workaround": "Shared script hard-codes tmp/fetch_events.jsonl and other shared temp paths; scoped invocation redirects all temporary writes to tmp/dudbridge2013.",
+  "source_limit": "Equations are repository image references; XML converter retains prose and equation labels but omits image-only mathematics. Claims use prose spans; formulas are not reconstructed.",
+  "review": "15 kept; 0 rejected; 1 method; 2 open questions; parents skipped"
+}

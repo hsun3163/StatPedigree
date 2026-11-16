@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+fregene:q01	prs	Under what conditions does common-factor rescaling, including subsequent population expansion, preserve the target population distribution to a specified accuracy?	An accuracy bound or distribution-preservation result for the chosen scaling factor, rates and expansion schedule.	fregene:c10; fregene:c11	fregene

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+szabo_2015:q01	fsusie	Does a hierarchical Bayes credible set with a hyperprior on alpha have coverage comparable to these empirical Bayes sets?	A specified hyperprior and credible-set definition, with a coverage proof under explicit signal restrictions; Section 11 states a belief rather than a theorem.	szabo_2015:c09; szabo_2015:c10	adaptive_eb_credible_ball

@@ -1,0 +1,12 @@
+node_id	year	source
+ridge	1970	lead knowledge: Hoerl and Kennard
+infinitesimal	1918	lead knowledge: Fisher
+horseshoe	2010	seed list
+sushie_indep	2025	same paper as SuShiE
+mvsusie	2023	preprint year (journal 2026)
+mvsusie_rss	2023	preprint year
+mser	2023	preprint year
+mv_simple	2023	preprint year
+mv_simple_normal	2023	preprint year
+mv_simple_intercept	2023	preprint year
+mv_simple_mixture	2023	preprint year

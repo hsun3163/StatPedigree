@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+wen_2012:q01	fsusie	What finite-sample accuracy guarantee is available for approximate Bayes factors when residual covariance is poorly estimated?	A quantitative approximation-error bound or covariance-prior conditions covering small samples with moderately large p or r; the discussion proposes future improvements rather than such a guarantee.	wen_2012:c11; wen_2012:c13	bayesian_multiway

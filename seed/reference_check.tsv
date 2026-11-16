@@ -1,0 +1,26 @@
+source_paper	cited_candidate	in_seed	role	evidence_location
+fsusie	susie	yes	model it builds on	sources/fsusie.txt:L223; References [23]
+fsusie	susierss	yes	cited SuSiE summary-data variant	sources/fsusie.txt:L224; References [24]
+fsusie	ash	yes	adaptive shrinkage prior it builds on	sources/fsusie.txt:L281; References [81]
+fsusie	wavelet_ss	yes	wavelet association ancestor	sources/fsusie.txt:L236; References [36]
+fsusie	mvsusie	yes	related SuSiE variant; 2023 preprint	sources/fsusie.txt:L259; References [59]
+fsusie	mallat1989: A theory for multiresolution signal decomposition the wavelet representation (DOI 10.1109/34.192463)	no	wavelet multiresolution foundation	sources/fsusie.txt:L249; References [49]; Online Methods
+fsusie	mallat2009: A wavelet tour of signal processing the sparse way (DOI 10.1016/B978-0-12-374370-1.X0001-8)	no	wavelet transform textbook	sources/fsusie.txt:L250; References [50]; Online Methods
+fsusie	donoho1994: Ideal spatial adaptation by wavelet shrinkage (DOI 10.1093/biomet/81.3.425)	no	scale-dependent sparsity foundation	sources/fsusie.txt:L282; References [82]; Online Methods
+fsusie	crouse1998: Wavelet-based statistical signal processing using hidden Markov models (DOI 10.1109/78.668544)	no	wavelet spike-and-slab prior ancestor	sources/fsusie.txt:L295; References [95]; Online Methods
+fsusie	ma2018: Efficient functional ANOVA through wavelet-domain Markov Groves (DOI 10.1080/01621459.2017.1286241)	no	wavelet-domain prior ancestor	sources/fsusie.txt:L296; References [96]; Online Methods
+fsusie	xing2021: Flexible signal denoising via flexible empirical Bayes shrinkage (DOI 10.48550/arXiv.1605.07787)	no	empirical Bayes shrinkage ancestor	sources/fsusie.txt:L297; References [97]; Online Methods
+fsusie	wang2021: Empirical Bayes matrix factorization (DOI 10.48550/arXiv.1802.06931)	no	adaptive shrinkage ancestor	sources/fsusie.txt:L298; References [98]; Online Methods
+fsusie	nason2008: Wavelet Methods in Statistics with R (DOI 10.1007/978-0-387-75961-6)	no	wavelet implementation and basis reference	sources/fsusie.txt:L299; References [99]; Online Methods
+fsusie	susie_variance: Accounting for uncertainty in residual variances improves calibration of the Sum of Single Effects model for small sample sizes (DOI 10.1101/2025.05.16.654543)	no	SuSiE variance calibration context	sources/fsusie.txt:L290; References [90]; Online Methods
+fsusie	nason2000: Wavelet processes and adaptive estimation of the evolutionary wavelet spectrum (DOI 10.1111/1467-9868.00231)	no	non-decimated wavelet background	sources/fsusie.txt:L330; References [130]; Supplementary text
+fsusie	kovac2000: Extending the scope of wavelet regression methods by coefficient-dependent thresholding (DOI 10.1080/01621459.2000.10473912)	no	interpolation implementation it uses	sources/fsusie.supp.txt:L302; References [131]; Supplementary text
+fsusie	kim2020: A fast algorithm for maximum likelihood estimation of mixture proportions using sequential quadratic programming (DOI 10.1080/10618600.2019.1689985)	no	mixture-weight optimization it uses	sources/fsusie.supp.txt:L303; References [132]; Supplementary text
+fsusie	blei2017: Variational inference a review for statisticians (DOI 10.1080/01621459.2017.1285773)	no	variational inference foundation	sources/fsusie.supp.txt:L304; References [133]; Supplementary text
+fsusie	willwerscheid2021: Empirical Bayes matrix factorization methods and applications (DOI 10.6082/uchicago.3593)	no	empirical Bayes prior-grid construction	sources/fsusie.supp.txt:L305; References [134]; Supplementary text
+fsusie	dempster1977: Maximum likelihood from incomplete data via the EM algorithm (DOI 10.1111/j.2517-6161.1977.tb01600.x)	no	EM algorithm it uses	sources/fsusie.supp.txt:L306; References [135]; Supplementary text
+fsusie	morris2015: Functional regression (DOI 10.1146/annurev-statistics-010814-020413)	no	functional regression background	sources/fsusie.txt:L292; References [92]; Supplementary text
+fsusie	wang2016: Wavelet speech enhancement based on nonnegative matrix factorization (DOI 10.1109/LSP.2016.2571727)	no	wavelet-coefficient independence precedent	sources/fsusie.supp.txt:L307; References [136]; Supplementary text
+bridgeprs	prscsx	yes	benchmark comparator	sources/bridgeprs.txt:L22; Benchmarking methods via simulation; References 5
+bridgeprs	prscs (PRS-CS-mult adaptation)	yes	benchmark comparator; ancestry-weighted adaptation	sources/bridgeprs.txt:L22; Benchmarking methods via simulation; References 13
+bridgeprs	PRSice-2 / PRSice-meta (clumping and thresholding)	no	benchmark comparator; meta-analysis adaptation	sources/bridgeprs.txt:L22; Benchmarking methods via simulation; References 14 (DOI 10.1093/gigascience/giz082)

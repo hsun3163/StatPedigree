@@ -1,0 +1,4 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+xpass:q01	prs	What likelihood and prior specify the correlation and population-specific effects in XPASS?	Open methods text specifying the sampling distribution, effect prior and population-specific decomposition; the abstract gives none.	xpass:c03; xpass:c04	xpass
+xpass:q02	prs	What fitting algorithm and summary-data or LD assumptions are required for XPASS?	Accessible methods specifying the algorithm, required summary statistics, LD inputs and their validity conditions.	xpass:c02	xpass
+xpass:q03	prs	Does XPASS have any formal prediction or calibration guarantee beyond the reported simulation finding?	A stated theorem with its conditions or an explicit limitation; the abstract provides an empirical statement only.	xpass:c05	xpass

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+empirical_bayes_covariance_decomposition:q01	fsusie	Under what additional conditions do EBCD-MM iterates reach a global EBCD optimum?	A global convergence theorem or sufficient landscape and initialization conditions for the nonconvex criterion	empirical_bayes_covariance_decomposition:c07; empirical_bayes_covariance_decomposition:c15	ebcd

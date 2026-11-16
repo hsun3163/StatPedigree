@@ -1,0 +1,5 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+smash:q01	fsusie	Under what conditions does the alternating mean-variance estimator converge?	A convergence theorem for the alternating approximate EB updates, including initialization and variance-estimation conditions.	smash:c23; smash:c24	smash
+smash:q02	fsusie	When does ignoring wavelet-coefficient dependence preserve accuracy or uncertainty calibration?	An error or calibration bound for marginal shrinkage under the induced dependence and estimated error variances.	smash:c19; smash:c35	smash; ash
+smash:q03	fsusie	When do delta-method and normal-approximation Poisson intervals attain their stated nominal coverage?	Coverage analysis accounting for small counts, plug-in total intensity, fitted prior, and moment approximations.	smash:c28; smash:c29; smash:c30; smash:c32	poisson_multiscale; smash
+smash:q04	fsusie	What conditions justify treating irregularly spaced observations as equally spaced?	A spacing-dependent approximation bound or validity conditions for the denoising target.	smash:c31	smash

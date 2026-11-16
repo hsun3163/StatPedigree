@@ -1,0 +1,37 @@
+stato_id	label	source_kind	source_text	node_id	doi	pmid	pmcid	title	first_author	year	resolved_by
+OBI:0200163	false discovery rate correction method	book	Dudoit, Sandrine and van der Laan, Mark J. (2008) Multiple Testing Procedures with Applications to Genomics. New York: Springer , p. 21	NA	NA	NA	NA	NA	NA	NA	NA
+OBI:0200163	false discovery rate correction method	web	http://www.wikidoc.org/index.php/False_discovery_rate	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000091	genome-wide association study	none	AGB, PRS	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000108	linear regression for analysis of continuous dependent variable	web	STATO, adapted from wikipedia (http://en.wikipedia.org/wiki/Linear_regression) polled in June 2013	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000143	Bayesian model selection	web	adapted from Wikipedia	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000155	meta analysis	web	adapted from wikipedia: http://en.wikipedia.org/wiki/Metaanalysis last accessed: 2013-11-15	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000235	genetic association study	web	http://en.wikipedia.org/wiki/Genetic_association	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000266	Bayes factor	web	adapted from Wikipedia last accessed 2013-11-13	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000334	mixture distribution	web	http://en.wikipedia.org/wiki/Mixture_distribution	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000336	best linear unbiased predictor	book	Henderson C. R., 1984 Applications of Linear Models in Animal Breeding. University of Guelph, Guelph, Ontario, Canada. ftp://tech.obihiro.ac.jp/suzuki/Henderson.pdf	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000338	breeding value estimation using genotype data	none	NA	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000390	regression model	web	adapted from wikipedia: https://en.wikipedia.org/wiki/Regression_analysis#Regression_models last accessed: 2015-11-03	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000428	maximum likelihood estimation	web	https://en.wikipedia.org/wiki/Maximum_likelihood_estimation	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000455	credible interval	web	Adapted from Wikipedia: https://en.wikipedia.org/wiki/Credible_interval	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000455	credible interval	book	the Cambridge Dictionary of Statistics, fourth edition, ISBN-13 978-0-511-78827-7 last accessed: 2017-07-01	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000464	linear mixed model	web	adapted from Wikipedia: https://en.wikipedia.org/wiki/Mixed_model	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000480	ridge regression best linear unbiaised predictor	paper	Comparison Between Linear and Non-parametric Regression Models for Genome-Enabled Prediction in Wheat Paulino Pérez-Rodríguez, Daniel Gianola, Juan Manuel González-Camacho, José Crossa, Yann Manès and Susanne Dreisigacker G3: GENES, GENOMES, GENETICS December 1, 2012 vol. 2 no. 12 1595-1605; https://doi.org/10.1534/g3.112.003665	perezrodriguez2012comparison	10.1534/g3.112.003665	23275882	PMC3516481	Comparison between linear and non-parametric regression models for genome-enabled prediction in wheat	Perez-Rodriguez P	2012	Crossref:DOI; Europe PMC:identifier
+STATO:0000481	genomic best linear unbiased prediction	paper	adapted from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3382275/	unknownunknownpaper	NA	NA	PMC3382275	NA	NA	NA	unresolved:identifier_named_by_STATO
+STATO:0000481	genomic best linear unbiased prediction	web	https://www.rdocumentation.org/packages/pedigree/versions/1.4/topics/gblup	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000483	Bayes A	paper	A fast algorithm for BayesB type of prediction of genome-wide estimates of genetic value. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637029/ doi: 10.1186/1297-9686-41-2.	meuwissen2009fast	10.1186/1297-9686-41-2	19284681	PMC2637029	A fast algorithm for BayesB type of prediction of genome-wide estimates of genetic value	Meuwissen	2009	Crossref:DOI; Europe PMC:identifier
+STATO:0000483	Bayes A	paper	Prediction of total genetic value using genome-wide dense marker maps. Meuwissen TH, Hayes BJ, Goddard ME. Genetics. 2001 Apr;157(4):1819-29. PMID: 11290733	bayes_alphabet	10.1093/genetics/157.4.1819	11290733	PMC1461589	Prediction of total genetic value using genome-wide dense marker maps.	Meuwissen TH	2001	Europe PMC:identifier
+STATO:0000484	Bayes B	paper	A fast algorithm for BayesB type of prediction of genome-wide estimates of genetic value. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637029/ doi: 10.1186/1297-9686-41-2.	meuwissen2009fast	10.1186/1297-9686-41-2	19284681	PMC2637029	A fast algorithm for BayesB type of prediction of genome-wide estimates of genetic value	Meuwissen	2009	Crossref:DOI; Europe PMC:identifier
+STATO:0000484	Bayes B	paper	Prediction of total genetic value using genome-wide dense marker maps. Meuwissen TH, Hayes BJ, Goddard ME. Genetics. 2001 Apr;157(4):1819-29. PMID: 11290733	bayes_alphabet	10.1093/genetics/157.4.1819	11290733	PMC1461589	Prediction of total genetic value using genome-wide dense marker maps.	Meuwissen TH	2001	Europe PMC:identifier
+STATO:0000492	Bayesian least absolute shrinkage and selection operator	paper	https://www.tandfonline.com/doi/abs/10.1198/016214508000000337	park2008bayesian	10.1198/016214508000000337	NA	NA	The Bayesian Lasso	Park	2008	Crossref:DOI
+STATO:0000530	Bayesian model	book	adapted from several sources: Oxford Dictionary of Statistics: 10.1093/acref/9780199541454.001.0001	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000530	Bayesian model	web	http://www.scholarpedia.org/article/Bayesian_statistics	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000530	Bayesian model	web	https://stats.stackexchange.com/questions/129017/what-exactly-is-a-bayesian-model	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000531	prior probability distribution	book	Oxford Dictionary of Statistics: 10.1093/acref/9780199541454.001.0001	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000532	posterior probability distribution	book	Oxford Dictionary of Statistics: 10.1093/acref/9780199541454.001.0001	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000533	Bayes C pi	paper	adapted from: BMC Bioinformatics. 2011 May 23;12:186. doi: 10.1186/1471-2105-12-186. Extension of the bayesian alphabet for genomic selection. Habier D, Fernando RL, Kizilkaya K, Garrick DJ.	habier2011extension	10.1186/1471-2105-12-186	21605355	PMC3144464	Extension of the Bayesian alphabet for genomic selection	Habier	2011	Crossref:DOI; Europe PMC:identifier
+STATO:0000533	Bayes C pi	web	https://cran.r-project.org/web/packages/gdmp/gdmp.pdf	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000533	Bayes C pi	web	https://jvanderw.une.edu.au/RFSlides.pdf	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000536	Gibbs sampling	paper	"Geman, S.; Geman, D. (1984). \""Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images\"". IEEE Transactions on Pattern Analysis and Machine Intelligence. 6 (6): 721–741. doi:10.1109/TPAMI.1984.4767596"	geman1984stochastic	10.1109/tpami.1984.4767596	22499653	NA	Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images	Geman	1984	Crossref:DOI; Europe PMC:identifier
+STATO:0000536	Gibbs sampling	web	adapted from wikipedia: https://en.wikipedia.org/wiki/Gibbs_sampling	NA	NA	NA	NA	NA	NA	NA	NA
+STATO:0000537	Metropolis–Hastings sampling	paper	"Hastings, W.K. (1970). \""Monte Carlo Sampling Methods Using Markov Chains and Their Applications\"". Biometrika. 57 (1): 97–109. doi:10.1093/biomet/57.1.97"	hastings1970monte	10.1093/biomet/57.1.97	NA	NA	Monte Carlo sampling methods using Markov chains and their applications	W. Keith Hastings	1970	Crossref:DOI
+STATO:0000537	Metropolis–Hastings sampling	web	https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm	NA	NA	NA	NA	NA	NA	NA	NA

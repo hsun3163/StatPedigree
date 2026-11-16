@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+fong_2020:q01	prs	Under what stated conditions should the preparatory training size be chosen to optimize model evaluation?	A selection criterion and theoretical result for P under specified sampling and prior conditions; the paper gives situation-specific defaults.	fong_2020:c14; fong_2020:c15	cumulative_ccv

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+mandozzi_2016:q01	fsusie	Can the hierarchical procedure be extended to control FDR for its dependent, hierarchically ordered tests?	A proved FDR-controlling hierarchical adjustment under the dependence of these group p-values; Section 3.1 explicitly describes this extension as challenging.	mandozzi_2016:c12	hierarchical_testing

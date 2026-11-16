@@ -1,0 +1,3 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+wakefield_abf:q01	fsusie	Under which sampling model and precise large-sample conditions is the approximate Bayes factor valid?	The abstract omits the likelihood, approximation formula and validity or error conditions.	wakefield_abf:c02; wakefield_abf:c07	wakefield_abf
+wakefield_abf:q02	fsusie	What specific effect-size prior and comparison conditions yield identical Bayes-factor and P-value rankings?	The abstract states existence of such a prior but omits its form and the precise conditions for ranking equivalence.	wakefield_abf:c03; wakefield_abf:c04	wakefield_abf; p_values

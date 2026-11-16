@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+conneely_2007:q01	fsusie	Under which joint-null and dependence conditions does PACT provide calibrated multiple-testing adjustment?	The abstract gives simulation-based validity but does not specify the joint null model, regularity conditions or precise error criterion.	conneely_2007:c03; conneely_2007:c05	pact

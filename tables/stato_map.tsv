@@ -1,0 +1,67 @@
+item_id	stato_id	match	note
+susie	STATO:0000108	broader	SuSiE is a linear regression model with a structured prior
+susie	STATO:0000143	related	variable selection by posterior probabilities; STATO's term is model choice by Bayes factor
+susie	STATO:0000455	related	credible sets are sets of variables, not intervals
+ser	STATO:0000108	broader	one-effect linear regression
+sushie	STATO:0000108	broader	linear regression per ancestry with shared structure
+fsusie	STATO:0000390	broader	regression with a function as the response
+sfr	STATO:0000390	broader	one-SNP regression with a function as the response
+mvsusie	STATO:0000390	broader	regression with several responses
+mvsusie	STATO:0000334	related	prior is a mixture of multivariate normals
+mash	STATO:0000334	related	mixture of multivariate normals
+ash	STATO:0000334	related	prior is a unimodal mixture
+ash	OBI:0200163	related	ash gives local false discovery and sign rates; STATO's term is a P-value correction
+wavelet_ss	STATO:0000235	broader	association test for a functional phenotype
+wfmm	STATO:0000464	broader	mixed model fitted in the wavelet domain
+finemap	STATO:0000143	related	search over causal configurations
+bvsr	STATO:0000143	related	Bayesian variable selection regression
+prsice2	STATO:0000338	broader	a polygenic score is the human-genetics analogue of a genomic breeding value
+ldpred	STATO:0000338	broader	as above
+ldpred	STATO:0000533	close	point mass plus normal slab, as in the Bayes B / Bayes C pi family; not checked for equality
+ldpred	STATO:0000536	related	fitted with a Gibbs sampler
+ldpred2	STATO:0000533	close	same prior family as LDpred
+ldpred2_auto	STATO:0000533	close	the causal fraction is estimated, as pi is in Bayes C pi
+ldpred_inf	STATO:0000480	close	Gaussian prior with one variance for all markers
+ldpred2_inf	STATO:0000480	close	Gaussian prior with one variance for all markers
+infinitesimal	STATO:0000481	close	all markers with small Gaussian effects
+ridge	STATO:0000480	close	ridge regression as a Gaussian-prior predictor
+prscs	STATO:0000338	broader	as above
+prscs	STATO:0000483	related	both are continuous scale mixtures of normals with no point mass; different mixing distribution
+prscs	STATO:0000492	related	the Laplace prior is another scale mixture of normals
+prscs	STATO:0000536	related	fitted with a Gibbs sampler
+bridgeprs	STATO:0000338	broader	as above
+bridgeprs_stage1	STATO:0000480	close	per-locus Gaussian prior, stated equivalent to ridge regression
+bridgeprs_stage2	STATO:0000531	broader	the population-1 posterior is used as a prior
+bridgeprs_stage2	STATO:0000532	broader	the population-1 posterior is used as a prior
+simple_linear_regression	STATO:0000108	close	generic root
+multiple_linear_regression	STATO:0000108	close	generic root
+multivariate_regression	STATO:0000390	broader	generic root
+bayesian_linear_regression	STATO:0000530	broader	generic root
+conjugate_normal_model	STATO:0000530	broader	generic root
+lasso	STATO:0000492	close	STATO holds the Bayesian form
+spike_and_slab	STATO:0000484	close	point mass plus slab
+mixture_model	STATO:0000334	close	generic root
+scale_mixture_of_normals	STATO:0000334	broader	generic root
+bayes_factor	STATO:0000266	exact	generic root
+fdr	OBI:0200163	close	generic root
+gibbs_sampling	STATO:0000536	exact	generic root
+mcmc	STATO:0000537	close	Metropolis-Hastings is one MCMC method
+linear_mixed_model	STATO:0000464	exact	generic root
+blup	STATO:0000336	exact	generic root
+meta_analysis	STATO:0000155	exact	generic root
+marginal_gwas_regression	STATO:0000091	broader	generic root
+em_algorithm	STATO:0000428	broader	EM is one way to do maximum likelihood estimation
+empirical_bayes	NA	gap	no STATO term for empirical Bayes
+normal_means	NA	gap	no STATO term for the normal means problem
+variational_inference	NA	gap	no STATO term for variational inference
+coordinate_ascent	NA	gap	no STATO term for coordinate ascent
+wavelet_transform	NA	gap	no STATO term for wavelets
+wavelet_shrinkage	NA	gap	no STATO term for wavelet shrinkage
+smash	NA	gap	no STATO term for wavelet shrinkage
+global_local_shrinkage	NA	gap	no STATO term for global-local shrinkage priors
+horseshoe	NA	gap	no STATO term for the horseshoe prior
+clumping_thresholding	NA	gap	no STATO term for clumping and thresholding
+cross_validation	NA	gap	STATO has only 'number of cross-validation segments'
+summary_statistics_likelihood	NA	gap	no STATO term for regression with summary statistics
+prscsx	NA	gap	no STATO term for sharing a prior across populations
+bridgeprs_stage2	NA	gap	no STATO term for transferring a posterior across populations

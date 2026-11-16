@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+cai2008:q01	fsusie	Do the proposed BlockJS, NeighBlock or EbayesThresh substitutions retain the adaptivity guarantees proved for the estimator (19)?	Risk bounds for those substitutions with non-Gaussian, heteroscedastic, correlated empirical coefficients.	cai2008:c15; cai2008:c11; cai2008:c13	cai2008; blockjs; neighblock; ebayesthresh

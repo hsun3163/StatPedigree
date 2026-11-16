@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+pact	conneely_2007	fsusie	P values adjusted for correlated tests (PACT)	NA	NA	NA	P values adjusted for correlated tests	Common association tests involving multiple traits, markers and genetic models	NA	NA	estimand=conneely_2007:c03; data_input=conneely_2007:c04

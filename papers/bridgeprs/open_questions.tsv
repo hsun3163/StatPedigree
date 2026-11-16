@@ -1,0 +1,4 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+bridgeprs:q01	prs	What conditions calibrate the pseudo-F ranking after Bayesian substitution of means, precision and effective sample size?	A distributional calibration result for the posterior-substituted ranking statistic	bridgeprs:c18; bridgeprs:c19; bridgeprs:c30	bridgeprs_stage2
+bridgeprs:q02	prs	How does conditioning nonoverlapping variant effects to zero affect transfer when those variants have nonzero effects?	A transfer-error or robustness bound for conditioning away nonoverlapping causal effects	bridgeprs:c21	bridgeprs_stage2
+bridgeprs:q03	prs	Which sign and scale convention for the displayed residual-variance evidence formula produces the intended model weights?	A sign-checked derivation of the displayed marginal-likelihood approximation under the stated variance convention	bridgeprs:c24	bridgeprs

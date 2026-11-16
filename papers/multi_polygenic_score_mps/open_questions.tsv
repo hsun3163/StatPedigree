@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+multi_polygenic_score_mps:q01	prs	Under what sampling and population-transport conditions is held-out MPS performance an unbiased estimate for prediction in a new target population?	A specified target population and sampling/transport assumptions linking it to the independent test set; the paper supplies no formal population-generalization theorem.	multi_polygenic_score_mps:c14; multi_polygenic_score_mps:c11	mps

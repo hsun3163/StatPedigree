@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+wu_2009:q01	fsusie	What reference distribution would give calibrated significance measures for predictors retained by this two-stage lasso selection procedure?	A post-selection calibration argument that accounts for marginal selection, tuning to a fixed count, and subsequent interaction selection.	wu_2009:c08; wu_2009:c11	wu_2009_lasso_logistic

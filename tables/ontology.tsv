@@ -1,0 +1,95 @@
+class_id	parent_id	differentia	co_parents
+stato_0000108	NA	STATO class	NA
+bayesian_linear_regression	stato_0000108	linear regression with a prior on the coefficients	NA
+bayes_alphabet	bayesian_linear_regression	marker-specific effect variances (BayesA, BayesB)	NA
+spike_and_slab	bayesian_linear_regression	prior with a point mass at zero plus a slab	NA
+bvsr	spike_and_slab	sparse Bayesian regression over many variables	NA
+bslmm	bvsr	sparse effects plus a Gaussian polygenic background	linear_mixed_model
+dbslmm	bslmm	deterministic approximation from summary statistics	NA
+varbvs	bvsr	BVSR fitted by a variational approximation	NA
+finemap	bvsr	search over causal configurations from summary statistics	NA
+dapg	bvsr	deterministic approximation of posteriors over configurations	NA
+susie	bvsr	sparse regression written as a sum of single effects	NA
+susierss	susie	SuSiE from summary statistics	NA
+mvsusie	susie	SuSiE for several traits	mash
+mvsusie_rss	mvsusie	mvSuSiE from summary statistics	NA
+sushie	susie	SuSiE across ancestries	NA
+fsusie	susie	SuSiE for functional traits	wavelet_ss; smash
+ldpred	spike_and_slab	point-normal prior for polygenic prediction from summary statistics	NA
+ldpred_funct	ldpred	Gaussian prior with annotation-dependent variances	NA
+annopred	ldpred	point-normal prior that depends on functional annotation	NA
+ridge	bayesian_linear_regression	one Gaussian prior for all coefficients	NA
+xpass	ridge	Gaussian effects correlated between two populations	NA
+sblup	ridge	BLUP effects rebuilt from summary statistics and LD	NA
+multiblup	ridge	separate Gaussian priors for genomic regions	NA
+bridgeprs	ridge	per-locus Gaussian priors, passed from one population to the next	NA
+global_local_shrinkage	bayesian_linear_regression	continuous shrinkage: a global scale times local scales	NA
+mixture_model	bayesian_linear_regression	prior that is a mixture of normals	NA
+sdpr	mixture_model	Dirichlet-process mixture of normals	NA
+sdprx	sdpr	SDPR across two populations	NA
+bayesr	mixture_model	point mass plus three normals of fixed relative variance	NA
+megaprs	bayesr	BayesR-type prior with heritability-model weights, from summary statistics	NA
+sbayesr	bayesr	BayesR from summary statistics	NA
+bolt	mixture_model	mixture of two Gaussians in a mixed model	NA
+polypred	bolt	fine-mapping-informed effects combined with a BOLT-LMM predictor	susie
+horseshoe	global_local_shrinkage	half-Cauchy local scales	NA
+tpb	horseshoe	three-parameter beta family of normal scale mixtures	NA
+prscs	global_local_shrinkage	continuous shrinkage prior for polygenic prediction	NA
+prscsx	prscs	shrinkage scales shared across populations	NA
+xwing	prscsx	annotation-dependent shrinkage across populations	NA
+marginal_gwas_regression	stato_0000108	one regression per variant	NA
+cojo	stato_0000108	joint multi-SNP regression rebuilt from summary statistics and LD	NA
+lasso	stato_0000108	L1-penalized regression	NA
+lassosum	lasso	lasso from summary statistics and reference LD	NA
+prosper	lassosum	lasso penalties plus cross-population penalties, combined by an ensemble	NA
+dudbridge2013	marginal_gwas_regression	polygenic score: marginal effects summed with weights	NA
+tlprs	dudbridge2013	source-population weights adapted to the target by gradient descent	NA
+prsice2	dudbridge2013	polygenic score after clumping and P-value thresholding	NA
+multiethnic_prs	prsice2	linear combination of scores trained in two populations	NA
+ctsleb	prsice2	two-dimensional thresholding, empirical Bayes and a super learner across ancestries	NA
+empirical_bayes	NA	prior estimated from the data	NA
+normal_means	empirical_bayes	shrinking many noisy estimates	NA
+ebayesthresh	normal_means	empirical Bayes thresholding	NA
+ash	normal_means	unimodal mixture prior	NA
+mash	ash	multivariate version across conditions	NA
+smash	ash	ash applied to wavelet coefficients for smoothing	wavelet_transform
+wavelet_transform	NA	multiscale representation of a signal	NA
+wavelet_ss	wavelet_transform	association test for a functional phenotype in the wavelet domain	NA
+stato_0000464	NA	STATO class	NA
+linear_mixed_model	stato_0000464	fixed plus random effects	NA
+wfmm	linear_mixed_model	mixed model for functions in the wavelet domain	NA
+ebnm_estimated_se	ash	normal means with uncertainty in the standard errors	NA
+vash	ash	adaptive shrinkage of variances	NA
+cashr	ash	adaptive shrinkage under correlated noise	NA
+mouthwash	ash	adaptive shrinkage with unwanted variation	NA
+corshrink	ash	adaptive shrinkage of correlations	NA
+fash	ash	adaptive shrinkage of functions	NA
+ebnm	ash	general empirical Bayes normal means with many prior families	NA
+ebmf	ash	empirical Bayes matrix factorization: normal means on loadings and factors	NA
+cebmf	ebmf	matrix factorization with covariate-dependent priors	NA
+gbcd	ebmf	covariance decomposition with generalized binary priors	NA
+ebcd	ebmf	empirical Bayes covariance decomposition	NA
+poisson_multivariate_adaptive_shrinkage	mash	mash for Poisson counts	NA
+ultimate_deconvolution	mash	fitting the multivariate normal mixture prior	NA
+multiseq	smash	multiscale Poisson model for differences between groups	NA
+mr_ash	varbvs	variational multiple regression with an ash prior	ash
+mr_mash	mr_ash	multivariate responses with a mash prior	mash
+gradvi	mr_ash	gradient-based variational fitting	NA
+ebglm	mr_ash	empirical Bayes shrinkage for generalized linear models	NA
+susie_ash	susie	single effects plus an ash background	ash
+coxph_susie	susie	SuSiE for survival outcomes	NA
+ctwas	susie	genes and variants fine-mapped together	NA
+m_ctwas	ctwas	several groups of molecular traits	NA
+mfsusie	fsusie	several functional traits at once	mvsusie
+stephens_multivariate_association	bayesian_linear_regression	Bayesian model comparison across related phenotypes	NA
+bayesian_reduced_rank_regression	bayesian_linear_regression	low-rank coefficient matrix with shrinkage priors	NA
+gemma	linear_mixed_model	exact mixed-model association	NA
+multivariate_linear_mixed_model_mvlmm	gemma	mixed model for several phenotypes	NA
+colocboost	stato_0000108	gradient boosting across traits for colocalization	NA
+multiphen	marginal_gwas_regression	genotype regressed on several phenotypes	NA
+prset	prsice2	pathway-based polygenic scores	NA
+erasor	dudbridge2013	correction of score results for sample overlap	NA
+mps	dudbridge2013	many polygenic scores combined in one penalized regression	NA
+gsens	dudbridge2013	sensitivity analysis for genetic confounding using polygenic scores	NA
+popout	dudbridge2013	tests of genetic architecture in trait tails using polygenic scores	NA
+conditional_sibling_inference	dudbridge2013	architecture inferred from sibling similarity	NA

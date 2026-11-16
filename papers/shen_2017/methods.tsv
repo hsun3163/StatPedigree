@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+dmrmark	shen_2017	fsusie	DMRMark	Constrained Gaussian mixture model incorporating biological knowledge combined with a non-homogeneous hidden Markov model for spatial correlation; equations absent from the abstract.	NA	NA	Differentially methylated regions detected without predefined boundaries or decision windows.	Methylation array data.	NA	NA	model_likelihood=shen_2017:c04; estimand=shen_2017:c05; data_input=shen_2017:c03

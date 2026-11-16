@@ -1,0 +1,3 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+flash:q01	fsusie	Under what conditions would FLASH imputation preserve nominal fine-mapping credible-set coverage beyond the reported simulations?	A stated calibration result connecting imputation uncertainty, missingness and downstream fine-mapping under specified sampling assumptions.	flash:c12; flash:c09; flash:c10	flash
+flash:q02	fsusie	What likelihood, prior families and fitting updates define the chromosome-specific and global FLASH extension, and what convergence claim applies?	An explicit probabilistic model, empirical Bayes objective and update specification with conditions for convergence; these are not supplied in the extension section.	flash:c02; flash:c05; flash:c06; flash:c07	flash

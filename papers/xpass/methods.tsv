@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+xpass	xpass	prs	XPASS	NA	NA	NA	PRS constructed using cross-population information; exact effect-weight estimator unstated in abstract	Summary-level GWAS data	NA	NA	estimand=xpass:c02; data_input=xpass:c02; whole_method=xpass:c03; whole_method=xpass:c04

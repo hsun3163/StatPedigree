@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+zhang2005	zhang2005	fsusie	Bayesian classification regression	NA	Three-component marker-effect mixture: negligible, positive and negative classes.	NA	Posterior probability of marker classification.	Genotypic markers and a quantitative trait.	NA	NA	prior=zhang2005:c02; estimand=zhang2005:c03; data_input=zhang2005:c04

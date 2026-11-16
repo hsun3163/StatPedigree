@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+prsice:q01	prs	Under which broader study designs does the proposed best-fit-score significance threshold control family-wise error at 0.05?	A more extensive calibration study or stated theorem covering LD structure, threshold grids, phenotype distributions and sample sizes beyond the reported permutation design.	prsice:c11; prsice:c12; prsice:c13	prsice

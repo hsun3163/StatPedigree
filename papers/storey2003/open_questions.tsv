@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+storey2003:q01	fsusie	Under what dependence and sample-size conditions does the proposed calibration yield false discovery rate control?	The accessible abstract provides no dependence assumptions, finite-sample or asymptotic error-control theorem, or mathematical calibration rule.	storey2003:c03; storey2003:c06	qvalue

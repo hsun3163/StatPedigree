@@ -1,0 +1,1146 @@
+cited_first_author	cited_year	cited_title	cited_doi	cited_label	n_relation_sentences	citing_papers	relations	kind	open_route
+Yengo	2018	Meta-analysis of genome-wide association studies for height and body mass index in ∼700000 individuals of European ancestry	10.1093/hmg/ddy271	L Yengo 2018; Meta-analysis of 600 genome-wide association studies for height and body mass index in ∼700000 individuals of European 601 ancestry; Meta-analysis of genome-wide association studies for height and body mass index in ∼700000 individuals of European ancestry	34	erasor; sbayesr	uses	method	pmc
+Bycroft	2018	The UK Biobank resource with deep phenotyping and genomic data	10.1038/s41586-018-0579-z	Bycroft 2018; C Bycroft 2018	24	coxph_susie; distinct_genetic_architecture_in_the_tails_of_complex_traits; ldpred_funct; polypred; sbayesr; sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	data	NA
+Chang	2015	Second-generation PLINK: rising to the challenge of larger and richer datasets	10.1186/s13742-015-0047-8	CC Chang 2015; Chang 2015; PLINK; PLINK 1.9; PLINK 2.0; PLINK-1.9; Second-generation PLINK: rising to the challenge of larger and richer datasets	21	choi2018; coxph_susie; distinct_genetic_architecture_in_the_tails_of_complex_traits; erasor; gene_swap_randomization_gsr; genetic_sensitivity_analysis; polypred; prset; prsice; prsice2; sdpr	extends; uses	software	NA
+Auton	2015	A global reference for human genetic variation	10.1038/nature15393	1000 Genomes; 1000 Genomes Project Consortium et al. 2015; 1000 Genomes Project Consortium. 2015; 1000 Genomes Project Consortium. et al. 2015; 1000 Genomes Project Consortium.A global reference for human genetic variationNature2015526687410.1038/nature1539326432245PMC47504781000 Genomes Project Consortium. 2015; 1000 Genomes reference panel; A global 545 reference for human genetic variation; A global 625 reference for human genetic variation; A global 658 reference for human genetic variation; A global reference for human genetic variation; A global reference for human genetic variation. Nature. 2015;526: 68–74. doi:10.1038/nature15393 26432245PMC4750478 2015; Auton 2015; The 1000 Genomes Project Consortium 2015	20	ctsleb; distinct_genetic_architecture_in_the_tails_of_complex_traits; erasor; ldpred_funct; mfsusie; polypred; prosper; prset; sbayesr	uses	data	NA
+LeBlanc	2018	A correction for sample overlap in genome-wide association studies in a polygenic pleiotropy-informed framework	10.1186/s12864-018-4859-7	A correction for sample overlap in genome-wide association studies in a polygenic pleiotropy-informed framework; LeBlanc sample-overlap correction	16	erasor	uses	method	pmc
+Sudlow	2015	UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age	10.1371/journal.pmed.1001779	C Sudlow 2015; Sudlow 2015; UK Biobank; UK Biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age	16	benner2018; coxph_susie; ctwas; erasor; ldpred_funct; sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	data	NA
+Lippert	2011	FaST linear mixed models for genome-wide association studies	10.1038/nmeth.1681	FaST-LMM; Lippert 2011	15	bolt; bslmm; gemma; multivariate_linear_mixed_model_mvlmm	extends; shares_structure_not_equivalent; uses	method	none_found
+Knapik	2012	Bayes procedures for adaptive inference in inverse problems for the white noise model	NA	Knapik 2012	14	szabo_2015	inspired_by; uses	method	arxiv
+O Weissbrod	2020	Functionally informed fine-mapping and polygenic localization of complex trait heritability	10.1038/s41588-020-00735-5	PolyFun + SuSiE; PolyFun results; Weissbrod 2020	14	ctwas; polypred	uses	method	pmc
+Bulik-Sullivan	2015	An atlas of genetic correlations across human diseases and traits	10.1038/ng.3406	An atlas of genetic correlations across human diseases and traits; B Bulik-Sullivan 2015	13	erasor; genetic_sensitivity_analysis	uses	method	pmc
+Falconer	1996	Introduction to Quantitative Genetics	NA	Falconer 1996; Introduction to quantitative genetics; liability-threshold model	13	erasor; lee_2011; multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	method	pmc
+Schwartzman	2010	Journal of the American Statistical Association	NA	George 1993; Schwartzman 2010	13	cashr; wen_2012	extends; uses	method	none_found
+P-R Loh	2018	Mixed-model association for biobank-scale datasets	10.1038/s41588-018-0144-6	BOLT-LMM; BOLT-LMM effective sample size; Loh 2018; P-R Loh 2018; PolyFun + SuSiE; heritability estimation	13	ldpred_funct; polypred; sbayesr	combines; derivable_under_conditions; uses	method	pmc
+S Gazal	2017	Linkage disequilibrium-dependent architecture of human complex traits shows action of negative selection	10.1038/ng.3954	Gazal 2017; S Gazal 2017; baseline-LD	12	ldpred_funct; megaprs	uses	method	pmc
+CM Bishop	2006	Pattern Recognition and Machine Learning	NA	Bishop 2006; Bishop CAVI derivation; Bishop. Pattern Recognition 2006; CM Bishop 2006; coordinate ascent variational inference; mean-field coordinate updates; mean-field variational approximation; mean-field variational inference; variational coordinate updates; variational inference	11	bayesian_reduced_rank_regression; blei2017; gradvi; logsdon2010; mouthwash; mr_ash	uses	method	none_found
+Johnson	2008	Properties of bayes factors based on test statistics	NA	Johnson 2008; linear-model association Bayes factor; single-study Bayes factor; single-study approximate Bayes factor; test-statistic Bayes factor; test-statistic Bayes factors; test-statistic Bayes-factor consistency; test-statistic Bayes-factor marginalization	11	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes; johnson2005; wen2011; wen2014; wen_2012	contains_special_case; derivable_under_conditions; shares_structure_not_equivalent; uses	method	none_found
+Vaart	1996	Weak convergence and empirical processes	NA	empirical-process inequalities; van der Vaart 1996	11	sniekers2015; sniekers2020; szabo_2015	uses	review	NA
+Smyth	2004	Linear Models and Empirical Bayes Methods for Assessing Differential Expression in Microarray Experiments.	10.2202/1544-6115.1027	Smyth 2004; Smyth [2004] 2004; limma; limma-trend	10	cashr; empirical_bayes_estimation_of_normal_means_accounting_for_uncertainty_in_estimated_standard_errors; mouthwash; poisson_multivariate_adaptive_shrinkage	combines; uses	method	none_found
+Dempster	1977	Maximum likelihood estimation from incomplete data via the EM algorithm (with discussion)	NA	Dempster 1977; Dempster, Laird 1977; EM; EM algorithm; expectation-maximization algorithm	10	ash; coxph_susie; ferguson2012; fsusie; mash; mr_ash; mvsusie; pritchard2000; susie; ultimate_deconvolution	uses	method	none_found
+C Willer	2010	METAL: fast and efficient meta-analysis of genomewide association scans	10.1093/bioinformatics/btq340	METAL; METAL: fast and efficient meta-analysis of genomewide association scans	10	ctwas; erasor; prset	uses	method	pmc
+S Purcell	2007	PLINK: a tool set for whole-genome association and population-based linkage analyses	10.1086/519795	PLINK; Purcell 2007; S Purcell 2007	10	bayesr; choi2018; ctsleb; distinct_genetic_architecture_in_the_tails_of_complex_traits; genetic_sensitivity_analysis; multivariate_linear_mixed_model_mvlmm; polypred; prosper	uses	software	NA
+Tibshirani	1996	Regression shrinkage and selection via the Lasso	10.1111/j.2517-6161.1996.tb02080.x	Lasso; Tibshirani 1996; Tibshirani, 1996; lasso	10	ctsleb; hoggart2008; mandozzi_2016; megaprs; mr_ash; prosper; soft_impute	combines; contains_special_case; derivable_under_conditions; shares_structure_not_equivalent; uses	method	none_found
+Giné	2010	Confidence bands in density estimation	NA	Giné 2010; adaptive confidence-set conditions	9	hoffmann_2011; sniekers2015; sniekers2020; szabo_2015	extends; inspired_by; shares_structure_not_equivalent; uses	method	arxiv
+J Yang	2011	GCTA: a tool for genome-wide complex trait analysis	10.1016/j.ajhg.2010.11.011	GCTA; J Yang 2011; Yang 2011; Yang 2011a	9	bayesr; finemap; multiblup; polypred; sbayesr; sdpr; yang_2015	extends; uses	method	pmc
+Nocedal	2006	Nonlinear Optimization	NA	SQP; SQP convergence; active-set method; quasi-Newton optimization	9	mixsqp	uses	method	none_found
+Q Zhou	2017	On the null distribution of Bayes factors in linear regression	10.1080/01621459.2017.1328361	Q Zhou 2017	9	denault_2021	combines; inspired_by; uses	method	pmc
+AL Price	2006	Principal components analysis corrects for stratification in genome-wide association studies	10.1038/ng1847	AL Price 2006; EIGENSOFT; Price 2006; population-structure adjustment; principal components analysis; principal-component adjustment; principal-component analysis	9	bayesian_reduced_rank_regression; bvsr; choi2018; coxph_susie; eqtl_bma; lee_2011; multiethnic_prs; polypred	uses	method	none_found
+Meinshausen	2009	P-values for high-dimensional regression	NA	Meinshausen 2009	9	mandozzi_2016	extends; inspired_by; shares_structure_not_equivalent; uses	method	arxiv
+T Berisa	2016	Approximately independent linkage disequilibrium blocks in human populations	10.1093/bioinformatics/btv546	Berisa 2016; LDetect; T Berisa 2016; T. Berisa 2016	8	ctwas; prscs; prscsx; sdpr; tlprs; xwing	uses	method	pmc
+M Stephens	2009	Bayesian statistical methods for genetic association studies	10.1038/nrg2615	Bayes-factor posterior association probability; M Stephens 2009; M. Stephens 2009; Stephens 2009; discrete prior mixture; effect-size prior guidance; effect-size prior scale	8	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes; han2012; multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods; wen2014; wen_2012	shares_structure_not_equivalent; uses	method	none_found
+Koenker	2014	Convex Optimization, Shape Constraints, Compound Decisions, and Empirical Bayes Rules.	10.1080/01621459.2013.869224	Koenker & Mizera 2014; Koenker 2014; NPMLE; empirical Bayes normal-means solver; interior point optimization	8	cashr; corshrink; ebnm; mixsqp; mr_ash; smash; wang2021	inspired_by; uses	method	none_found
+Backman	2021	Exome sequencing and analysis of 454,787 UK Biobank participants	10.1038/s41586-021-04103-z	Backman 2021	8	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+PR Burton	2007	Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls	10.1038/nature05911	Burton 2007; PR Burton 2007; The Welcome Trust Case Control Consortium 2007; The Wellcome Trust Case Control ConsortiumGenome-wide association study of 14 2007; WTCC Consortium 2007; WTCCC association dataset	8	annopred; bayesr; gemma; han2012; hoggart2008	uses	data	NA
+A Franke	2010	Genome-wide meta-analysis increases to 71 the number of confirmed Crohn's disease susceptibility loci	10.1038/ng.717	A Franke 2010; Franke 2010	8	annopred; han2012	uses	data	NA
+Su	2011	HAPGEN2: simulation of multiple disease SNPs	10.1093/bioinformatics/btr341	HAPGEN2; Su 2011; Z Su 2011	8	ctsleb; erasor; xwing	uses	software	NA
+Liang	2008	Mixtures of gg priors for Bayesian variable selection	10.1198/016214507000001337	Liang 2008; Mixtures of gg priors for Bayesian variable selection; g prior; g-prior; null-based Bayes factor	8	bvsr; mouthwash; mr_ash; wen2014; wen_2012	shares_structure_not_equivalent; uses	method	none_found
+R Core Team	2012	R: A Language and Environment for Statistical Computing	10.32614/r.manuals	R; R Core Team 2012; R Core Team 2025; R Core Team. 2017; R: a language and environment for statistical computing	8	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes; coxph_susie; ebnm; genetic_sensitivity_analysis; mixsqp; mr_ash; poisson_multivariate_adaptive_shrinkage	uses	software	NA
+Williams	2014	Sequence variants in SLC16A11 are a common risk factor for type 2 diabetes in Mexico	10.1038/nature12828	Williams 2014	8	multiethnic_prs	uses	data	NA
+Pividori	2019	Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies	NA	Pividori 2019	8	coxph_susie	uses	data	NA
+X Wen	2010	Using linear predictors to impute allele frequencies from summary or pooled genotype data	10.1214/10-aoas338	LD shrinkage estimator; Wen 2010	8	sbayesr; zhu_2017	uses	method	pmc
+Woolfe	2008	A fast randomized algorithm for the approximation of matrices	NA	Woolfe 2008	7	halko_2011	inspired_by; shares_structure_not_equivalent; uses	method	none_found
+Witten	2009	A penalized matrix decomposition, with applications to sparse principal components and canonical correlation analysis	10.1093/biostatistics/kxp008	DM Witten 2009; Witten 2009; sparse PCA	7	cebmf; ebnm; empirical_bayes_covariance_decomposition; hore_2016; knowles2011	contains_special_case; shares_structure_not_equivalent; uses	method	pmc
+Mitchell	1988	Bayesian variable selection in linear regression	10.1080/01621459.1988.10478694	BVSR; J. Beauchamp 1988; Mitchell 1988; TJ Mitchell 1988; spike-and-slab prior	7	cebmf; hore_2016; mr_ash; susie; wen_2012	contains_special_case; extends; uses	method	none_found
+Sniekers	2014	Credible sets in the fixed design model with brownian motion prior	NA	Brownian-motion credible intervals; Brownian-motion credible-set bounds; Brownian-motion credible-set proof; Brownian-motion credible-set theorem; Sniekers 2014	7	sniekers2015; sniekers2020	extends; shares_structure_not_equivalent; uses	method	none_found
+Meinshausen,	2008	Hierarchical testing of variable importance	NA	Meinshausen, 2008	7	mandozzi_2016	derivable_under_conditions; extends; inspired_by; uses	method	none_found
+Golub	1996	Matrix Computations	NA	Golub 1996; RRQR or truncated SVD; matrix factorization complexity; rank-revealing QR	7	halko_2011; mixsqp	shares_structure_not_equivalent; special_case_of; uses	method	none_found
+Efron	2008	Microarrays, empirical Bayes and the two-groups model	10.1214/07-sts236	Efron 2008; Efron [2008] 2008; false discovery rate; local false discovery rate	7	ash; cashr; fash; mouthwash	shares_structure_not_equivalent; uses	method	arxiv
+Haller	2023	SLiM 4: multispecies eco-evolutionary modeling	10.1086/723601	SLiM	7	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	software	NA
+The GTEx Consortium	2015	The Genotype-Tissue Expression (GTEx) Pilot Analysis: Multitissue Gene Regulation in Humans.	10.1126/science.1262110	GTEx; GTEx Consortium 2015; evaluation dataset	7	cashr; coxph_susie; mouthwash; wang2021	uses	data	NA
+Consortium	2010	3. Integrating common and rare genetic variation in diverse human populations	10.1038/nature09298	Consortium 2010; HapMap3; International HapMap 3 Consortium.Integrating common and rare genetic variation in diverse human populationsNature20104675210.1038/nature0929820811451PMC3173859International HapMap 3 Consortium. Integrating common and rare genetic variation in diverse human populations. Nature467 2010; R.A. Gibbs 2010	6	ctsleb; ldpred_funct; prosper; tlprs	uses	data	NA
+BN Howie	2009	A flexible and accurate genotype imputation method for the next generation of genome-wide association studies	10.1371/journal.pgen.1000529	Howie 2009; IMPUTE v2; IMPUTE2; impute2	6	bayesian_reduced_rank_regression; bslmm; engelhardt2010; gemma; wen2014	uses	software	NA
+Marchini	2007	A new multipoint method for genome-wide association studies by imputation of genotypes	10.1038/ng2088	IMPUTE; J Marchini 2007; effect-size prior scale; genotype imputation	6	bvsr; han2012; han_2009; multiphen	extends; uses	method	none_found
+Martinsson	2006	A randomized algorithm for the approximation of matrices	NA	Martinsson 2006	6	halko_2011	inspired_by; shares_structure_not_equivalent; uses	method	none_found
+International HapMap ConsortiumA second generation human haplotype map of over 3.1 million SNPsNature2007449716485186110.1038/nature0625817943122PMC2689609	2007	A second generation human haplotype map of over 3.1 million SNPs	10.1038/nature06258	HapMap; HapMap expression and genotype data; International HapMap ConsortiumA second generation human haplotype map of over 3.1 million SNPsNature2007449716485186110.1038/nature0625817943122PMC2689609 2007	6	logsdon2010; pickrell2010; veyrieras2008	uses	data	NA
+Cai	2008	A singular value thresholding algorithm for matrix completion	NA	Cai 2008	6	soft_impute	inspired_by; shares_structure_not_equivalent; uses	method	none_found
+S.G Mallat	2009	A wavelet tour of signal processing: the sparse way	NA	S. G. Mallat 2009; S.G Mallat 2009; TIWT; discrete wavelet representation; stationary wavelet transform; wavelet transform	6	denault_2021; fsusie; mfsusie	uses	review	NA
+Kass	1995	Bayes Factors	NA	BIC model-selection guidance; Bayes factor; Bayes factors; Bayesian model averaging; Laplace approximation	6	benner2018; coxph_susie; distinct_genetic_architecture_in_the_tails_of_complex_traits; eqtl_bma; servin2007	uses	method	none_found
+TM Teslovich	2010	Biological, clinical and population relevance of 95 loci for blood lipids	10.1038/nature09270	Global Lipids consortium; TM Teslovich 2010; Teslovich 2010; association summary data	6	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes; multiphen; wavelet_ss; wen2011	uses	data	NA
+Purcell	2009	Common polygenic variation contributes to risk of schizophrenia and bipolar disorder	10.1038/nature08185	Purcell 2009; clumping and thresholding; polygenic risk score; pruning and thresholding; standard weighted polygenic score	6	choi2018; ctsleb; multiethnic_prs	extends; inspired_by; uses	method	pmc
+Benjamini	1995	Controlling the False Discovery Rate-a Practical and Powerful Approach to Multiple Testing	NA	Benjamini-Hochberg FDR; Controlling the False Discovery Rate-a Practical and Powerful Approach to Multiple Testing; Y Benjamini 1995; false discovery rate	6	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity; bayesian_reduced_rank_regression; fash; han_2009; peters_2015; veyrieras2008	extends; uses	method	none_found
+Ding	2010	Convex and semi-nonnegative matrix factorizations	10.1109/tpami.2008.277	CH Ding 2010; Ding 2010; semi-non-negative matrix factorization; semi-nonnegative matrix factorization	6	cebmf; ebnm; empirical_bayes_covariance_decomposition; gbcd; wang2021	contains_special_case; extends; special_case_of; uses	method	none_found
+Newton	2004	Detecting differential gene expression with a semiparametric hierarchical mixture method	10.1093/biostatistics/5.2.155	Newton 2004	6	torus	uses	method	none_found
+Degner	2012	DNase I sensitivity QTLs are a major determinant of human expression variation	10.1038/nature10808	Degner 2012	6	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays; torus; wavelet_ss	uses	method	pmc
+Falconer	1996	England: Longman; 1996	NA	Falconer 1996	6	wray_2010	uses	review	NA
+A Barbeira	2018	Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics	10.1038/s41467-018-03621-1	A Barbeira 2018; Barbeira 2018; PredictDB; S-PrediXcan	6	ctwas; m_ctwas	uses	method	pmc
+Carvalho	2009	Handling sparsity via the horseshoe	NA	Carvalho 2009	6	tpb; xwing	contains_special_case; extends; shares_structure_not_equivalent; uses	method	none_found
+Guan	2008	Practical issues in imputation-based association mapping	10.1371/journal.pgen.1000279	BIMBAM; Guan 2008; posterior-mean genotype imputation	6	bslmm; gemma; m_ctwas; pickrell2010; wen2011	uses	method	pmc
+Zhao	2021	PUMAS: fine-tuning polygenic risk scores with GWAS summary statistics	10.1186/s13059-021-02479-9	Z Zhao 2021; Z. Zhao 2021; Zhao 2019; Zhao 2021	6	ctsleb; megaprs; tlprs; xwing	extends; inspired_by; uses	method	pmc
+H Zou	2005	Regularization and Variable Selection via the Elastic Net	10.1111/j.1467-9868.2005.00503.x	H Zou 2005; Regularization and variable selection via the elastic net; Zou 2005	6	empirical_bayes_covariance_decomposition; glmnet; multi_polygenic_score_mps	combines; shares_structure_not_equivalent; uses	method	none_found
+Wray	2014	Research review: Polygenic methods and their application to psychiatric traits	10.1111/jcpp.12295	LD clumping; clumping; standard weighted polygenic score	6	choi2018; prsice2	uses	method	none_found
+A Dawid	1981	Some matrix-variate distribution theory: notational considerations and a Bayesian application	10.1093/biomet/68.1.265	A Dawid 1981; Dawid 1981; Dawid [1981] 1981; matrix-normal distribution	6	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes; mouthwash; mr_mash; mvsusie; zhu2011	uses	method	none_found
+Speed	2019	SumHer better estimates the SNP heritability of complex traits from summary statistics	10.1038/s41588-018-0279-5	Speed 2019	6	megaprs; sdpr	shares_structure_not_equivalent; uses	method	pmc
+The GTEx Consortium	2020	The GTEx Consortium atlas of genetic regulatory effects across human tissues	10.1126/science.aaz1776	Consortium 2020; GTEx V8	6	fsusie; m_ctwas; prset	uses	data	NA
+Law	2014	voom: Precision Weights Unlock Linear Model Analysis Tools for RNA-seq Read Counts.	10.1186/gb-2014-15-2-r29	Law 2014; limma eBayes; limma-trend; voom-limma	6	cashr; empirical_bayes_estimation_of_normal_means_accounting_for_uncertainty_in_estimated_standard_errors; mouthwash; poisson_multivariate_adaptive_shrinkage	uses	method	pmc
+Lee	2012	A better coefficient of determination for genetic profile analysis	10.1002/gepi.21614	adjusted R-squared; liability-scale R-squared; liability-scale coefficient of determination	5	bayesr; dudbridge2013; multiethnic_prs	uses	method	none_found
+Yang	2014	Advantages and pitfalls in the application of mixed-model association methods	10.1038/ng.2876	Yang 2014	5	bolt; multiethnic_prs	uses	method	pmc
+Rokhlin	2009	A randomized algorithm for principal component analysis	NA	Rokhlin 2009	5	halko_2011	inspired_by; uses	method	arxiv
+Yang	2014	A sparse singular value decomposition method for high-dimensional data	10.1080/10618600.2013.858632	SSVD; Yang 2014	5	cebmf; ebnm; wang2021	contains_special_case; derivable_under_conditions; shares_structure_not_equivalent; uses	method	arxiv
+Griffin	2007	Bayesian adaptive Lassos with non–convex penalization	NA	Griffin 2007; normal-exponential-gamma prior; stochastic-search algorithm advances	5	hoggart2008; tpb	contains_special_case; extends; shares_structure_not_equivalent; uses	method	none_found
+Bernardo	1994	Bayesian Theory	NA	Bernardo 1994; Bernardo 2009; conjugate exponential-family prior	5	blei2017; bridgeprs; fong_2020	uses	review	NA
+Schizophrenia Working Group of the Psychiatric Genomics Consortium. Biological insights from 108 schizophrenia-associated genetic loci. Nature 511	2014	Biological insights from 108 schizophrenia-associated genetic loci	10.1038/nature13595	PRS quantile plots; Schizophrenia Working Group of the Psychiatric Genomics Consortium. Biological insights from 108 schizophrenia-associated genetic loci. Nature 511 2014; Schizophrenia Working Group of the Psychiatric Genomics Consortium. Biological insights from 108 schizophrenia-associated genetic loci. Nature. 2014;511: 421–427. doi:10.1038/nature13595 25056061PMC4112379 2014; Schizophrenia Working Group of the Psychiatric Genomics Consortium.Biological insights from 108 schizophrenia-associated genetic lociNature201451142142710.1038/nature1359525056061PMC4112379 2014	5	benner2018; choi2018; megaprs; prset	uses	data	NA
+Dimas	2009	Common regulatory variation impacts gene expression in a cell type-dependent manner	10.1126/science.1174148	Dimas multiple-tissue data; Dimas three-cell-type dataset	5	eqtl_bma; wen2014	uses	data	NA
+Wang	2017	Confounder adjustment in multiple hypothesis testing	10.1214/16-aos1511	CATE; Wang 2017	5	mouthwash	uses	method	pmc
+Boyd	2004	Convex optimization	NA	Boyd 2004; Slater condition; coordinate-wise convexity; interior point optimization; interior-point optimization	5	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression; ash; logsdon2010; mixsqp; mouthwash	uses	method	none_found
+Wen	2015	Cross-population joint analysis of eqtls: Fine mapping and functional annotation	10.1371/journal.pgen.1005176	Wen 2015	5	torus	shares_structure_not_equivalent; special_case_of; uses	method	pmc
+Strober	2019	Dynamic genetic regulation of gene expression during cellular differentiation	NA	Strober 2019	5	fash	uses	method	NA
+Willwerscheid	2021	Empirical Bayes Matrix Factorization: Methods and Applications	NA	Willwerscheid 2021; Willwerscheid, 2021; Willwersheid 2021; pseudocount selection	5	ebnm; fsusie; gbcd; poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Speed	2020	Evaluating and improving heritability models using summary statistics	10.1038/s41588-020-0600-y	Speed 2020	5	megaprs	uses	method	NA
+Lin	2017	Housekeeping genes, revisited at the single-cell level	10.1101/229815	Lin 2017	5	mouthwash	uses	data	NA
+AP Morris	2012	Large-scale association analysis provides insights into the genetic architecture and pathophysiology of type 2 diabetes	10.1038/ng.2383	AP Morris 2012; Morris 2012	5	annopred; benner2018; multiethnic_prs	uses	data	NA
+Timmermann	1999	Multiscale modeling and estimation of Poisson processes with application to photon-limited imaging	10.1109/18.761328	Timmermann 1999; inhomogeneous Poisson multiscale models	5	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays; smash; wavelet_ss	extends; inspired_by; uses	method	NA
+A Gelman	2006	Prior distributions for variance parameters in hierarchical models	10.1214/06-ba117a	A Gelman 2006; Gelman 2006	5	prscs; sdpr	uses	method	NA
+Koenker	2017	REBayes: An R Package for Empirical Bayes Mixture Methods.	10.18637/jss.v082.i08	Koenker 2017; REBayes	5	cashr; ebnm; smash	uses	method	NA
+Stranger	2007	Relative impact of nucleotide and copy number variation on gene expression phenotypes	10.1126/science.1136678	HapMap expression and genotype data; Stranger 2007	5	logsdon2010; veyrieras2008	uses	data	NA
+Puram	2017	Single-cell transcriptomic analysis of primary and metastatic tumor ecosystems in head and neck cancer	10.1016/j.cell.2017.10.044	Puram 2017	5	gbcd	uses	data	NA
+Mirsky	1960	Symmetric gauge functions and unitarily invariant norms	NA	Mirsky 1960	5	halko_2011	uses	method	NA
+Graham	2021	The power of genetic diversity in genome-wide association studies of lipids	10.1038/s41586-021-04064-3	Graham 2021; The power of genetic 620 diversity in genome-wide association studies of lipids; The power of genetic diversity in genome-wide association studies of lipids	5	ctsleb; erasor; prosper	uses	data	NA
+Cohen	1993	Wavelets on the interval and fast wavelet transforms	NA	Cohen 1993	5	hoffmann_2011	uses	method	NA
+Bissiri	2016	A general framework for updating belief distributions	NA	Bissiri 2016	4	fong_2020	uses	method	NA
+The 1000 Genomes Project Consortium.A map of human genome variation from population-scale sequencingNature20104671061107310.1038/nature0953420981092PMC3042601	2010	A map of human genome variation from population-scale sequencing	10.1038/nature09534	The 1000 Genomes Project Consortium 2010 2010; The 1000 Genomes Project Consortium.A map of human genome variation from population-scale sequencingNature20104671061107310.1038/nature0953420981092PMC3042601 2010; population expression and genotype data	4	megaprs; multiblup; wen2011	uses	data	NA
+Boutsidis	2009	An improved approximation algorithm for the column subset selection problem	NA	Boutsidis 2009	4	halko_2011	extends; inspired_by	method	NA
+DR Nyholt	2004	A simple correction for multiple testing for single-nucleotide polymorphisms in linkage disequilibrium with each other.	10.1086/383251	D. R. Nyholt 2004; Nyholt–Šidák correction	4	multiphen; multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	method	NA
+J Lucas	2006	Bayesian Inference for Gene Expression and Proteomics	NA	J Lucas 2006	4	hore_2016	uses	review	NA
+Verzilli	2008	Bayesian meta‐analysis of genetic association studies with different sets of markers	10.1016/j.ajhg.2008.01.016	Verzilli 2008	4	jam	extends; inspired_by; uses	method	NA
+Jaakkola	2000	Bayesian parameter estimation via variational methods	10.1023/a:1008932416310	Jaakkola 2000; non-Gaussian variational approximation	4	logsdon2010; mr_ash; susie; wang2021	shares_structure_not_equivalent; uses	method	NA
+S Schaffner	2005	Calibrating a coalescent simulation of human genome sequence variation	10.1101/gr.3709305	Calibrating a coalescent simulation of human genome sequence variation; human simulation-rate parameters	4	fregene; hoggart2008	shares_structure_not_equivalent; uses	method	NA
+Landrum	2018	ClinVar: improving access to variant interpretations and supporting evidence	10.1093/nar/gkx1153	Landrum 2018	4	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Gerard	2020	Data-based RNA-seq simulations by binomial thinning	10.1186/s12859-020-3450-9	binomial thinning	4	gbcd; poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Willer	2013	Discovery and refinement of loci associated with lipid levels	10.1038/ng.2797	Global Lipids Genetics Consortium. Discovery and refinement of loci associated with lipid levels. Nat. Genet. 45 2013; Willer 2013	4	benner2018; multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods; prset	uses	data	NA
+Zhang	2025	Efficient modeling of quasi-periodic data with seasonal Gaussian process	NA	Zhang 2025; predictive standard deviation	4	fash	uses	method	NA
+Zhong	2022	Empirical Bayes PCA in high dimensions	10.1111/rssb.12490	X Zhong 2022; Zhong 2022	4	cebmf; empirical_bayes_covariance_decomposition	contains_special_case; extends; shares_structure_not_equivalent; uses	method	NA
+Ma	2009	Fixed Point and Bregman Iterative Methods for Matrix Rank Minimization	NA	Ma 2009	4	soft_impute	shares_structure_not_equivalent; uses	method	NA
+Subramanian	2005	Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles	10.1073/pnas.0506580102	GSEA; gene-set enrichment analysis	4	fash; gbcd	uses	method	NA
+Skene	2018	Genetic identification of brain cell types underlying schizophrenia	10.1038/s41588-018-0129-5	Skene 2018	4	prset	uses	method	NA
+Locke	2015	Genetic studies of body mass index yield new insights for obesity biology	10.1038/nature14177	AE Locke 2015; GIANT BMI GWAS; Locke 2015	4	benner2018; genetic_sensitivity_analysis; prset; prsice2	uses	data	NA
+C Sabatti	2008	Genome-wide association analysis of metabolic traits in a birth cohort from a founder population	10.1038/ng.271	C Sabatti 2008; Sabatti 2009	4	bayesian_reduced_rank_regression; multivariate_linear_mixed_model_mvlmm	uses	data	NA
+ER Dempster	1950	Heritability of Threshold Characters	10.1093/genetics/35.2.212	Dempster 1950; ER Dempster 1950	4	bayesr; lee_2011; multiblup	uses	method	NA
+Bull	2012	Honest adaptive confidence bands and self-similar functions	NA	Bull 2012; adaptive confidence-set conditions	4	sniekers2015; sniekers2020; szabo_2015	inspired_by; shares_structure_not_equivalent; uses	method	NA
+Listgarten	2012	Improved linear mixed models for genome-wide association studies	10.1038/nmeth.2037	Listgarten 2012	4	bolt; multiblup; multivariate_linear_mixed_model_mvlmm	inspired_by; uses	method	NA
+Maranville	2011	Interactions between glucocorticoid treatment and cis-regulatory polymorphisms contribute to cellular response phenotypes	10.1371/journal.pgen.1002162	Maranville 2011	4	eqtl_bma; wen_2012	combines; shares_structure_not_equivalent; uses	method	NA
+JK Pickrell	2014	Joint analysis of functional genomic data and genome-wide association studies of 18 human traits	10.1016/j.ajhg.2014.03.004	JK Pickrell 2014; fgwas; sample-size filtering	4	kichaev2014; sbayesr	shares_structure_not_equivalent; uses	method	NA
+Kanehisa	2000	KEGG: kyoto encyclopedia of genes and genomes	10.1093/nar/28.1.27	Kanehisa 2000	4	prset	uses	data	NA
+A Genkin	2007	Large-scale Bayesian logistic regression for text categorization.	NA	curvature upper-bound update; double-exponential prior; logistic-regression coordinate algorithm; stochastic-search algorithm advances	4	hoggart2008	extends; uses	method	NA
+N Zaitlen	2007	Leveraging the HapMap correlation structure in association studies.	10.1086/513109	N Zaitlen 2007	4	han_2009	extends; uses	method	NA
+Ritchie	2015	limma Powers Differential Expression Analyses for RNA-sequencing and Microarray Studies.	NA	Ritchie 2015; limma	4	cashr; empirical_bayes_estimation_of_normal_means_accounting_for_uncertainty_in_estimated_standard_errors; poisson_multivariate_adaptive_shrinkage	uses	software	NA
+Pritchard	2001	Linkage disequilibrium in humans: models and data	10.1086/321275	JK Pritchard 2001; Pritchard 2001	4	ctsleb; han_2009; zaitlen_2010	extends; uses	method	NA
+Horn	1985	Matrix Analysis	NA	Bhatia 1997; Horn 1985	4	halko_2011	uses	review	NA
+Zhang	2024	Model-based smoothing with Integrated Wiener Processes and overlapping splines	NA	Zhang 2024; predictive standard deviation	4	fash	uses	method	NA
+N Li	2003	Modeling linkage disequilibrium and identifying recombination hotspots using single-nucleotide polymorphism data	10.1093/genetics/165.4.2213	Li 2003; Li–Stephens LD model; multilocus LD model	4	sbayesr; servin2007; zaitlen_2010	uses	method	NA
+D Geiger	2002	Parameter priors for directed acyclic graphical models and the characterization of several probability distributions	NA	D Geiger 2002	4	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	shares_structure_not_equivalent; uses	method	NA
+KJ Galinsky	2016	Population structure of uk biobank and ancient eurasians reveals adaptation at genes influencing blood pressure	10.1016/j.ajhg.2016.09.014	Galinsky 2016; KJ Galinsky 2016; principal-component analysis	4	ldpred_funct; multiethnic_prs	uses	data	NA
+Freund	2015	Preprint at 10.48550/arXiv.1505.04243 (2015)	10.48550/arxiv.1505.04243	Freund 2015	4	colocboost	extends; uses	method	NA
+Svishcheva	2012	Rapid variance components-based method for whole-genome association analysis	10.1038/ng.2410	Svishcheva 2012	4	bolt	shares_structure_not_equivalent; uses	method	NA
+Hoerl	1970	Ridge regression: biased estimation for nonorthogonal problems	10.1080/00401706.1970.10488634	Hoerl 1970	4	mr_ash; prosper	combines; contains_special_case	method	NA
+Bühlmann	2011	Statistics for High-Dimensional Data: Methods, Theory and Applications	NA	Bühlmann 2011	4	mandozzi_2016	uses	review	NA
+DL Nicolae	2006	Testing untyped alleles (TUNA)-applications to genome-wide association studies.	10.1002/gepi.20182	DL Nicolae 2006	4	han_2009	extends; uses	method	NA
+Surakka	2015	The impact of low-frequency and rare variants on lipid levels	10.1038/ng.3300	Surakka 2015	4	benner2018; polypred	uses	data	NA
+Vuckovic	2020	The polygenic and monogenic basis of blood traits and diseases	10.1016/j.cell.2020.08.008	Vuckovic 2020	4	mvsusie	extends; uses	method	NA
+Jassal	2020	The reactome pathway knowledgebase	10.1093/nar/gkz1031	Jassal 2020	4	prset	uses	data	NA
+Gerard	2017	Unifying and Generalizing Methods for Removing Unwanted Variation Based on Negative Controls.	NA	Gerard 2017	4	cashr; mouthwash	shares_structure_not_equivalent; uses	method	NA
+Pritchard	1999	Use of unlinked genetic markers to detect population stratification in association studies	10.1086/302449	case-control mismatch diagnostic; rare-allele pooling	4	pritchard2000	combines; uses	method	NA
+Y Liao	2019	WebGestalt 2019: gene set analysis toolkit with revamped UIs and APIs	10.1093/nar/gkz401	WebGestalt; Weighted Set Cover	4	ctwas; poisson_multivariate_adaptive_shrinkage	uses	software	NA
+O Stegle	2010	A Bayesian framework to account for complex non-genetic factors in gene expression levels greatly increases power in eQTL studies	10.1371/journal.pcbi.1000770	O Stegle 2010; Stegle 2010	3	hore_2016; mouthwash	uses	method	NA
+M Stephens	2005	Accounting for decay of linkage disequilibrium in haplotype inference and missing-data imputation	10.1086/428594	genotype imputation	3	servin2007	uses	method	NA
+Nikpay	2015	A comprehensive 1,000 Genomes-based genome-wide association meta-analysis of coronary artery disease	10.1038/ng.3396	Nikpay 2015; the CARDIoGRAMplusC4D Consortium 2015	3	benner2018; gene_swap_randomization_gsr; prset	uses	data	NA
+Bi	2020	A fast and accurate method for genome-wide time-to-event data analysis and its application to UK Biobank	NA	Bi 2020; SPACox	3	coxph_susie	uses	method	NA
+E Gamazon	2015	A gene-based association method for mapping traits using reference transcriptome data	10.1038/ng.3367	PredictDB	3	ctwas	uses	method	NA
+LJ Scott	2007	A genome-wide association study of type 2 diabetes in finns detects multiple susceptibility variants.	10.1126/science.1142382	LJ Scott 2007	3	han2012	uses	data	NA
+Altshuler	2005	A haplotype map of the human genome	10.1038/nature04226	Altshuler 2005; HapMap expression and genotype data	3	logsdon2010; veyrieras2008	uses	data	NA
+Ingster	1986	A minimax test of nonparametric hypotheses on the density of a distribution in LpL_{p} metrics	NA	Ingster 1986	3	hoffmann_2011	inspired_by; uses	method	NA
+MA Ferreira	2009	A multivariate test of association	10.1093/bioinformatics/btn563	CCA; CCA screening	3	bayesian_reduced_rank_regression; multiphen	shares_structure_not_equivalent; uses	method	NA
+DY Lin	2005	An efficient Monte Carlo approach to assessing statistical significance in genomic studies.	10.1093/bioinformatics/bti053	DY Lin 2005	3	han_2009	extends; uses	method	NA
+M Stephens	2001	A new statistical method for haplotype reconstruction from population data	10.1086/319501	genotype imputation	3	servin2007	uses	method	NA
+Scott	2017	An Expanded Genome-Wide Association Study of Type 2 Diabetes in Europeans	10.2337/db16-1253	Scott 2017	3	gene_swap_randomization_gsr; megaprs; prset	uses	data	NA
+Feller	1971	An Introduction to Probability Theory and Its Applications	NA	Feller 1971	3	knapik_2011	uses	review	NA
+Ioannidis	2008	Assessment of cumulative evidence on genetic associations: interim guidelines	10.1093/ije/dym159	Assessment of cumulative evidence on genetic associations: interim guidelines	3	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	review	NA
+Liu	2015	Association analyses identify 38 susceptibility loci for inflammatory bowel disease and highlight shared genetic risk across populations	10.1038/ng.3359	Liu 2015	3	megaprs; prset	uses	data	NA
+EA Stahl	2012	Bayesian inference analyses of the polygenic architecture of rheumatoid arthritis	10.1038/ng.2232	pruning and thresholding; simulation-based genetic-model estimation	3	dudbridge2013; multiethnic_prs	shares_structure_not_equivalent; uses	method	NA
+Minka	1999	Bayesian linear regression	NA	Minka 1999	3	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	inspired_by; uses	review	NA
+GK Smyth	2005	Bioinformatics and Computational Biology Solutions Using R. and Bioconductor	NA	GK Smyth 2005	3	peters_2015	uses	review	NA
+Tipping	2003	Bishop CM, Frey BJ, editors	NA	automatic relevance determination prior; sparse regression; sparse-regression update	3	engelhardt2010	special_case_of; uses	method	NA
+Leek	2007	Capturing heterogeneity in gene expression studies by surrogate variable analysis	10.1371/journal.pgen.0030161	Leek 2007	3	mouthwash; poisson_multivariate_adaptive_shrinkage; susie	uses	method	NA
+Lukacs	1970	Characteristic functions	NA	Lukacs 1970	3	mouthwash	uses	review	NA
+Martin	2019	Clinical use of current polygenic risk scores may exacerbate health disparities	10.1038/s41588-019-0379-x	Martin 2019	3	polypred	uses	data	NA
+Legarra	2008	Computing strategies in genome-wide selection	10.3168/jds.2007-0403	Gauss-Seidel; Legarra 2008	3	bolt; ldpred	uses	method	NA
+Chen	2005	Condition numbers of Gaussian random matrices	NA	Chen 2005	3	halko_2011	uses	method	NA
+Koenker	2013	Convex optimization in R	10.18637/jss.v060.i05	convex optimization; interior point optimization; interior-point optimization	3	ash; mouthwash; wang2021	uses	method	NA
+A. R. Wood	2014	Defining the role of common variation in the genomic and biological architecture of adult human height	10.1038/ng.3097	A. R. Wood 2014; GIANT height GWAS	3	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods; prsice2	uses	data	NA
+H Guo	2021	Detecting local genetic correlations with scan statistics	10.1038/s41467-021-22334-6	H Guo 2021	3	xwing	extends; uses	method	NA
+Horikoshi	2015	Discovery and fine-mapping of glycaemic and obesity-related trait loci using high-density imputation	10.1371/journal.pgen.1005230	Horikoshi 2015	3	polypred	uses	data	NA
+Verma	2024	Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program	10.1126/science.adj1182	Verma 2024	3	colocboost; gene_swap_randomization_gsr	uses	data	NA
+Robinson	2010	edgeR: A Bioconductor Package for Differential Expression Analysis of Digital Gene Expression Data.	NA	Robinson 2010; edgeR	3	cashr; poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Gu	1996	Efficient algorithms for computing a strong rank-revealing QR factorization	NA	Gu 1996	3	halko_2011	uses	method	NA
+Xiong	2023	Epigenomic dissection of Alzheimer’s disease pinpoints causal variants and reveals epigenome erosion	10.1016/j.cell.2023.08.040	Xiong 2023	3	mfsusie	uses	data	NA
+Bottolo	2010	Evolutionary stochastic search for Bayesian model exploration	NA	Bottolo 2010	3	jam	inspired_by; uses	method	NA
+A Kovac	2000	Extending the scope of wavelet regression methods by coefficient-dependent thresholding	10.2307/2669536	A Kovac 2000; Kovac 2000	3	denault_2021; fsusie	uses	method	NA
+Cheesman	2020	Familial influences on neuroticism and education in the UK Biobank	10.1007/s10519-019-09984-5	Cheesman 2020	3	distinct_genetic_architecture_in_the_tails_of_complex_traits; sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Townes	2019	Feature selection and dimension reduction for single-cell RNA-Seq based on a multinomial model	10.1186/s13059-019-1861-6	GLM-PCA	3	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+JJ Lee	2018	Gene discovery and polygenic prediction from a genome-wide association study of educational attainment in 1.1 million individuals	10.1038/s41588-018-0147-3	JJ Lee 2018	3	genetic_sensitivity_analysis; ldpred_funct; sbayesr	uses	data	NA
+Ashburner	2000	Gene Ontology: tool for the unification of biology	10.1038/75556	Ashburner 2000; Gene Ontology	3	poisson_multivariate_adaptive_shrinkage; prset	uses	data	NA
+McCullagh	2019	Generalized linear models	NA	J Nelder 1972; McCullagh (2019) 2019; McCullagh 1989	3	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression; clayton_2012; mr_ash	uses	method	NA
+—	2017	Genetic Effects on Gene Expression Across Human Tissues.	10.1038/nature24277	GTEx; GTEx Consortium 2017; GTEx preprocessing	3	cashr; dapg; gene_swap_randomization_gsr	uses	data	NA
+SK Tate	2005	Genetic predictors of the maximum doses patients receive during clinical use of the anti-epileptic drugs carbamazepine and phenytoin	10.1073/pnas.0407346102	SCN1A association data; haplotype-diversity tag selection	3	servin2007	uses	data	NA
+Zhang	2020	Genome-wide association study identifies 32 novel breast cancer susceptibility loci from overall and subtype-specific analyses	10.1038/s41588-020-0609-2	Zhang 2020	3	gene_swap_randomization_gsr; megaprs	uses	data	NA
+Mullins	2021	Genome-wide association study of more than 40,000 bipolar disorder cases provides new insights into the underlying biology	10.1038/s41588-021-00857-4	Mullins 2021	3	prset	uses	data	NA
+Bailey	2016	Genomic analyses identify molecular subtypes of pancreatic cancer	10.1038/nature16965	Bailey 2016	3	gbcd	uses	data	NA
+Aung	2018	Genomics-driven precision medicine for advanced pancreatic cancer: early results from the COMPASS trial	10.1158/1078-0432.ccr-17-2994	Aung 2018	3	gbcd	uses	data	NA
+B Howie	2011	Genotype imputation with thousands of genomes	10.1534/g3.111.001198	Howie 2011; IMPUTE2	3	bayesian_reduced_rank_regression; multiblup	uses	software	NA
+Choi	NA	GreedyRelated: Script for greedily remove related samples	NA	GreedyRelated	3	erasor	uses	software	NA
+West	2007	High-dimensional sparse factor modelling: Applications in gene expression genomics	10.1198/016214508000000869	BFRM; evaluation dataset	3	knowles2011; wang2021	shares_structure_not_equivalent; uses	method	NA
+N'Diaye	2011	Identification, Replication, and Fine-Mapping of Loci Associated with Adult Height in Individuals of African Ancestry	10.1371/journal.pgen.1002298	N'Diaye 2011	3	multiethnic_prs	uses	data	NA
+Privé	2022	Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores	10.1016/j.xhgg.2022.100136	F. Privé 2022; lassosum2	3	prosper; tlprs	uses	method	NA
+Sarlós	2006	Improved approximation algorithms for large matrices via random projections	NA	Sarlós 2006	3	halko_2011	inspired_by; uses	method	NA
+Griffin	2010	Inference with normal-gamma prior distributions in regression problems	10.1214/10-ba507	Griffin 2010	3	mr_ash; tpb	contains_special_case; extends; shares_structure_not_equivalent	method	NA
+Raphael	2017	Integrated genomic characterization of pancreatic ductal adenocarcinoma	10.1016/j.ccell.2017.07.007	Raphael 2017	3	gbcd	uses	data	NA
+Skorohod	1974	Integration in Hilbert Space	NA	Skorohod 1974	3	knapik_2011	uses	review	NA
+J Zheng	2017	LD Hub: a centralized database and web interface to perform LD score regression that maximizes the potential of summary level GWAS data for SNP heritability and genetic correlation analysis	10.1093/bioinformatics/btw613	LD Hub; LD Hub: a centralized database and web interface to perform LD score regression that maximizes the potential of summary level GWAS data for SNP heritability and genetic correlation analysis; Zheng 2017	3	genetic_sensitivity_analysis; multi_polygenic_score_mps; sdpr	uses	data	NA
+Efron	1972	Limiting the risk of Bayes and empirical Bayes estimators—Part II: the empirical Bayes case	10.1080/01621459.1972.10481215	Efron 1972; normal-means model	3	cebmf; ebnm; ultimate_deconvolution	extends; uses	method	NA
+V	2022	Mapping genomic loci implicates genes and synaptic biology in schizophrenia	10.1038/s41586-022-04434-5	Trubetskoy 2022	3	ctwas; gene_swap_randomization_gsr; m_ctwas	uses	data	NA
+Jakobsdottir	2013	MASTOR: mixed-model association mapping of quantitative traits in samples with related individuals	10.1016/j.ajhg.2013.03.014	Jakobsdottir 2013	3	bolt	shares_structure_not_equivalent; uses	method	NA
+Keshavan	2009	Matrix completion from a few entries	NA	Keshavan 2009	3	soft_impute	shares_structure_not_equivalent; uses	method	NA
+Gupta	2000	Matrix variate distributions	NA	Gupta 2000	3	mr_mash; mvsusie	uses	review	NA
+Therneau	2000	Modeling survival data: extending the Cox model	NA	survival	3	coxph_susie	uses	review	NA
+Liberzon	2011	Molecular signatures database (MSigDB) 3.0	10.1093/bioinformatics/btr260	Liberzon 2011; MSigDB	3	gbcd; gene_swap_randomization_gsr; prset	uses	data	NA
+Yang	2011	Near optimal sparse SVD in high dimensions	NA	near-optimal sparse SVD theory	3	yang2014	inspired_by; uses	method	NA
+Kullback	1951	On information and sufficiency	NA	Kullback 1951; Kullback–Leibler divergence	3	cebmf; gradvi; mr_ash	uses	method	NA
+Liu	1989	On the limited memory bfgs method for large scale optimization	10.1007/bf01589116	L-BFGS; L-BFGS-B; Liu 1989	3	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression; gradvi; kichaev2014	uses	method	NA
+Lindgren	2008	On the second-order random walk model for irregular locations	NA	Lindgren 2008	3	fash	uses	method	NA
+Müller	2004	Optimal Sample Size for Multiple Testing: The Case of Gene Expression Microarrays	10.1198/016214504000001646	Müller 2004	3	torus	uses	method	NA
+Friedman	2007	Pathwise coordinate optimization	10.1214/07-aoas131	Friedman 2007	3	glmnet; soft_impute	extends; uses	method	NA
+PD Pharoah	2002	Polygenic susceptibility to breast cancer and implications for prevention.	10.1038/ng853	PD Pharoah 2002; Pharoah 2002; normal log-risk model	3	clayton_2009; dudbridge2013	shares_structure_not_equivalent; uses	method	NA
+Stranger	2007	Population genomics of human gene expression	10.1038/ng2142	population expression and genotype data	3	wen2011	uses	data	NA
+Astle	2009	Population structure and cryptic relatedness in genetic association studies	10.1214/09-sts307	Astle 2009	3	multiblup; multivariate_linear_mixed_model_mvlmm	uses	method	NA
+Wray	2007	Prediction of individual genetic risk to disease from genome-wide association studies	10.1101/gr.6665407	Wray 2007; clumping and thresholding	3	ctsleb; daetwyler_2008	extends; uses	method	NA
+Ripley	2007	Press, 2007)	NA	neural networks	3	ctsleb	uses	review	NA
+Cao	2021	Proteogenomic characterization of pancreatic ductal adenocarcinoma	10.1016/j.cell.2021.08.023	Cao 2021	3	gbcd	uses	data	NA
+D Yao	2020	Quantifying genetic effects on disease mediated by assayed gene expression levels	10.1038/s41588-020-0625-2	D Yao 2020	3	ctwas	shares_structure_not_equivalent; uses	method	NA
+Rapid GWAS Project. www.nealelab.is/uk-biobank	2018	Rapid GWAS Project	NA	Rapid GWAS	3	ctwas	uses	data	NA
+SR Seaman	2005	Rapid simulation of P values for product methods and multiple-testing adjustment in association studies.	10.1086/428140	SR Seaman 2005	3	han_2009	uses	method	NA
+Loh	2016	Reference-based phasing using the Haplotype Reference Consortium panel	10.1038/ng.3679	Loh 2016	3	genetic_sensitivity_analysis; polypred	uses	method	NA
+Manichaikul	2010	Robust relationship inference in genome-wide association studies	10.1093/bioinformatics/btq559	A Manichaikul 2010; A. Manichaikul 2010; KING kinship coefficient	3	benner2018; tlprs; xwing	uses	software	NA
+CS Carlson	2004	Selecting a maximally informative set of single-nucleotide polymorphisms for association analyses using linkage disequilibrium	10.1086/381000	pairwise-LD tag selection	3	servin2007	uses	method	NA
+ME Weale	2003	Selection and evaluation of tagging SNPs in the neuronal-sodium-channel gene SCN1A: Implications for linkage-disequilibrium gene mapping	10.1086/378098	SCN1A association data	3	servin2007	uses	data	NA
+CJ Hoggart	2007	Sequence-level population simulations over large genomic regions	10.1534/genetics.106.069088	FREGENE; Sequence-level population simulations over large genomic regions	3	fregene; hoggart2008	extends; uses	software	NA
+Polson	2010	Shrink globally, act locally: sparse Bayesian regularization and prediction	NA	N Polson 2010; global-local shrinkage	3	fash; prscs	shares_structure_not_equivalent; uses	method	NA
+Bien	2016	Strategies for enriching variant coverage in candidate disease Loci on a multiethnic genotyping array	10.1371/journal.pone.0167758	Bien 2016	3	ctsleb; prosper	uses	data	NA
+van der Laan	2007	Super learner	10.2202/1544-6115.1309	super learning; superlearning	3	ctsleb; prosper	uses	method	NA
+Polley	2010	Super learner in prediction	NA	super learning; superlearning	3	ctsleb; prosper	uses	method	NA
+GTEx Consortium The genotype-tissue expression	2013	The genotype-tissue expression (GTEx) project	10.1038/ng.2653	GTEx	3	ctwas; empirical_bayes_estimation_of_normal_means_accounting_for_uncertainty_in_estimated_standard_errors	uses	data	NA
+Barton	2017	The infinitesimal model: definition, derivation, and implications	10.1016/j.tpb.2017.06.001	Barton 2017	3	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Falconer	1965	The inheritance of liability to certain diseases, estimated from the incidence among relatives	10.1111/j.1469-1809.1965.tb00500.x	Falconer 1965; Liability Threshold Model	3	ldpred2; lee_2011; sibling_similarity_can_reveal_key_insights_into_genetic_architecture	derivable_under_conditions; uses	method	NA
+Liberzon	2015a	The Molecular Signatures Database hallmark gene set collection	10.1016/j.cels.2015.12.004	Hallmark gene sets; MSigDB	3	fash; gbcd	uses	data	NA
+UK10K Consortium. et al. The uk10k project identifies rare variants in health and disease. Nature. 2015;526:82. doi: 10.1038/nature14962.	2015	The uk10k project identifies rare variants in health and disease	10.1038/nature14962	The UK10K Consortium The UK10K project identifies rare variants in health and disease. Nature 526 2015; UK10K Consortium. et al. The uk10k project identifies rare variants in health and disease. Nature. 2015;526:82. doi: 10.1038/nature14962. 2015; UK10K consortium. The UK10K project identifies rare variants in health and disease. Nature. 2015;526:82. doi: 10.1038/nature14962. 2015	3	ldpred_funct; polypred; sbayesr	uses	data	NA
+Choi	2020	Tutorial: a guide to performing polygenic risk score analyses	10.1038/s41596-020-0353-1	Choi 2020; clumping and thresholding; standard PRS analysis	3	distinct_genetic_architecture_in_the_tails_of_complex_traits; prset	shares_structure_not_equivalent; uses	review	NA
+Efron	2011	Tweedie’s formula and selection bias	NA	Efron (2011) 2011; Efron 2011	3	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression; mr_ash	uses	method	NA
+Giné	2009	Uniform limit theorems for wavelet density estimators	NA	Giné 2009	3	hoffmann_2011	uses	method	NA
+George	1993	Variable selection via Gibbs sampling	10.2307/2290777	Bayesian mixture-prior regression; George 1993	3	bslmm; logsdon2010; mr_ash	contains_special_case; uses	method	NA
+Kang	2010	Variance component model to account for sample structure in genome-wide association studies	10.1038/ng.548	Kang 2010	3	bslmm; multivariate_linear_mixed_model_mvlmm	uses	method	NA
+Beal	2003	Variational algorithms for approximate Bayesian inference	NA	variational KL minimization; variational coordinate updates	3	logsdon2010	uses	method	NA
+M. Crouse	1998	Wavelet-based statistical signal processing using hidden Markov models	10.1109/78.668544	Crouse 1998; M. Crouse 1998	3	fsusie; mfsusie; wavelet_ss	inspired_by; uses	method	NA
+G. Nason	2008	Wavelet Methods in Statistics with R	NA	Nason 2008; wavelet transform; wavethresh	3	fsusie; mfsusie	uses	method	NA
+Meyer	1992	Wavelets and Operators	NA	Meyer 1992	3	hoffmann_2011	uses	review	NA
+Evans	2018	10.1038/s41588-018-0108-xPMC593435029700474	10.1038/s41588-018-0108-x	Evans 2018	2	megaprs	uses	method	NA
+Denault	2025	Accounting for uncertainty in residual variances improves calibration for fine-mapping with small sample sizes	NA	Denault 2025	2	susie_ash	uses	method	NA
+Pique-Regi	2011	Accurate inference of transcription factor binding from DNA sequence and chromatin accessibility data	10.1101/gr.112623.110	CENTIPEDE	2	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays	uses	software	NA
+Thorgeirsson	2013	A common biological basis of obesity and nicotine addiction	10.1038/tp.2013.81	TAG consortium	2	prsice	uses	data	NA
+Saelens	2018	A comprehensive evaluation of module detection methods for gene expression data	10.1038/s41467-018-03424-4	Saelens 2018	2	prset	uses	method	NA
+Donoho	1995	Adapting to Unknown Smoothness via Wavelet Shrinkage	10.1080/01621459.1995.10476626	Donoho 1995	2	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays; smash	shares_structure_not_equivalent; uses	method	NA
+Giné	2010	Adaptive estimation of a distribution function and its density in sup-norm loss by wavelet and spline projections	NA	Giné 2010	2	hoffmann_2011	uses	method	NA
+Tibshirani	2014	Adaptive piecewise polynomial estimation via trend filtering	10.1214/13-aos1189	trend filtering	2	gradvi	uses	method	NA
+Figueiredo	2003	Adaptive sparseness for supervised learning	NA	Figueiredo 2003	2	mr_ash; tpb	contains_special_case; uses	method	NA
+Rokhlin	2008	A fast randomized algorithm for overdetermined linear least-squares regression	NA	Rokhlin 2008	2	halko_2011	inspired_by; uses	method	NA
+DJ Hunter	2007	A genome-wide association study identifies alleles in FGFR2 associated with risk of sporadic postmenopausal breast cancer	10.1038/ng2075	DJ Hunter 2007; Hunter 2007	2	annopred	uses	data	NA
+Bennett	2010	A high-resolution association mapping panel for the dissection of complex traits in mice	10.1101/gr.099234.109	Bennett 2010	2	gemma; multivariate_linear_mixed_model_mvlmm	uses	data	NA
+Byrd	1995	A limited memory algorithm for bound constrained optimization	NA	Byrd 1995; L-BFGS-B	2	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression; gradvi	uses	method	NA
+LA Wasserman	2003	All of statistics: a concise course in statistical inference.	NA	LA Wasserman 2003	2	han_2009	uses	review	NA
+Griffin	2005	Alternative prior distributions for variable selection with very many more variables than observations	NA	normal-exponential-gamma prior	2	zhu2011	shares_structure_not_equivalent	method	NA
+Korte	2012	A mixed-model approach for genome-wide association studies of correlated traits in structured populations	10.1038/ng.2376	Korte 2012	2	distinct_genetic_architecture_in_the_tails_of_complex_traits; multivariate_linear_mixed_model_mvlmm	uses	method	NA
+A Ndungu	2020	A multi-tissue transcriptome analysis of human metabolites guides interpretability of associations based on multi-SNP models for gene expression	10.1016/j.ajhg.2020.01.003	A Ndungu 2020	2	ctwas	uses	data	NA
+Cai	2004	An adaptation theory for nonparametric confidence intervals	NA	Cai 2004	2	hoffmann_2011	uses	method	NA
+Brent [1971]	1971	An algorithm with guaranteed convergence for finding a zero of a function	10.1093/comjnl/14.4.422	Brent method	2	mouthwash	uses	method	NA
+Cox	1993	An analysis of Bayesian inference for nonparametric regression	NA	Cox 1993	2	knapik_2011; sniekers2015	shares_structure_not_equivalent; uses	method	NA
+FE Satterthwaite	1946	An approximate distribution of estimates of variance components	10.2307/3002019	FE Satterthwaite 1946	2	peters_2015	uses	method	NA
+Canela-Xandri	2018	An atlas of genetic associations in UK Biobank	10.1038/s41588-018-0248-z	Canela-Xandri 2018	2	mvsusie; susierss	uses	data	NA
+Giné	2009	An exponential inequality for the distribution function of the kernel density estimator, with applications to adaptive estimation	NA	Giné 2009	2	hoffmann_2011	uses	method	NA
+Anderson	1984	An Introduction to Multivariate Statistical Analysis	NA	Anderson 1984	2	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	review	NA
+North	2002	A Note on the Calculation of Empirical P Values from Monte Carlo Procedures	10.1086/341527	North 2002	2	gene_swap_randomization_gsr; prset	uses	method	NA
+Logsdon	2012	A novel variational Bayes multiple locus Z-statistic for genome-wide association studies with Bayesian model averaging	10.1093/bioinformatics/bts261	Logsdon 2012	2	bolt	shares_structure_not_equivalent; uses	method	NA
+McCarthy	2016	A reference panel of 64,976 haplotypes for genotype imputation	10.1038/ng.3643	A reference panel of 64,976 haplotypes for genotype imputation; Haplotype Reference Consortium	2	genetic_sensitivity_analysis; multi_polygenic_score_mps	uses	data	NA
+Stephens	2018	ashr: Methods for Adaptive Shrinkage, using Empirical Bayes	NA	ashr	2	mixsqp; mouthwash	uses	software	NA
+Stephens	2023	ashr: Methods for Adaptive Shrinkage, Using Empirical Bayes. doi:10.32614/CRAN.package.ashr	10.32614/cran.package.ashr	ashr	2	ebnm	uses	software	NA
+Lee	2010	A simple and fast two-locus quality control test to detect false positives due to batch effects in genome-wide association studies	10.1002/gepi.20541	Lee 2010	2	lee_2011	uses	method	NA
+Muirhead	1982	Aspects of Multivariate Statistical Theory	NA	Muirhead 1982	2	halko_2011	uses	review	NA
+Gilmour	2006	ASReml User Guide Release 2.0	NA	Gilmour 2006	2	lee_2011	uses	software	NA
+Kohavi	1995	A study of cross-validation and bootstrap for accuracy estimation and model selection.	NA	A study of cross-validation and bootstrap for accuracy estimation and model selection.	2	multi_polygenic_score_mps	uses	method	NA
+Ingster	1993	Asymptotically minimax hypothesis testing for nonparametric alternatives	NA	Ingster 1993	2	hoffmann_2011	uses	method	NA
+Robbins	1951	Asymptotically subminimax solutions of compound statistical decision problems	10.1525/9780520411586-011	Robbins 1951; normal-means model	2	cebmf; ebnm	uses	method	NA
+Nishii	1984	Asymptotic properties of criteria for selection of variables in multiple regression	NA	BIC asymptotic results	2	johnson2005	uses	method	NA
+D Zhou	2020	A unified framework for joint-tissue transcriptome-wide association and Mendelian randomization analysis	10.1038/s41588-020-0706-2	D Zhou 2020; Zhou 2020	2	ctwas	uses	data	NA
+Kingma	2014	Auto-encoding variational Bayes	NA	Kingma 2014; VAE	2	cebmf	shares_structure_not_equivalent; uses	method	NA
+Gilmour	1995	Average information REML: An efficient algorithm for variance parameter estimation in linear mixed models	NA	Gilmour 1995	2	lee_2011; multiblup	uses	method	NA
+DF Conrad	2006	A worldwide survey of haplotype variation and linkage disequilibrium in the human genome.	10.1038/ng1911	worldwide genotype panel	2	engelhardt2010	uses	data	NA
+Carlin	2000	Bayes and empirical Bayes methods for data analysis	NA	empirical Bayes	2	kichaev2014	uses	review	NA
+Yue	2014	Bayesian adaptive smoothing splines using stochastic differential equations	NA	Yue 2014	2	fash	uses	method	NA
+Wen	2011	Bayesian Analysis of Genetic Association Data	NA	hierarchical eQTL computations	2	wen2011	uses	method	NA
+Xu	2016	Bayesian Grouped Horseshoe Regression with Application to Additive Models	NA	Xu 2016	2	xwing	uses	method	NA
+Neal	1996	Bayesian Learning for Neural Networks	NA	automatic relevance determination; automatic relevance determination prior	2	engelhardt2010; mvsusie	shares_structure_not_equivalent; uses	method	NA
+J Geweke	1996	Bayesian reduced rank regression in econometrics	NA	Bayesian reduced-rank regression; J Geweke 1996	2	bayesian_reduced_rank_regression	extends	method	NA
+Garcia-Alonso	2019	Benchmark and integration of resources for the estimation of human transcription factor activities	10.1101/gr.240663.118	Garcia-Alonso 2019	2	gene_swap_randomization_gsr	uses	data	NA
+Soneson	2018	Bias, robustness and scalability in single-cell differential expression analysis	NA	Soneson 2018	2	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Owen	2009	Bi-cross-validation of the SVD and the nonnegative matrix factorization	NA	bi-cross-validation	2	yang2014	uses	method	NA
+Nishimura	2001	BioCarta.	10.1089/152791601750294344	Nishimura 2001	2	prset	uses	data	NA
+Blei	2002	BleiDM, NgAY & JordanMI Latent Dirichlet Allocation	NA	Blei 2002	2	sushie	uses	method	NA
+Kuhn	2008	Building predictive models in R using the caret package	NA	Building predictive models in R using the caret package	2	multi_polygenic_score_mps	uses	software	NA
+Z. Yang	2023	CARMA is a new Bayesian model for fine-mapping in genome-wide association meta-analyses	10.1038/s41588-023-01392-0	CARMA; Yang 2023	2	fsusie; mfsusie	uses	method	NA
+Akiyama	2019	Characterizing rare and low-frequency height-associated variants in the Japanese population	10.1038/s41467-019-12276-5	Akiyama 2019	2	polypred	uses	data	NA
+Wu	2021	ClusterProfiler 4.0: a universal enrichment tool for interpreting omics data	NA	clusterProfiler	2	fash	uses	software	NA
+Yu	2012	clusterProfiler: an R package for comparing biological themes among gene clusters	NA	clusterProfiler	2	fash	uses	software	NA
+F Hormozdiari	2016	Colocalization of GWAS and eQTL signals detects target genes	10.1016/j.ajhg.2016.10.003	F Hormozdiari 2016; colocalization	2	ctwas	contains_special_case; shares_structure_not_equivalent	method	NA
+B. S. Pedersen	2012	Comb-p: software for combining, analyzing, grouping and correcting spatially correlated P-values	10.1093/bioinformatics/bts545	B. S. Pedersen 2012; Pedersen 2012	2	fsusie; mfsusie	inspired_by	software	NA
+Ahlmann-Eltze	2023	Comparison of transformations for single-cell RNA-seq data	10.1038/s41592-023-01814-1	pseudocount selection; shifted log-count transformation	2	gbcd	uses	method	NA
+Ledell	2015	Computationally efficient confidence intervals for cross-validated area under the ROC curve estimates	10.1214/15-ejs1035	superlearning	2	ctsleb	uses	method	NA
+Mbatchou	2021	Computationally efficient whole-genome regression for quantitative and binary traits	10.1038/s41588-021-00870-7	Mbatchou 2021; REGENIE	2	distinct_genetic_architecture_in_the_tails_of_complex_traits; mvsusie	uses	method	NA
+Diaconis	1983	Computer-intensive methods in statistics	10.1038/scientificamerican0583-116	Diaconis 1983	2	corshrink	uses	review	NA
+Tseng	2001	Convergence of block coordinate descent method for nondifferentiable maximization	NA	Tseng 2001	2	glmnet; mr_ash	uses	method	NA
+Bühlmann	2013	Correlated variables in regression: clustering and sparse estimation (with discussion)	NA	Bühlmann 2013	2	mandozzi_2016	uses	method	NA
+Bickel	2008	Covariance regularization by thresholding	NA	Bickel 2008	2	corshrink	extends; shares_structure_not_equivalent	method	NA
+Budin-Ljøsne	2014	Data sharing in large research consortia: experiences and recommendations from ENGAGE	10.1038/ejhg.2013.131	Budin-Ljøsne 2014	2	polypred	uses	data	NA
+Lebrec	2010	Dealing with heterogeneity between cohorts in genomewide SNP association studies	10.2202/1544-6115.1503	Lebrec 2010; heterogeneous-effects prior	2	eqtl_bma	combines; uses	method	NA
+Narasimhan	2020	deconvolveR: A g-Modeling Program for Deconvolution and Empirical Bayes Estimation	10.18637/jss.v094.i11	deconvolveR	2	ebnm	uses	software	NA
+A Bhadra	2016	Default Bayesian analysis with global-local shrinkage priors	10.1093/biomet/asw041	A Bhadra 2016	2	xwing	uses	method	NA
+D Demontis	2017	Discovery of the first genome-wide significant risk loci for ADHD	10.1101/145581	D Demontis 2017	2	genetic_sensitivity_analysis	uses	data	NA
+Xu	2015	DISSCO: direct imputation of summary statistics allowing covariates	10.1093/bioinformatics/btv168	Xu 2015	2	lent_2018	uses	method	NA
+Johnstone	2005a	EbayesThresh: R Programs for Empirical Bayes Thresholding	10.18637/jss.v012.i08	EbayesThresh; empirical Bayes normal-means solver	2	ebnm; wang2021	uses	software	NA
+Pirinen	2013	Efficient Computation with a Linear Mixed Model on Large-Scale Data Sets with Applications to Genetic Studies	10.1214/12-aoas586	Pirinen 2013	2	multivariate_linear_mixed_model_mvlmm	extends; shares_structure_not_equivalent	method	NA
+L. Ma	2018	Efficient functional ANOVA through wavelet-domain Markov Groves	10.1080/01621459.2017.1286241	L. Ma 2018; Ma 2018	2	fsusie; mfsusie	uses	method	NA
+VanRaden	2008	Efficient methods to compute genomic predictions	10.3168/jds.2007-0980	VanRaden 2008	2	bolt	uses	method	NA
+Matilainen	2013	Employing a Monte Carlo Algorithm in Newton-Type Methods for Restricted Maximum Likelihood Estimation of Genetic Parameters	10.1371/journal.pone.0080821	Matilainen 2013	2	bolt	uses	method	NA
+eGTEx Project	2017	Enhancing GTEx by bridging the gaps between genotype, gene expression, and disease	NA	eGTEx Project 2017	2	coxph_susie	uses	data	NA
+Metropolis	1953	Equations of state calculations by fast computing machines	NA	Metropolis algorithm	2	bvsr	uses	method	NA
+Breiman	1985	Estimating optimal transformations for multiple regression and correlation	10.1080/01621459.1985.10478157	backfitting	2	wang2021	uses	method	NA
+Schwarz	1978	Estimating the dimension of a model	NA	BIC; Schwarz 1978	2	johnson2005; wen_2012	derivable_under_conditions; shares_structure_not_equivalent	method	NA
+Ni	2018	Estimation of genetic correlation via linkage disequilibrium score regression and genomic restricted maximum likelihood	10.1016/j.ajhg.2018.03.021	LD score regression; Ni 2018	2	distinct_genetic_architecture_in_the_tails_of_complex_traits; sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Lee	2013	Estimation of SNP heritability from dense genotype data	10.1016/j.ajhg.2013.10.015	Lee 2013	2	yang_2015	uses	method	NA
+Pencina	2008	Evaluating the added predictive ability of a new marker: from area under the ROC curve to reclassification and beyond.	10.1002/sim.2929	Pencina 2008	2	liability_threshold_model	uses	method	NA
+Sanjak	2018	Evidence of directional and stabilizing selection in contemporary humans	10.1073/pnas.1707227114	selection regression	2	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	method	NA
+Chen	2009	Fast and flexible simulation of DNA sequence data	10.1101/gr.083634.108	MaCS	2	logsdon2010	uses	software	NA
+Gobbi	2014	Fast randomization of large genomic datasets while preserving alteration counts	10.1093/bioinformatics/btu474	BiRewire	2	gene_swap_randomization_gsr	uses	method	NA
+Müller	2006	FDR and Bayesian multiple comparisons rules	NA	Müller 2006	2	torus	uses	method	NA
+Y Zheng	2013	Fine mapping of breast cancer genome-wide association studies loci in women of African ancestry identifies novel susceptibility markers	10.1093/carcin/bgt090	Y Zheng 2013; Zheng 2013	2	annopred	uses	data	NA
+Willwerscheid	2022	flashier: empirical Bayes matrix factorization	NA	Willwerscheid 2022	2	gbcd	uses	software	NA
+Abraham	2017	FlashPCA2: principal component analysis of Biobank-scale genotype 660 datasets	10.1093/bioinformatics/btx299	FlashPCA2	2	erasor	uses	software	NA
+L. Collado-Torres	2016	Flexible expressed region analysis for RNA-seq with derfinder	10.1093/nar/gkw852	Collado-Torres 2016; L. Collado-Torres 2016	2	fsusie; mfsusie	inspired_by	software	NA
+N. Fusi	2017	Flexible modeling of genetic effects on function-valued traits	10.1089/cmb.2016.0174	Fusi 2017; N. Fusi 2017	2	fsusie; mfsusie	inspired_by	method	NA
+Schaid	2018	From genome-wide associations to candidate causal variants by statistical fine-mapping	10.1038/s41576-018-0016-z	Schaid 2018	2	polypred	uses	review	NA
+J. Yang	2012	FTO genotype is associated with phenotypic variability of body mass index	10.1038/nature11401	J. Yang 2012	2	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	data	NA
+Gazal	2018	Functional architecture of low-frequency variants highlights strength of negative selection across coding and non-coding annotations	10.1038/s41588-018-0231-8	Gazal 2018; baseline-LF	2	polypred	uses	method	NA
+Johnstone	2019	Gaussian Estimation: Sequence and Wavelet Models	NA	Johnstone 2019	2	ebnm; ultimate_deconvolution	extends; uses	method	NA
+Gordon	1988	Gaussian processes and almost spherical sections of convex bodies	NA	Gordon 1988	2	halko_2011	uses	method	NA
+Rothman	2009	Generalized thresholding of large covariance matrices	10.1198/jasa.2009.0101	Rothman 2009	2	corshrink	extends; shares_structure_not_equivalent	method	NA
+J Novembre	2008	Genes mirror geography within Europe.	10.1038/nature07331	European genotype preprocessing; European population genotype data	2	engelhardt2010	uses	data	NA
+Bryois	2020	Genetic identification of cell types underlying brain complex traits yields insights into the etiology of Parkinson’s disease	10.1038/s41588-020-0610-9	Bryois 2020	2	prset	uses	method	NA
+E Krapohl	2015	Genetic link between family socioeconomic status and children’s educational achievement estimated from genome-wide SNPs	10.1038/mp.2015.2	E Krapohl 2015	2	genetic_sensitivity_analysis	uses	data	NA
+Sawcer	2011	Genetic risk and a primary role for cell-mediated immune mechanisms in multiple sclerosis	10.1038/nature10251	Sawcer 2011	2	multiethnic_prs	uses	data	NA
+The International Consortium for Blood Pressure. Genetic variants in novel pathways influence blood pressure and cardiovascular disease risk. Nature 478	2011	Genetic variants in novel pathways influence blood pressure and cardiovascular disease risk	10.1038/nature10405	The International Consortium for Blood Pressure. Genetic variants in novel pathways influence blood pressure and cardiovascular disease risk. Nature 478 2011	2	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	data	NA
+K De Lange	2017	Genome-wide association study implicates immune activation of multiple integrin genes in inflammatory bowel disease	10.1038/ng.3760	De Lange 2017; K De Lange 2017	2	ctwas; gene_swap_randomization_gsr	uses	data	NA
+Kooner	2011	Genome-wide association study in individuals of South Asian ancestry identifies six new type 2 diabetes susceptibility loci	10.1038/ng.921	Kooner 2011	2	multiethnic_prs	uses	data	NA
+EA Stahl	2010	Genome-wide association study meta-analysis identifies seven new rheumatoid arthritis risk loci	10.1038/ng.582	EA Stahl 2010; Stahl 2010	2	annopred	uses	data	NA
+C Garner	2014	Genome-wide association study of celiac disease in North America confirms FRMD4B as new celiac locus	10.1371/journal.pone.0101428	C Garner 2014; Garner 2014	2	annopred	uses	data	NA
+Lewis	2010	Genome-wide association study of major recurrent depression in the u.k	10.1176/appi.ajp.2010.09091380	RADIANT-UK	2	prsice	uses	data	NA
+Wickham	2009	ggplot2: elegant graphics for data analysis	NA	Wickham 2009; ggplot2	2	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes; ebnm	uses	software	NA
+P Rantakallio	1969	Groups at risk in low birth weight infants and perinatal mortality	NA	P Rantakallio 1969	2	bayesian_reduced_rank_regression	uses	data	NA
+Gu	2007	Gu, 2007	NA	Gu 2007	2	halko_2011	uses	method	NA
+Bühlmann	2014	High-dimensional variable screening and bias in subsequent inference, with an empirical comparison	NA	Bühlmann 2014	2	mandozzi_2016	uses	method	NA
+X. Yu	2016	HMM-DM: identifying differentially methylated regions using a hidden Markov model	10.1515/sagmb-2015-0077	X. Yu 2016; Yu 2016	2	fsusie; mfsusie	inspired_by	method	NA
+Van der Pas	2019	horseshoe: Implementation of the Horseshoe Prior. doi:10.32614/CRAN.package.horseshoe	10.32614/cran.package.horseshoe	horseshoe	2	ebnm	uses	software	NA
+L. Fernández	2020	HPG-DHunter: an ultrafast, friendly tool for DMR detection and visualization	10.1186/s12859-020-03634-y	Fernàndez 2020; L. Fernández 2020	2	fsusie; mfsusie	inspired_by	software	NA
+ENCODE Project Consortium2007Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project.Nature4477998161757134610.1038/nature05874PMC2212820	2007	Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project.	10.1038/nature05874	published regulatory or expression data	2	veyrieras2008	uses	data	NA
+Marin	2010	Importance sampling methods for Bayesian discrimination between embedded models	NA	Marin 2010	2	fong_2020	uses	method	NA
+Tropp	2011	Improved analysis of the subsampled randomized Hadamard transform	NA	Tropp 2011	2	halko_2011	uses	method	NA
+Cui	2024	Improving fine-mapping by modeling infinitesimal effects	10.1038/s41588-023-01597-3	Cui 2024	2	susie_ash	uses	method	NA
+Hayes	2009	Increased accuracy of artificial selection by using the realized relationship matrix	10.1017/s0016672308009981	Hayes 2009	2	multivariate_linear_mixed_model_mvlmm	uses	method	NA
+Griffiths	2006	Infinite latent feature models and the Indian Buffet Process	NA	Indian Buffet Process	2	knowles2011	uses	method	NA
+X Wen	2017	Integrating molecular QTL data into genome-wide genetic association analysis: probabilistic assessment of enrichment and colocalization	10.1371/journal.pgen.1006646	Enloc; X Wen 2017	2	ctwas	contains_special_case; derivable_under_conditions	method	NA
+A Barbeira	2019	Integrating predicted transcriptome from multiple tissues improves association detection	10.1371/journal.pgen.1007889	A Barbeira 2019; Barbeira 2019	2	ctwas	uses	method	NA
+Pepe	2008	Integrating the predictiveness of a marker with its performance as a classifier.	10.1093/aje/kwm305	Pepe 2008	2	liability_threshold_model	uses	method	NA
+Falconer	1996	Introduction to Quantitative Genetics: Longman	NA	liability-score conditional moments; truncated-normal distribution	2	dudbridge2013	uses	review	NA
+Skol	2006	Joint analysis is more efficient than replication-based analysis for two-stage genome-wide association studies	10.1038/ng1706	Skol 2006	2	zaitlen_2010	uses	method	NA
+Wei	2015	Joint analysis of differential gene expression in multiple studies using correlation motifs.	10.1093/biostatistics/kxu038	Wei 2015	2	mash; poisson_multivariate_adaptive_shrinkage	shares_structure_not_equivalent	method	NA
+Josse	2018	JosseJulie, SardySylvain, and WagerStefan	NA	evaluation dataset	2	wang2021	uses	data	NA
+Kim	2009	ℓ1\ell_{1} Trend Filtering	NA	trend filtering	2	gradvi	uses	method	NA
+Larsen	1998	Lanczos bidiagonalization with partial reorthogonalization	NA	Larsen 1998	2	soft_impute	uses	method	NA
+K Michailidou	2013	Large-scale genotyping identifies 41 new loci associated with breast cancer risk	10.1038/ng.2563	K Michailidou 2013; Michailidou 2013	2	annopred	uses	data	NA
+Bhadra	2019	Lasso Meets Horseshoe: A Survey	10.1214/19-sts700	Bhadra 2019	2	ebnm; ultimate_deconvolution	extends; uses	method	NA
+Papadimitriou	2000	Latent semantic indexing: A probabilistic analysis	NA	Papadimitriou 2000	2	halko_2011	inspired_by	method	NA
+Sohn	2015	Learning structured output representation using deep conditional generative models	NA	Sohn 2015; conditional VAE	2	cebmf	shares_structure_not_equivalent; uses	method	NA
+Heckerman	2016	Linear mixed model for heritability estimation that explicitly addresses environmental variation	10.1073/pnas.1510497113	Heckerman 2016	2	polypred	uses	data	NA
+AR Groves	2011	Linked independent component analysis for multimodal data fusion	10.1016/j.neuroimage.2010.09.073	AR Groves 2011	2	hore_2016	inspired_by; uses	method	NA
+Ho & Olver	2018	LowRankApprox.jl: fast low-rank matrix approximation in Julia	10.5281/zenodo.1254148	LowRankApprox	2	mixsqp	uses	software	NA
+Privé	2019	Making the most of clumping and thresholding for polygenic scores	10.1016/j.ajhg.2019.11.001	Privé 2019	2	ctsleb; ldpred2	uses	method	NA
+Rappaport	2017	MalaCards: an amalgamated human disease compendium with diverse clinical and genetic annotation and structured search	10.1093/nar/gkw1012	Rappaport 2017	2	gene_swap_randomization_gsr	uses	data	NA
+Li	2008	Mapping short DNA sequencing reads and calling variants using mapping quality scores	10.1101/gr.078212.108	MAQ	2	pickrell2010	uses	software	NA
+Finak	2015	MAST: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data	NA	MAST	2	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+I Good	1963	Maximum entropy for hypothesis formulation, especially for multidimensional contingency tables.	NA	Good 1963; I Good 1963	2	clayton_2009	uses	method	NA
+Higgins	2003	Measuring inconsistency in meta-analyses	10.1136/bmj.327.7414.557	Measuring inconsistency in meta-analyses	2	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Zeggini	2008	Meta-analysis of genome-wide association data and large-scale replication identifies additional susceptibility loci for type 2 diabetes	10.1038/ng.120	Zeggini 2008; meta-analysis	2	multiethnic_prs; zaitlen_2010	uses	method	NA
+Wang	2024	MFAI: a scalable Bayesian matrix factorization approach to leveraging auxiliary information	NA	Wang 2024	2	cebmf	contains_special_case; shares_structure_not_equivalent	method	NA
+Donoho, Liu	1990	Minimax risk over hyperrectangles, and implications	NA	Donoho, Liu 1990	2	szabo_2015	uses	method	NA
+Bult	2019	Mouse Genome Database Group. Mouse Genome Database (MGD) 2019	10.1093/nar/gky1056	Bult 2019	2	prset	uses	data	NA
+PC Dubois	2010	Multiple common variants for celiac disease influencing immune gene expression	10.1038/ng.543	Dubois 2010; PC Dubois 2010	2	annopred	uses	data	NA
+Pruitt	2007	NCBI reference sequences (Ref-Seq): a curated non-redundant sequence database of genomes, transcripts and proteins.	10.1093/nar/gkl842	RefSeq	2	veyrieras2008	uses	data	NA
+J. Dupuis	2010	New genetic loci implicated in fasting glucose homeostasis and their impact on type 2 diabetes risk	10.1038/ng.520	J. Dupuis 2010	2	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	data	NA
+Das	2016	Next-generation genotype imputation service and methods	10.1038/ng.3656	Das 2016	2	polypred	uses	method	NA
+Efron	1981	Nonparametric estimates of standard error: the jackknife, the bootstrap and other methods	10.1093/biomet/68.3.589	Efron 1981	2	corshrink	uses	method	NA
+Ingster	2003	Nonparametric Goodness-of-Fit Testing Under Gaussian Models	NA	Ingster 2003	2	hoffmann_2011	uses	method	NA
+Laird	1978	Nonparametric Maximum Likelihood Estimation of a Mixing Distribution	10.1080/01621459.1978.10480103	NPMLE	2	ebnm	uses	method	NA
+Cavalier	2008	Nonparametric statistical inverse problems	NA	Cavalier 2008	2	knapik_2011	extends; uses	review	NA
+Martinsson	2010	Normalized power iterations for the computation of SVD	NA	Martinsson 2010	2	halko_2011	derivable_under_conditions; uses	method	NA
+Zellner [1986]	1986	On assessing prior distributions and Bayesian regression analysis with gg-prior distributions	NA	Zellner 1986; g-prior	2	mouthwash; wen_2012	shares_structure_not_equivalent; uses	method	NA
+Lijoi	2005	On Consistency of Nonparametric Normal Mixtures for Bayesian Density Estimation	10.1198/016214505000000358	Lijoi 2005	2	sdpr	uses	method	NA
+Tiao	1964	On the Bayesian estimation of multivariate regression	NA	Bayesian multivariate regression; Tiao 1964	2	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	review	NA
+Gart	1967	On the bias of various estimators of the logit and its variance with application to quantal bioassay	NA	Gart 1967	2	smash	uses	method	NA
+R Bhatia	2019	On the Bures–Wasserstein Distance between Positive Definite Matrices	10.1016/j.exmath.2018.01.002	R Bhatia 2019	2	empirical_bayes_covariance_decomposition	uses	method	NA
+Cheng	2005	On the compression of low rank matrices	NA	Cheng 2005	2	halko_2011	uses	method	NA
+Drineas	2005	On the Nyström method for approximating a Gram matrix for improved kernel-based learning	NA	Drineas 2005	2	halko_2011	uses	method	NA
+Nagai	2017	Overview of the BioBank Japan Project: study design and profile	10.1016/j.je.2016.12.005	Nagai 2017	2	polypred	uses	data	NA
+Gusev	2014	Partitioning heritability of regulatory and cell-type-specific variants across 11 common diseases	10.1016/j.ajhg.2014.10.004	Gusev 2014	2	finucane_2015	uses	method	NA
+Legarra	2008	Performance of genomic selection in mice	10.1534/genetics.108.088575	Legarra 2008	2	bslmm	uses	method	NA
+Schaefer	2009	PID: the Pathway Interaction Database	10.1093/nar/gkn653	Schaefer 2009	2	prset	uses	data	NA
+Patterson	2006	Population structure and eigenanalysis	10.1371/journal.pgen.0020190	Patterson 2006; principal-component stratification covariates	2	genetic_sensitivity_analysis; hoggart2008	uses	method	NA
+S. Barber	2002	Posterior probability intervals for wavelet thresholding	NA	Barber 2002; S. Barber 2002	2	fsusie; mfsusie	uses	method	NA
+Dupont	1990	Power and sample size calculations. A review and computer program	10.1016/0197-2456(90)90005-m	Power and sample size calculations. A review and computer program	2	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	software	NA
+Lee	2008	Predicting unobserved phenotypes for complex traits from whole-genome SNP data	10.1371/journal.pgen.1000231	Lee 2008	2	bslmm	uses	method	NA
+I. E. Schor	2017	Promoter shape varies across populations and affects promoter evolution and expression noise	10.1038/ng.3791	I. E. Schor 2017; Schor 2017	2	fsusie; mfsusie	inspired_by	data	NA
+W Strawderman	1971	Proper Bayes minimax estimators of the multivariate normal mean	10.1214/aoms/1177693528	W Strawderman 1971	2	prscs	uses	method	NA
+N Parikh	2014	Proximal Algorithms	10.1561/2400000003	N Parikh 2014; Parikh 2014	2	empirical_bayes_covariance_decomposition; mr_ash	uses	review	NA
+Storey	2020	qvalue: Q-value estimation for false discovery rate control R package version 2.20.0	NA	qvalue	2	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays	uses	software	NA
+Liberty	2007	Randomized algorithms for the low-rank approximation of matrices	NA	Liberty 2007	2	halko_2011	uses	method	NA
+Casella	1996	Rao–Blackwellisation of sampling schemes	NA	Casella 1996; Rao-Blackwellization	2	bvsr; zhu_2017	uses	method	NA
+R Core Team.	2021	R Core Team	NA	R; R Core Team. 2016	2	gbcd; sbayesr	uses	software	NA
+D Reich	2009	Reconstructing Indian population history.	10.1038/nature08365	Indian population genotype data	2	engelhardt2010	uses	data	NA
+Patterson	1971	Recovery of interblock information when block sizes are unequal	NA	Patterson 1971	2	lee_2011; yang_2015	uses	method	NA
+Speed	2017	Reevaluation of SNP heritability in complex human traits	10.1038/ng.3865	baseline-LD + LDAK; chip-heritability estimation	2	choi2018; ldpred_funct	uses	method	NA
+Cox	1972	Regression models and life-tables	NA	Cox 1972; Cox proportional hazards	2	coxph_susie	combines; uses	method	NA
+Singh	2008	Relational learning via collective matrix factorization	NA	Singh 2008	2	cebmf	shares_structure_not_equivalent; uses	method	NA
+Bennett	2018	Religious orders study and rush memory and aging project	10.3233/jad-179939	ROSMAP	2	mfsusie	uses	data	NA
+Gagnon-Bartsch	2013	Removing unwanted variation from high dimensional data with negative controls	NA	Gagnon-Bartsch 2013; RUV4	2	mouthwash	uses	method	NA
+L. Collado-Torres	2017	Reproducible RNA-seq analysis using recount2	10.1038/nbt.3838	Collado-Torres 2017; L. Collado-Torres 2017	2	fsusie; mfsusie	inspired_by	data	NA
+PH Westfall	1993	Resampling-based multiple testing	NA	PH Westfall 1993	2	han_2009	uses	review	NA
+MOSEK ApS	2019	Rmosek: The R to MOSEK Optimization Interface. doi:10.32614/CRAN.package.Rmosek	10.32614/cran.package.rmosek	MOSEK ApS 2019	2	ebnm	uses	software	NA
+Li	2016	RNA splicing is a primary link between genetic variation and disease	10.1126/science.aad9417	Li 2016	2	susie	uses	data	NA
+Phipson	2016	Robust hyperparameter estimation protects against hypervariable genes and improves power to detect differential expression	NA	limma eBayes; limma-trend	2	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Gelfand	1990	Sampling based approaches to calculating marginal densities	NA	Gibbs sampling	2	blei2017	shares_structure_not_equivalent	method	NA
+Searle	1992	SearleSRCasellaGMcCullochCEVariance Components1992New YorkJohn Wiley & Sons	NA	Henderson mixed-model equations; mixed-model hyperparameter estimation	2	zhu2011	uses	method	NA
+Kong	2008	Sequence variants in the RNF212 gene associate with genome-wide recombination rate	10.1126/science.1152422	association summary data	2	wen2011	uses	data	NA
+J Besag	1991	Sequential Monte Carlo p-values	10.2307/2337256	Besag 1991; J Besag 1991	2	denault_2021; wavelet_ss	extends; uses	method	NA
+Zeng	2018	Signatures of negative selection in the genetic architecture of human complex traits	10.1038/s41588-018-0101-4	GCTB; Zeng 2018	2	prscsx; sbayesr	uses	software	NA
+Dimitromanolakis	2019	sim1000G: a user-friendly genetic variant simulator in R for unrelated individuals and family-based designs	10.1186/s12859-019-2611-1	sim1000G	2	mfsusie	uses	software	NA
+Gordon	1985	Some inequalities for Gaussian processes and applications	NA	Gordon 1985	2	halko_2011	uses	method	NA
+A Bhattacharya	2011	Sparse Bayesian infinite factor models	10.1093/biomet/asr013	sparse Bayesian infinite factor model	2	bayesian_reduced_rank_regression	uses	method	NA
+H Zou	2006	Sparse Principal Component Analysis	10.1198/106186006x113430	H Zou 2006; sparse PCA	2	empirical_bayes_covariance_decomposition; knowles2011	shares_structure_not_equivalent; uses	method	NA
+IT Jolliffe	2002	Springer Series in Statistics	NA	IT Jolliffe 2002	2	empirical_bayes_covariance_decomposition	uses	review	NA
+Chi	2014	Stable estimation of a covariance matrix guided by nuclear norm penalties	NA	Chi 2014	2	ultimate_deconvolution	uses	method	NA
+Szklarczyk	2015	STRING v10: protein–protein interaction networks, integrated over the tree of life	10.1093/nar/gku1003	Szklarczyk 2015	2	prset	uses	data	NA
+Tibshirani	2010	Strong rules for discarding predictors in lasso-type problems	10.1111/j.1467-9868.2011.01004.x	Tibshirani 2010	2	megaprs	uses	method	NA
+Lynch	1998	Sunderland, Massachusetts: Sinauer Associates, Inc; 1998	NA	Lynch 1998	2	wray_2010	uses	review	NA
+Polley	2019	SuperLearner: Super learner prediction	NA	SuperLearner	2	ctsleb	uses	software	NA
+DA Williams	1988	Tests for differences between several small proportions.	NA	DA Williams 1988	2	han_2009	uses	method	NA
+Zou	2006	The adaptive lasso and its oracle properties	10.1198/016214506000000735	Zou 2006; adaptive LASSO	2	glmnet; zhu2011	contains_special_case; shares_structure_not_equivalent	method	NA
+Nica	2011	The architecture of gene regulatory variation across multiple human tissues: the MuTHER study	10.1371/journal.pgen.1002003	pairwise-tissue sharing analysis	2	eqtl_bma	uses	method	NA
+Korostelev	1999	The asymptotic minimax constant for sup-norm loss in nonparametric density estimation	NA	Korostelev 1999	2	hoffmann_2011	uses	method	NA
+Good	1992	The Bayes/Non-bayes compromise: A brief review	NA	Bayes/non-Bayes compromise; Good 1992	2	eqtl_bma; servin2007	uses	method	NA
+Hastie	2009	The Elements of Statistical Learning	NA	Hastie 2009	2	mr_ash	inspired_by; uses	review	NA
+Ghahramani	1996	The EM algorithm for mixtures of factor analyzers	NA	Ghahramani 1996; joint-normal factor-analyzer structure	2	engelhardt2010; ultimate_deconvolution	shares_structure_not_equivalent	method	NA
+CA McCarty	2011	The eMERGE Network: a consortium of biorepositories linked to electronic medical records data for conducting genomic studies	10.1186/1755-8794-4-13	CA McCarty 2011; McCarty 2011	2	annopred	uses	data	NA
+García-González	2026	The gene expression landscape of disease genes	10.1186/s13059-026-03958-7	García-González 2026	2	gene_swap_randomization_gsr	uses	data	NA
+The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Res. 2019;47: D330–D338. doi:10.1093/nar/gky1055 30395331PMC6323945	2019	The Gene Ontology Resource: 20 years and still GOing strong	10.1093/nar/gky1055	The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Res. 2019;47: D330–D338. doi:10.1093/nar/gky1055 30395331PMC6323945 2019	2	prset	uses	data	NA
+The Gene Ontology Consortium,	2020	The Gene Ontology resource: enriching a GOld mine	NA	Gene Ontology	2	poisson_multivariate_adaptive_shrinkage	uses	data	NA
+Asiki	2013	The general population cohort in rural south-western Uganda: a platform for communicable and non-communicable disease studies	10.1093/ije/dys234	Asiki 2013	2	polypred	uses	data	NA
+Rai	2008	The infinite hierarchical factor regression model	NA	infinite hierarchical factor regression	2	knowles2011	shares_structure_not_equivalent	method	NA
+Davidson	1970	The limiting distribution of the likelihood ratio statistic under a class of local alternative	NA	likelihood-ratio limit assumptions; likelihood-ratio local-alternative limit	2	johnson2005	uses	method	NA
+Harper	2015	The MovieLens datasets: history and context	NA	MovieLens; evaluation dataset	2	cebmf; wang2021	uses	data	NA
+Ochoa	2023	The next-generation Open Targets Platform: reimagined, redesigned, rebuilt	10.1093/nar/gkac1046	Ochoa 2023	2	gene_swap_randomization_gsr	uses	data	NA
+Nakajima	2011	Theoretical analysis of Bayesian matrix factorization	NA	Nakajima 2011	2	cebmf; ebnm	shares_structure_not_equivalent	method	NA
+Johnson	2005	Theoretical models of selection and mutation on quantitative traits	10.1098/rstb.2005.1667	Johnson 2005	2	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+H Jeffreys	1961	Theory of Probability	NA	H Jeffreys 1961	2	zhang_2008	uses	review	NA
+Hinrichs	2006	The UCSC Genome Browser Database: update 2006	10.1093/nar/gkj144	liftOver	2	choi2018; eqtl_bma	uses	software	NA
+Hastie	2009	[THF09]HastieRobert Tibshirani TrevorFriedmanJeromeThe Elements of Statistical Learning, Second Edition: Data Mining, Inference, and Prediction (Springer Series in Statistics)20092 editionNew YorkSpringer	NA	Hastie 2009	2	soft_impute	shares_structure_not_equivalent; uses	method	NA
+Coifman	1995	Translation-invariant de-noising	NA	Coifman 1995	2	smash	uses	method	NA
+Neale	2018	UK Biobank	NA	Neale 2018	2	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Gelman	2008	Using Redundant Parameterizations to Fit Hierarchical Models	10.1198/106186008x287337	Gelman 2008	2	sdpr	uses	method	NA
+van der Laan	2011	van der LaanMJ & RoseS Targeted Learning: Causal inference for observational and experimental data, Vol	NA	super learning; superlearning	2	ctsleb; prosper	uses	method	NA
+Carbonetto	2017	varbvs: fast variable selection for large-scale regression	NA	Carbonetto 2017	2	mr_ash	shares_structure_not_equivalent; uses	method	NA
+García-Cortés	1992	Variance component estimation by resampling	NA	García-Cortés 1992	2	bolt	uses	method	NA
+Arridge	2018	Variational Gaussian approximation for Poisson data	NA	Gaussian variational approximation	2	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Wang	2013	Variational inference in nonconjugate models	NA	Wang 2013	2	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression; mr_ash	shares_structure_not_equivalent; uses	method	NA
+Vidakovic	1999	VidakovicBStatistical Modeling by Wavelets1999New YorkJohn Wiley & Sons, Inc	NA	wavelet covariance representation; wavelet shrinkage prior	2	zhu2011	uses	review	NA
+Kohler	2008	Walking the interactome for prioritization of candidate disease genes	10.1016/j.ajhg.2008.02.013	Walking the interactome for prioritization of candidate disease genes	2	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Carss	2025	Whole-genome sequencing of 490,640 UK Biobank participants	10.1038/s41586-025-09272-9	Carss 2025	2	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Miller	2007	28-way vertebrate alignment and conservation track in the UCSC Genome Browser	10.1101/gr.6761107	28-way vertebrate alignment	1	pickrell2010	uses	data	NA
+Ferguson	1973	A Bayesian Analysis of Some Nonparametric Problems.	10.1214/aos/1176342360	Ferguson 1973	1	sdpr	uses	method	NA
+Sinha, Ibrahim	2003	A Bayesian justification of Cox’s partial likelihood	NA	Sinha, Ibrahim 2003	1	coxph_susie	uses	method	NA
+Hayashi	2013	A Bayesian method and its variational approximation for prediction of genomic breeding values in multiple traits	10.1186/1471-2105-14-34	Hayashi 2013	1	mr_mash	shares_structure_not_equivalent	method	NA
+Stewart	1969	Accelerating the orthogonal iteration for the eigenvectors of a Hermitian matrix	10.1007/bf02165413	Stewart 1969	1	halko_2011	derivable_under_conditions	method	NA
+Stegle	2008	Accounting for non-genetic factors improves the power of eQTL studies	10.1007/978-3-540-78839-3_35	Stegle 2008	1	mouthwash	uses	method	NA
+Kang	2008	Accurate discovery of expression quantitative trait loci under confounding from spurious and genuine regulatory hotspots	10.1534/genetics.108.094201	confounder correction	1	pickrell2010	uses	method	NA
+Curtis	2023	A combined polygenic score including rare variants and burden testing of genes identifies risk for severe psychiatric disorders	NA	Curtis 2023	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	method	NA
+P Burman	1989	A Comparative Study of Ordinary Cross-Validation, v-Fold Cross-Validation and the Repeated Learning-Testing Methods	10.1093/biomet/76.3.503	P Burman 1989	1	xwing	uses	method	NA
+J Marchini	2006	A comparison of phasing algorithms for trios and unrelated individuals	10.1086/500808	PHASE	1	servin2007	uses	software	NA
+I	2019	A compendium of promoter-centered long-range chromatin interactions in the human genome	NA	Jung 2019	1	ctwas	uses	data	NA
+Boos	1985	A converse to Scheffé’s theorem	NA	Boos 1985	1	zhu_2017	uses	method	NA
+Johnson	1998	A coupling-regeneration scheme for diagnosing convergence in Markov chain Monte Carlo algorithms	NA	coupling convergence diagnostics	1	johnson2005	uses	method	NA
+Lei	2018	AdaPT: an interactive procedure for multiple testing with side information	NA	Lei 2018	1	ultimate_deconvolution	inspired_by	method	NA
+Genovese	2008	Adaptive confidence bands	NA	Genovese 2008	1	hoffmann_2011	uses	method	NA
+Cai	2014	Adaptive confidence bands for nonparametric regression functions	NA	Cai 2014	1	sniekers2015	shares_structure_not_equivalent	method	NA
+Picard	2000	Adaptive confidence interval for pointwise curve estimation	NA	Picard 2000	1	szabo_2015	uses	method	NA
+A Bull	2013	Adaptive confidence sets in l2	NA	adaptive confidence-set conditions	1	sniekers2020	shares_structure_not_equivalent	method	NA
+RN Shepard	1979	Additive Clustering: Representation of Similarities as Combinations of Discrete Overlapping Properties	10.1037/0033-295x.86.2.87	RN Shepard 1979	1	empirical_bayes_covariance_decomposition	inspired_by	method	NA
+Storey	2002	A direct approach to false discovery rates	NA	false discovery rate	1	fash	uses	method	NA
+Gray	2012	Advanced complex trait analysis	10.1093/bioinformatics/bts571	Gray 2012	1	multiblup	uses	software	NA
+Subedi	2020	A family of parsimonious mixtures of multivariate Poisson-lognormal distributions for clustering multivariate count data	NA	Subedi 2020	1	poisson_multivariate_adaptive_shrinkage	shares_structure_not_equivalent	method	NA
+K Van Deun	2011	A Flexible Framework for Sparse Simultaneous Component Based Data Integration	10.1186/1471-2105-12-448	K Van Deun 2011	1	empirical_bayes_covariance_decomposition	shares_structure_not_equivalent	method	NA
+Spence	2022	A flexible modeling and inference framework for estimating variant effect sizes from GWAS summary statistics	10.1101/2022.04.18.488696	Spence 2022	1	mr_mash	shares_structure_not_equivalent	method	NA
+Leek	2008	A general framework for multiple testing dependence	10.1073/pnas.0808709105	Leek 2008	1	mouthwash	uses	method	NA
+Gordy	1998	A generalization of generalized beta distributions	NA	Gordy 1998	1	tpb	special_case_of	method	NA
+Chen	2009	A generalized family-based association test for dichotomous traits	10.1016/j.ajhg.2009.08.003	Chen 2009	1	bolt	shares_structure_not_equivalent	method	NA
+Huang	2007	A genome-wide approach to identify genetic variants that contribute to etoposide-induced cytotoxicity	10.1073/pnas.0703736104	exon-microarray expression data	1	pickrell2010	uses	data	NA
+R Sladek	2007	A genome–wide associ-ation study identifies novel risk loci for type 2 diabetes.	10.1038/nature05616	diabetes genotype dataset	1	hoggart2008	uses	data	NA
+Wightman	2021	A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer’s disease	10.1038/s41588-021-00921-z	Wightman 2021	1	gene_swap_randomization_gsr	uses	data	NA
+Teo	2007	A genotype calling algorithm for the Illumina BeadArray platform	10.1093/bioinformatics/btm443	Illuminus	1	maller2012	uses	software	NA
+Sakaue	2020	A global atlas of genetic associations of 220 deep phenotypes	10.1101/2020.10.23.20213652	Sakaue 2020	1	polypred	uses	data	NA
+Moyerbrailean	2015	A high-throughput RNA-seq approach to profile transcriptional responses	NA	Moyerbrailean 2015	1	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays	uses	data	NA
+Halmos	1967	A Hilbert Space Problem Book	NA	Halmos 1967	1	knapik_2011	uses	review	NA
+Aitken	1934	AitkenAC106110Note on selection from a multivariate normal population; 1934	NA	Aitken 1934	1	liability_threshold_model	uses	method	NA
+Gao	2013	A latent factor model with a mixture of sparse and dense factors to model gene expression data with confounding effects	NA	A latent factor model with a mixture of sparse and dense factors to model gene expression data with confounding effects	1	hore_2016	uses	method	NA
+Aldrich	1984	AldrichJHNelsonFD1984Linear probability, logit, and probit modelsBeverly Hills, Calif.Sage Pubns	NA	Aldrich 1984	1	liability_threshold_model	shares_structure_not_equivalent	review	NA
+Zhu	1997	Algorithm 778: L-BFGS-B: Fortran subroutines for large-scale bound-constrained optimization	10.1145/279232.279236	L-BFGS-B	1	gradvi	uses	method	NA
+Brent	2002	Algorithms for minimization without derivatives	NA	Brent-Dekker	1	susierss	uses	method	NA
+Wasserman	2006	All of Nonparametric Statistics	NA	empirical distribution convergence	1	cashr	uses	review	NA
+L Wasserman	2004	All of statistics	NA	Metropolis-Hastings	1	han2012	uses	method	NA
+Wang	2008	Alternative isoform regulation in human tissue transcriptomes	10.1038/nature07509	human-tissue RNA-seq data	1	pickrell2010	uses	data	NA
+Leung	2025	Alzheimer’s disease sequencing project release 4 whole genome sequencing dataset	10.1002/alz.70237	ADSP release 4	1	mfsusie	uses	data	NA
+North	2002	Am J Hum Genet	NA	empirical permutation P value	1	prsice2	uses	method	NA
+Roberts	2016	A model of text for experimentation in the social sciences	NA	Roberts 2016	1	cebmf	shares_structure_not_equivalent	method	NA
+Harbord	2006	A modified test for small-study effects in meta-analyses of controlled trials with binary endpoints	10.1002/sim.2380	A modified test for small-study effects in meta-analyses of controlled trials with binary endpoints	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Wallace	2021	A more accurate method for colocalisation analysis allowing for multiple causal variants	10.1371/journal.pgen.1009440	Wallace 2021	1	mfsusie	extends	method	NA
+H. Shim	2015	A Multivariate Genome-Wide Association Analysis of 10 LDL Subfractions, and Their Response to Statin Treatment, in 1868 Caucasians	10.1371/journal.pone.0120758	H. Shim 2015	1	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	method	NA
+Silva	2019	A multivariate Poisson-log normal mixture model for clustering transcriptome sequencing data	NA	Silva 2019	1	poisson_multivariate_adaptive_shrinkage	shares_structure_not_equivalent	method	NA
+Consortium IMSG	2013	Analysis of immune-related loci identifies 48 new susceptibility variants for multiple sclerosis	10.1038/ng.2770	Consortium IMSG 2013	1	kichaev2014	extends	data	NA
+Chang	1970	Analysis of individual differences in multidimensional scaling via an N-way generalization of “Eckart-Young	NA	J. Chang 1970	1	hore_2016	uses	method	NA
+Chib	1998	Analysis of multivariate probit models	NA	Chib 1998	1	wen_2012	inspired_by	method	NA
+MJ Buckley	1988	An approximation to the distribution of quadratic forms in normal random variables	10.1111/j.1467-842x.1988.tb00471.x	MJ Buckley 1988	1	peters_2015	uses	method	NA
+Durand	2014	Ancestry composition: A novel, efficient pipeline for ancestry deconvolution	10.1101/010512	Durand 2014	1	ldpred_funct	uses	method	NA
+V	2022	An e↵ector index to predict target genes at GWAS loci	NA	Forgetta 2022	1	ctwas	uses	data	NA
+V Forgetta	2022	An effector index to predict target genes at gwas loci	10.1007/s00439-022-02434-z	V Forgetta 2022	1	ctwas	uses	data	NA
+Bornn	2010	An efficient computational approach for prior sensitivity analysis and cross-validation	NA	Bornn 2010	1	fong_2020	uses	method	NA
+Imbens	1992	An efficient method of moments estimator for discrete choice models with choice- based sampling	NA	Imbens 1992	1	bslmm	uses	method	NA
+Lee	2006	An efficient variance component approach implementing an average information REML suitable for combined LD and linkage mapping with a general complex pedigree	10.1186/1297-9686-38-1-25	Lee 2006	1	multiblup	uses	method	NA
+Robbins	1956	An Empirical Bayes Approach to Statistics	10.1007/978-1-4612-0919-5_26	Robbins 1956	1	ebnm	uses	method	NA
+RH Somers	1962	A new asymmetric measure of association for ordinal variables.	NA	RH Somers 1962	1	wray_2010	uses	method	NA
+Akaike	1974	A new look at the statistical model identification	10.1109/tac.1974.1100705	Akaike 1974	1	clayton_2009	uses	method	NA
+Lindgren	2011	An explicit link between gaussian fields and gaussian markov random fields: the stochastic partial differential equation approach	NA	spatial Gaussian random fields	1	fash	uses	method	NA
+Kibble	1945	An Extension of a Theorem of Mehler’s on Hermite Polynomials.	NA	Mehler identity	1	cashr	uses	method	NA
+Courville, Eck	2009	An infinite factor model hierarchy via a noisy-or mechanism	NA	Courville, Eck 2009	1	knowles2011	inspired_by	method	NA
+The 1000 Genomes Project Consortium. An integrated map of genetic variation from 1	2012	An integrated map of genetic variation from 1,092 human genomes	10.1038/nature11632	The 1000 Genomes Project Consortium. An integrated map of genetic variation from 1 2012	1	bayesian_reduced_rank_regression	uses	data	NA
+Srivastava	1979	An introduction to multivariate statistics, 1979	NA	Srivastava 1979	1	mouthwash	uses	review	NA
+H Jeffreys	1946	An invariant form for the prior probability in estimation problems	10.1098/rspa.1946.0056	H Jeffreys 1946	1	xwing	uses	method	NA
+Ishwaran	2005	Annals of Statistics	NA	Ishwaran 2005	1	wen_2012	extends	method	NA
+Bahadur	1965	An optimal property of the likelihood ratio statistic	NA	likelihood-ratio growth result	1	johnson2005	uses	method	NA
+Liu	1994	A note on Gauss-Hermite quadrature	NA	Gauss–Hermite quadrature	1	coxph_susie	uses	method	NA
+A Kshirsagar	1960	A note on the derivation of some exact multivarlate tests	NA	A Kshirsagar 1960	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Y Xie	2005	A note on using permutation-based false discovery rate estimates to compare different analysis methods for microarray data	10.1093/bioinformatics/bti685	Y Xie 2005	1	bayesian_reduced_rank_regression	uses	method	NA
+Varin	2011	An overview of composite likelihood methods	NA	Varin 2011	1	corshrink	uses	review	NA
+Browning	2018	A one-penny imputed genome from next-generation reference panels	NA	Beagle	1	m_ctwas	uses	software	NA
+Listgarten	2013	A powerful and efficient set test for genetic markers that handles confounders	10.1093/bioinformatics/btt177	Listgarten 2013	1	multiblup	shares_structure_not_equivalent	method	NA
+Wang	2017	Applications of Adaptive Shrinkage in Multiple Statistical Problems	NA	empirical Bayes extension	1	wang2021	extends	method	NA
+Naylor	1982	Applications of a method for the efficient computation of posterior distributions	NA	Naylor 1982	1	coxph_susie	uses	method	NA
+Hageman	2004	Applied Iterative Methods	NA	Gauss-Seidel	1	ldpred	uses	method	NA
+Press	1982	Applied multivariate analysis: using Bayesian and frequentist methods of inference	NA	Bayesian multivariate regression	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	review	NA
+Särkkä	2019	Applied stochastic differential equations	NA	Särkkä 2019	1	fash	uses	review	NA
+Heskes	2004	Approximate expectation maximization	NA	Heskes 2004	1	susie	uses	method	NA
+O’Hara	2009	A review of Bayesian variable selection methods: what, how and which	NA	Bayesian variable selection	1	benner2018	uses	method	NA
+Lemeshow	1982	A review of goodness of fit statistics for use in the development of logistic regression models.	10.1093/oxfordjournals.aje.a113284	Lemeshow 1982	1	liability_threshold_model	uses	review	NA
+Robinson	2010	A scaling normalization method for differential expression analysis of RNA-seq data	NA	trimmed mean of M-values	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Schafer	2005	A shrinkage approach to large-scale covariance matrix estimation and implications for functional genomics	10.2202/1544-6115.1175	Schafer 2005	1	sdpr	uses	method	NA
+E Makalic	2015	A simple sampler for the horseshoe estimator	10.1109/lsp.2015.2503725	E Makalic 2015	1	xwing	uses	method	NA
+Wacholder	2004	Assessing the probability that a positive report is false: an approach for molecular epidemiology studies	10.1093/jnci/djh075	Assessing the probability that a positive report is false: an approach for molecular epidemiology studies	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Schumacher	2018	Association analyses of more than 140,000 men identify 63 new prostate cancer susceptibility loci	10.1038/s41588-018-0142-8	Schumacher 2018	1	megaprs	uses	data	NA
+Du Rietz	2018	Association of Polygenic Risk for Attention-Deficit/Hyperactivity Disorder With Co-occurring Traits and Disorders	10.1016/j.bpsc.2017.11.013	PRS quantile plots	1	choi2018	uses	data	NA
+Li	2011	A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data	10.1093/bioinformatics/btr509	Li 2011	1	genetic_sensitivity_analysis	uses	software	NA
+Q Lu	2015	A Statistical Framework to Predict Functional Non-Coding Regions in the Human Genome Through Integrated Analysis of Annotation Data	10.1038/srep10576	GenoCanyon	1	annopred	uses	data	NA
+Nowak	2000	A statistical multiscale framework for Poisson inverse problems	NA	Nowak 2000	1	smash	uses	method	NA
+S Sun	2013	A survey of multi-view machine learning	NA	S Sun 2013	1	hore_2016	shares_structure_not_equivalent	method	NA
+van der Vaart	1998	Asymptotic Statistics	NA	van der Vaart 1998	1	knapik_2011	uses	review	NA
+Belbasis	2015	A systematic appraisal of field synopses in genetic epidemiology: a HuGE review	10.1093/aje/kwu249	A systematic appraisal of field synopses in genetic epidemiology: a HuGE review	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	review	NA
+M.-X. Li	2011	ATES: A Rapid and Powerful Gene-Based Association Test Using Extended Simes Procedure	10.1016/j.ajhg.2011.01.019	extended Simes correction	1	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	method	NA
+Marees	NA	A tutorial on conducting genome-wide association studies: Quality control and statistical analysis	NA	GWAS quality control	1	choi2018	uses	review	NA
+Ruston	1964	Auerbach’s theorem	NA	Ruston 1964	1	halko_2011	uses	method	NA
+JN McManus	2023	A unifying statistical framework to discover disease genes from GWASs	10.1016/j.xgen.2023.100264	JN McManus 2023	1	ctwas	uses	method	NA
+Kucukelbir	2017	Automatic differentiation variational inference	NA	Kucukelbir 2017	1	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression	inspired_by	method	NA
+Girolami	2001	A variational method for learning sparse and overcomplete representations	10.1162/089976601753196003	Girolami 2001	1	logsdon2010	shares_structure_not_equivalent	method	NA
+Neal	1998	A view of the em algorithm that justifies incremental, sparse, and other variants	NA	Neal 1998	1	susie	uses	method	NA
+Ledoit	2004	A well-conditioned estimator for large-dimensional covariance matrices	10.1016/s0047-259x(03)00096-4	Ledoit 2004	1	susierss	uses	method	NA
+Scott	2010	Bayes and empirical Bayes multiplicity adjustment in the variable‐selection problem	NA	Scott 2010	1	jam	uses	method	NA
+Efron	1993	Bayes and likelihood calculations from confidence intervals	NA	Efron 1993	1	zhu_2017	special_case_of	review	NA
+Cheng	2016	Bayes factors for smoothing spline ANOVA	10.1214/15-ba974	Cheng 2016	1	fash	uses	method	NA
+Virtanen	2011	Bayesian CCA via group sparsity	NA	Bayesian CCA via group sparsity	1	hore_2016	uses	method	NA
+Wahba	1983	Bayesian “confidence intervals” for the cross-validated smoothing spline	NA	Wahba 1983	1	sniekers2015	shares_structure_not_equivalent	method	NA
+Marin	2007	Bayesian core: a practical approach to computational Bayesian statistics	NA	Marin 2007	1	torus	uses	review	NA
+Gelman	2000	Bayesian Data Analysis	NA	conjugate priors	1	extreme_deconvolution	uses	review	NA
+Gelman	2014	Bayesian Data Analysis. 3rd edition	NA	Laplace distribution	1	ebnm	uses	review	NA
+Zhao	2014	Bayesian group latent factor analysis with structured sparse priors	NA	Bayesian group latent factor analysis with structured sparse priors	1	hore_2016	uses	method	NA
+Box	1973	Bayesian inference in statistical inference	NA	Bayesian multivariate regression	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	review	NA
+Zhang	2004	Bayesian inference on principal component analysis using reversible jump Markov Chain Monte Carlo	NA	reversible-jump PCA	1	knowles2011	shares_structure_not_equivalent	method	NA
+van der Vaart	2007	Bayesian inference with rescaled Gaussian process priors	NA	van der Vaart 2007	1	knapik_2011	shares_structure_not_equivalent	method	NA
+Hans	2009	Bayesian lasso regression	NA	Hans 2009	1	mr_ash	contains_special_case	method	NA
+Porteous	2010	Bayesian matrix factorization with side information and Dirichlet process mixtures	NA	Porteous 2010	1	cebmf	shares_structure_not_equivalent	method	NA
+Mackay	1992	Bayesian methods for adaptive models	NA	automatic relevance determination prior	1	engelhardt2010	uses	method	NA
+D Pe'er	2005	Bayesian network analysis of signaling networks: a primer	10.1126/stke.2812005pl4	D Pe'er 2005	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	review	NA
+S Banerjee	2008	Bayesian quantitative trait loci mapping for multiple traits	10.1534/genetics.108.088427	S Banerjee 2008	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Fraley	2007	Bayesian regularization for normal mixture estimation and model-based clustering	NA	Fraley 2007	1	ultimate_deconvolution	uses	method	NA
+Ibrahim, Chen	2001	Bayesian survival analysis	NA	Ibrahim, Chen 2001	1	coxph_susie	uses	review	NA
+C Giambartolomei	2014	Bayesian test for colocalization between pairs of genetic association studies using summary statistics	10.1371/journal.pgen.1004383	C Giambartolomei 2014	1	ctwas	contains_special_case	method	NA
+Zou	2021	Bayesian variable selection from summary data, with application to joint fine-mapping of multiple traits	NA	common-baseline mash	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+T Peltola	2012	Bayesian variable selection in searching for additive and dominant effects in genome-wide data	10.1371/journal.pone.0029115	T Peltola 2012	1	bayesr	uses	method	NA
+Efron	2019	Bayes, oracle Bayes and empirical Bayes	NA	Efron 2019	1	mr_ash	uses	review	NA
+Fernández	2001	Benchmark priors for Bayesian model averaging	NA	Fernández 2001	1	jam	uses	method	NA
+AR Groves	2012	Benefits of multi-modal fusion analysis on a large-scale dataset: life-span patterns of inter-subject variability in cortical morphometry and white matter microstructure	10.1016/j.neuroimage.2012.06.038	AR Groves 2012	1	hore_2016	inspired_by	method	NA
+Bernardo	1994	BernardoJM SmithAFM1994Bayesian TheoryChichesterWiley	NA	Bernardo 1994	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Bertsekas	1999	Bertsekas	NA	coordinate ascent	1	susie_ash	uses	review	NA
+Lee	2010a	Biclustering via sparse singular value decomposition	NA	LSHM	1	yang2014	inspired_by	method	NA
+R Kueng	2021	Binary Component Decomposition Part i: The Positive-Semidefinite Case	10.1137/19m1278612	R Kueng 2021	1	empirical_bayes_covariance_decomposition	inspired_by	method	NA
+Frei	2019	Bivariate causal mixture model quantifies polygenic overlap between complex traits beyond genetic correlation	10.1038/s41467-019-10310-0	MiXeR	1	gene_swap_randomization_gsr	extends	method	NA
+Kent	2002	BLAT–the BLAST-like alignment tool.	10.1101/gr.229202	BLAT	1	veyrieras2008	uses	software	NA
+Boyd	2008	[Boy08]BoydStephenEe 364b: Lecture notes2008stanford university	NA	Boyd 2008	1	soft_impute	uses	review	NA
+Boyd	2004	BoydSPVandenbergheLConvex Optimization2004Cambridge University Press	NA	Boyd 2004	1	bolt	uses	review	NA
+Brent	1973	BrentR1973Algorithms for Minimization without DerivativesNew JerseyPrentice Hall	NA	golden-section maximization	1	veyrieras2008	uses	method	NA
+Spirtes	2000	Causation, prediction, and search, volume 81	NA	Spirtes 2000	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	shares_structure_not_equivalent	review	NA
+N Mantel	1963	Chi-square tests with one degree of freedom: extension of the Mantel–Haenszel procedure	NA	N Mantel 1963	1	clayton_2012	derivable_under_conditions	method	NA
+Breiman	2017	Classification and regression trees	NA	one-standard-error rule	1	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression	uses	review	NA
+Zhu	2004	Classification of gene microarrays by penalized logistic regression	10.1093/biostatistics/5.3.427	Zhu 2004	1	glmnet	uses	method	NA
+OT Raitakari	2008	Cohort profile: the Cardiovascular Risk in Young Finns Study	10.1093/ije/dym225	OT Raitakari 2008	1	bayesian_reduced_rank_regression	uses	data	NA
+A Sonnega	2014	Cohort profile: the Health and Retirement Study (HRS)	10.1093/ije/dyu067	A Sonnega 2014	1	sbayesr	uses	data	NA
+Giunta	2024	Colossus: risk model regression and analysis with complex non-linear models	NA	Giunta 2024	1	coxph_susie	uses	method	NA
+Genest	1986	Combining Probability Distributions: A Critique and an Annotated Bibliography	NA	Genest 1986	1	colocboost	uses	review	NA
+McIntosh	2002	Combining several screening tests: optimality of the risk score.	10.1111/j.0006-341x.2002.00657.x	McIntosh 2002	1	liability_threshold_model	uses	method	NA
+Gazal	2022	Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity	10.1038/s41588-022-01087-y	Gazal 2022	1	prset	uses	method	NA
+Pepe	2008	Comments on ‘Evaluating the added predictive ability of a new marker: From area under the ROC curve to reclassification and beyond’ by M. J. Pencina et al., Statistics in Medicine (DOI: 10.1002/sim.2929).	10.1002/sim.2991	Pepe 2008	1	liability_threshold_model	uses	method	NA
+A Pardiñas	2018	Common schizophrenia alleles are enriched in mutation-intolerant genes and in regions under strong background selection	10.1038/s41588-018-0059-2	A Pardiñas 2018	1	ctwas	uses	data	NA
+Soneson,	2014	compcodeR—an R package for benchmarking differential expression methods for RNA-seq data	NA	compcodeR	1	poisson_multivariate_adaptive_shrinkage	uses	software	NA
+Stuart	2019	Comprehensive integration of single-cell data	10.1016/j.cell.2019.05.031	Seurat	1	gbcd	uses	software	NA
+S Zhang	1996	Computation of Special Functions	NA	special-function computation	1	hoggart2008	uses	review	NA
+Pons	2005	Computing communities in large networks using random walks	NA	Pons 2005	1	cebmf	uses	method	NA
+Higham	2002	Computing the nearest correlation matrix—a problem from finance	10.1093/imanum/22.3.329	Higham 2002	1	corshrink	uses	method	NA
+Kerkyacharian	2011	Concentration inequalities and confidence bands for needlet density estimators on compact homogeneous manifolds	NA	Kerkyacharian 2011	1	hoffmann_2011	extends	method	NA
+Bishara	2017	Confidence intervals for correlations when data are not normal	NA	Bishara 2017	1	corshrink	uses	method	NA
+Diaconis	1979	Conjugate priors for exponential families	NA	conjugate exponential-family prior	1	blei2017	uses	method	NA
+CK Conners	2003	Conners’ Rating Scales-Revised: Technical Manual	NA	Conners rating scales	1	genetic_sensitivity_analysis	uses	data	NA
+Kiefer	1956	Consistency of the Maximum Likelihood Estimator in the Presence of Infinitely Many Incidental Parameters	10.1214/aoms/1177728066	NPMLE	1	ebnm	uses	method	NA
+Jiang	2011	Constructing a gene semantic similarity network for the inference of disease genes	10.1186/1752-0509-5-s2-s2	Constructing a gene semantic similarity network for the inference of disease genes	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Blankenberg	2010	Contribution of 30 biomarkers to 10-year cardiovascular risk estimation in 2 population cohorts: the MONICA, risk, genetics, archiving, and monograph (MORGAM) biomarker project	NA	Blankenberg 2010	1	benner2018	uses	data	NA
+Spector	2025	Controlled Discovery and Localization of Signals via Bayesian Linear Programming	10.1080/01621459.2024.2347667	Spector 2025	1	susie_ash	uses	method	NA
+Bissantz	2007	Convergence rates of general regularization methods for statistical inverse problems and applications	NA	Bissantz 2007	1	knapik_2011	uses	method	NA
+Ghosal	2000	Convergence rates of posterior distributions	NA	Ghosal 2000	1	knapik_2011	uses	method	NA
+Bouchard	2013	Convex collective matrix factorization	NA	Bouchard 2013	1	cebmf	shares_structure_not_equivalent	method	NA
+Wright	2015	Coordinate descent algorithms	NA	block coordinate ascent	1	cebmf	uses	method	NA
+Wu	2008	Coordinate descent algorithms for lasso penalized regression	NA	Wu 2008	1	wu_2009	uses	method	NA
+X Zhou	2020	CORE GREML for estimating covariance between random effects in linear mixed models for complex trait analyses	10.1038/s41467-020-18085-5	X Zhou 2020	1	ctwas	shares_structure_not_equivalent	method	NA
+Doshi-Velez	2009	Correlated non-parametric latent feature models	NA	Doshi-Velez 2009	1	knowles2011	inspired_by	method	NA
+Lafferty	2005	Correlated topic models	NA	Lafferty 2005	1	cebmf	shares_structure_not_equivalent	method	NA
+S Wright	1921	Correlation and causation	NA	S Wright 1921	1	ctwas	uses	method	NA
+Allignol	2025	CRAN task view: survival analysis	NA	Allignol 2025	1	coxph_susie	uses	review	NA
+Stone	1974	Cross-validation choice and assessment of statistical predictions	NA	leave-one-out cross-validation	1	extreme_deconvolution	uses	method	NA
+Bates	2021	Cross-validation: what does it estimate and how well does it do it? arXiv preprint arXiv:2104.00673 (2021)	10.1080/01621459.2023.2197686	Bates 2021	1	xwing	uses	method	NA
+Gelman	2006	Data Analysis Using Regression and Multilevel/Hierarchical Models	NA	hierarchical modeling	1	eqtl_bma	uses	review	NA
+Anderson	2010	Data quality control in genetic case-control association studies	10.1038/nprot.2010.116	GWAS quality control	1	choi2018	uses	review	NA
+Dennis	2003	DAVID: Database for Annotation, Visualization, and Integrated Discovery	NA	DAVID	1	ferguson2012	uses	software	NA
+Wakaguri	2007	DBTSS: database of transcription start sites, progress report 2008.	10.1093/nar/gkm901	dbTSS	1	veyrieras2008	uses	data	NA
+Cordy	1997	Deconvolution of a distribution function	NA	Cordy 1997	1	ash	shares_structure_not_equivalent	method	NA
+Spencer	2009	Designing genome-wide association studies: sample size, power, imputation, and the choice of genotyping chip	10.1371/journal.pgen.1000477	Spencer 2009	1	zaitlen_2010	uses	method	NA
+T Tukiainen	2012	Detailed metabolic and genetic characterization reveals new associations for 30 known lipid loci	10.1093/hmg/ddr581	T Tukiainen 2012	1	bayesian_reduced_rank_regression	uses	data	NA
+Lund	2012	Detecting differential expression in RNA-sequence data using quasi-likelihood with shrunken dispersion estimates	NA	edgeR quasi-likelihood	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Anders	2010	Differential expression analysis for sequence count data	10.1186/gb-2010-11-10-r106	alternative size factors	1	gbcd	uses	method	NA
+McCarthy	2012	Differential expression analysis of multifactor RNA-seq experiments with respect to biological variation	NA	edgeR	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Anirban Bhattacharya	2015	Dirichlet–Laplace priors for optimal shrinkage	NA	Anirban Bhattacharya 2015	1	mr_ash	contains_special_case	method	NA
+Y-A Chen	2013	Discovery of cross-reactive probes and polymorphic CpGs in the Illumina Infinium HumanMethylation450 microarray	10.4161/epi.23470	Y-A Chen 2013	1	peters_2015	uses	data	NA
+YM Bishop	1975	Discrete Multivariate Analysis: Theory and Practice	NA	YM Bishop 1975	1	clayton_2012	derivable_under_conditions	review	NA
+Xie	2022	"Discussion of ""Confidence Intervals for Nonparametric Empirical Bayes Analysis"	NA	local false sign rate	1	ultimate_deconvolution	uses	method	NA
+Runcie	2013	Dissecting High-Dimensional Phenotypes with Bayesian Sparse Factor Analysis of Genetic Covariance Matrices	10.1534/genetics.113.151217	Runcie 2013	1	multivariate_linear_mixed_model_mvlmm	uses	method	NA
+Pasaniuc	2017	Dissecting the genetics of complex traits using summary association statistics	10.1038/nrg.2016.142	Pasaniuc 2017	1	mr_mash	uses	method	NA
+LJ O’Connor	2018	Distinguishing genetic correlation from causation across 52 diseases and complex traits	10.1038/s41588-018-0255-0	LCV	1	genetic_sensitivity_analysis	shares_structure_not_equivalent	method	NA
+Mikolov	2013	Distributed representations of words and phrases and their compositionality	NA	Mikolov 2013	1	corshrink	uses	method	NA
+Chen	2012	Drug-target interaction prediction by random walk on the heterogeneous network	10.1039/c2mb00002d	Drug-target interaction prediction by random walk on the heterogeneous network	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Degner	2009	Effect of read-mapping biases on detecting allele-specific expression from RNA-sequencing data	10.1093/bioinformatics/btp579	mapping-bias simulation filter	1	pickrell2010	uses	method	NA
+Ke	2004	Efficiency and consistency of haplotype tagging of dense SNP maps in multiple samples.	10.1093/hmg/ddh294	Ke 2004	1	cojo	uses	method	NA
+P de Bakker	2005	Efficiency and power in genetic association studies.	10.1038/ng1669	P de Bakker 2005	1	han_2009	uses	method	NA
+Bickel	1993	Efficient and Adaptive Estimation for Semiparametric Models	NA	Bickel 1993	1	knapik_2011	uses	review	NA
+Kang	2008	Efficient control of population structure in model organism association mapping	10.1534/genetics.107.080101	Kang 2008	1	multivariate_linear_mixed_model_mvlmm	shares_structure_not_equivalent	method	NA
+Taliun	2014	Efficient haplotype block recognition of very long and dense genetic sequences	10.1186/1471-2105-15-10	Taliun 2014	1	jam	uses	software	NA
+Durbin	2014	Efficient haplotype matching and storage using the positional Burrows–Wheeler transform (PBWT)	NA	Durbin 2014	1	genetic_sensitivity_analysis	uses	method	NA
+Privé	2019	Efficient implementation of penalized regression for genetic risk prediction	10.1534/genetics.119.302019	Privé 2019	1	megaprs	extends	method	NA
+W. Zhou	2018	Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies	10.1038/s41588-018-0184-y	W. Zhou 2018	1	tlprs	uses	method	NA
+Servin	2007	Efficient multipoint analysis of association studies: Candidate regions and quantitative traits	NA	genotype imputation	1	bvsr	uses	method	NA
+Duchi	2008	Efficient projections onto the L1-ball for learning in high dimensions	NA	simplex projection algorithm	1	mixsqp	uses	method	NA
+Privé	2020	Efficient toolkit implementing best practices for principal component analysis of population genetic data	10.1093/bioinformatics/btaa520	Privé 2020	1	ldpred2	uses	data	NA
+Edelman	1989	Eigenvalues and condition numbers of random matrices	NA	Edelman 1989	1	halko_2011	uses	method	NA
+Cover	2006	Elements of Information Theory	NA	Kullback–Leibler divergence	1	poisson_multivariate_adaptive_shrinkage	uses	review	NA
+Vogel	2011	Elliptical graphical modelling	NA	Vogel 2011	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Rubin	1982	EM algorithms for ML factor analysis	NA	Rubin 1982	1	ultimate_deconvolution	shares_structure_not_equivalent	method	NA
+Roweis	1997	EM algorithms for PCA and SPCA	NA	Roweis 1997	1	halko_2011	shares_structure_not_equivalent	review	NA
+Efron	2009	Empirical Bayes estimates for large-scale prediction problems	NA	Efron 2009	1	fash	uses	method	NA
+Casella	2001	Empirical Bayes Gibbs sampling	NA	Casella 2001	1	mr_ash	uses	method	NA
+Carlin	2000	Empirical Bayes: past, present and future	NA	Carlin 2000	1	mr_ash	uses	review	NA
+Szabó, van der Vaart	2013	Empirical Bayes scaling of Gaussian priors in the white noise model	NA	Szabó, van der Vaart 2013	1	szabo_2015	uses	method	NA
+Glaab	2012	EnrichNet: network-based gene set enrichment analysis	10.1093/bioinformatics/bts389	EnrichNet: network-based gene set enrichment analysis	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	shares_structure_not_equivalent	method	NA
+E	2013	Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool	NA	Enrichr	1	ctwas	uses	software	NA
+DP MacKinnon	2000	Equivalence of the Mediation, Confounding and Suppression Effect	10.1023/a:1026595011371	DP MacKinnon 2000	1	genetic_sensitivity_analysis	uses	method	NA
+Parra	1998	Estimating African American admixture proportions by use of population-specific alleles	NA	admixture estimates	1	pritchard2000	uses	data	NA
+Bhatia	2013	Estimating and interpreting FST: the impact of rare variants	10.1101/gr.154831.113	Hudson method	1	sushie	uses	method	NA
+Kim	2009	Estimating classification error rate: repeated cross-validation, repeated hold-out and bootstrap	NA	Estimating classification error rate: repeated cross-validation, repeated hold-out and bootstrap	1	multi_polygenic_score_mps	uses	method	NA
+Dixon	1983	Estimating extremal eigenvalues and condition numbers of matrices	NA	Dixon 1983	1	halko_2011	inspired_by	method	NA
+Ghosh	2008	Estimating odds ratios in genome scans: an approximate conditional likelihood approach.	10.1016/j.ajhg.2008.03.002	Ghosh 2008	1	liability_threshold_model	inspired_by	method	NA
+Yin	2001	Estimating R2 Shrinkage in Multiple Regression: A Comparison of Different Analytical Methods	NA	unbiased r-squared estimator	1	buliksullivan2015	uses	method	NA
+Weissbrod	2018	Estimating SNP-based heritability and genetic correlation in case-control studies directly and with summary statistics	10.1016/j.ajhg.2018.06.002	S-PCGC	1	sbayesr	uses	method	NA
+SH Lee	2012	Estimating the proportion of variation in susceptibility to schizophrenia captured by common SNPs	10.1038/ng.1108	SH Lee 2012	1	bayesr	uses	method	NA
+Zhang	2018	Estimation of complex effect-size distributions using summary-level statistics from genome-wide association studies across 32 complex traits	10.1038/s41588-018-0193-x	Zhang 2018	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	method	NA
+Henderson	1950	Estimation of genetic parameters	10.1111/j.1439-0388.2007.00702.x	Henderson 1950	1	megaprs	uses	method	NA
+Hudson	1992	Estimation of levels of gene flow from DNA sequence data	10.1093/genetics/132.2.583	Hudson method	1	sushie	uses	method	NA
+Lee	2012	Estimation of pleiotropy between complex diseases using single-nucleotide polymorphism-derived genomic relationships and restricted maximum likelihood	10.1093/bioinformatics/bts474	Lee 2012	1	yang_2015	uses	method	NA
+W Friedewald	1972	Estimation of the concentration of low-density lipoprotein cholesterol in plasma, without use of the preparative ultracentrifuge	NA	Friedewald formula	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Stein [1981]	1981	Estimation of the mean of a multivariate normal distribution	10.1214/aos/1176345632	normal-means model	1	mouthwash	uses	method	NA
+So	2010	Evaluating the heritability explained by known susceptibility variants: a survey of ten complex diseases.	10.1002/gepi.20579	So 2010	1	liability_threshold_model	extends	method	NA
+Machiela	2011	Evaluation of polygenic risk scores for predicting breast and prostate cancer risk	10.1002/gepi.20600	cross-validation	1	choi2018	uses	method	NA
+Bullard	2010	Evaluation of statistical methods for normalization and differential expression in mRNA-seq experiments	10.1186/1471-2105-11-94	alternative size factors	1	gbcd	uses	method	NA
+Vovk	2021	E-values: calibration, combination and applications	NA	e-values	1	fash	uses	method	NA
+Candès	2008	Exact matrix completion via convex optimization	NA	Candès 2008	1	soft_impute	uses	method	NA
+A Barbeira	2021	Exploiting the GTEx resources to decipher the mechanisms at GWAS loci	10.1186/s13059-020-02252-4	PredictDB	1	ctwas	uses	method	NA
+Saul	1996	Exploiting tractable substructures in intractable netw orks	NA	Saul 1996	1	cebmf	uses	review	NA
+Yates	1982	External correspondence: Decompositions of the mean probability score.	NA	Yates 1982	1	liability_threshold_model	uses	method	NA
+Falconer	1996	FalconerDSMackayTFC1996Introduction to Quantitative GeneticsHarlow, UKLongman	NA	Falconer 1996	1	daetwyler_2008	uses	review	NA
+Su	2017	False discoveries occur early on the lasso path	NA	Su 2017	1	mr_ash	uses	method	NA
+He	2020	Fast algorithms for conducting large-scale GWAS of age-at-onset traits using Cox mixed-effects models	NA	He 2020	1	coxph_susie	uses	method	NA
+Zabad	2022	Fast and accurate Bayesian polygenic risk modeling with variational inference	10.1016/j.ajhg.2023.03.009	Zabad 2022	1	mr_mash	uses	method	NA
+B Pasaniuc	2014	Fast and accurate imputation of summary statistics enhances evidence of functional enrichment	10.1093/bioinformatics/btu416	B Pasaniuc 2014	1	ctwas	uses	method	NA
+Li	2009	Fast and accurate short read alignment with Burrows-Wheeler transform	10.1093/bioinformatics/btp324	BWA	1	eqtl_bma	uses	software	NA
+Lamparter	2016	Fast and Rigorous Computation of Gene and Pathway Scores from SNP-Based Summary Statistics	10.1371/journal.pcbi.1004714	Pascal	1	gene_swap_randomization_gsr	uses	method	NA
+Rennie	2005	Fast maximum margin matrix factorization for collaborative prediction	NA	Rennie 2005	1	soft_impute	derivable_under_conditions	method	NA
+Frieze	2004	Fast Monte Carlo algorithms for finding low-rank approximations	NA	Frieze 2004	1	halko_2011	inspired_by	method	NA
+Drineas	2006	Fast Monte Carlo algorithms for matrices. II. Computing a low-rank approximation to a matrix	NA	Drineas 2006	1	halko_2011	inspired_by	method	NA
+G Abraham	2014	Fast principal component analysis of large-scale genome- wide data	10.1371/journal.pone.0093766	G Abraham 2014	1	sbayesr	uses	software	NA
+KJ Galinsky	2016	Fast principal-component analysis reveals convergent evolution of ADH1b in Europe and East Asia	10.1016/j.ajhg.2015.12.022	KJ Galinsky 2016	1	ldpred_funct	uses	method	NA
+Tommasini	2020	Fast Switch and Spline Function Inversion Algorithm with Multistep Optimization and k-Vector Search for Solving Kepler’s Equation in Celestial Mechanics	10.3390/math8112017	FSSI	1	gradvi	uses	method	NA
+Blondel	2008	Fast unfolding of communities in large networks	NA	Louvain	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Seeger	2012	Fast variational Bayesian inference for non-conjugate matrix factorization models	NA	non-Gaussian variational approximation	1	wang2021	uses	method	NA
+Morris	2005	Feature extraction and quantification for mass spectrometry data in biomedical applications using the mean spectrum	10.1093/bioinformatics/bti254	mass-spectrum preprocessing	1	zhu2011	uses	method	NA
+TA Louis	1982	Finding the observed information matrix when using the EM algorithm.	NA	TA Louis 1982	1	han_2009	uses	method	NA
+Yuan	2024	Fine-mapping across diverse ancestries drives the discovery of putative causal variants underlying human complex traits and diseases	10.1038/s41588-024-01870-z	Yuan 2024	1	colocboost	inspired_by	method	NA
+Fachal	2020	Fine-mapping of 150 breast cancer risk regions identifies 191 likely target genes	10.1038/s41588-019-0537-1	Fachal 2020	1	mfsusie	uses	data	NA
+McLachlan	2000	Finite mixture models	NA	McLachlan 2000	1	ultimate_deconvolution	shares_structure_not_equivalent	review	NA
+Clyde	2000	Flexible Empirical Bayes estimation for wavelets	10.1111/1467-9868.00257	Clyde 2000	1	smash	contains_special_case	method	NA
+Urbut	2017	Flexible statistical methods for jointly modeling effects	NA	common-baseline mash	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Fisher	1915	Frequency distribution of the values of the correlation coefficient in samples from an indefinitely large population	10.1093/biomet/10.4.507	Fisher 1915	1	corshrink	uses	method	NA
+JW James	1971	Frequency in relatives for an all-or-none trait.	10.1111/j.1469-1809.1956.tb01377.x	JW James 1971	1	wray_2010	uses	method	NA
+Wei	2009	From disease association to risk assessment: An optimistic view from genome-wide association studies on type 1 diabetes	10.1371/journal.pgen.1000678	Wei 2009	1	bslmm	uses	method	NA
+PD Sasieni	1997	From genotypes to genes: doubling the sample size.	NA	allelic trend test	1	hoggart2008	derivable_under_conditions	method	NA
+Chen	2016	From reads to genes to pathways: differential expression analysis of RNA-seq experiments using Rsubread and the edgeR quasi-likelihood pipeline [version 2; peer review: 5 approved]	NA	edgeR quasi-likelihood	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Duan	2008	FstSNP-HapMap3: a database of SNPs with high population differentiation for HapMap3	10.6026/97320630003139	Duan 2008	1	polypred	uses	data	NA
+Rudin	1991	Functional Analysis, 2nd ed	NA	Rudin 1991	1	knapik_2011	uses	review	NA
+J Ramsay	2005	Functional Data Analysis	NA	J Ramsay 2005	1	empirical_bayes_covariance_decomposition	extends	review	NA
+Bulmer	1998	Galton’s law of ancestral heredity	10.1046/j.1365-2540.1998.00418.x	Bulmer 1998	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Bogdanov	1998	Gaussian Measures	NA	Bogdanov 1998	1	halko_2011	uses	review	NA
+Chatton	2020	G-computation, propensity score-based methods, and targeted maximum likelihood estimator for causal inference with different covariates sets: a comparative simulation study	10.1038/s41598-020-65917-x	RISCA	1	prosper	uses	software	NA
+Hudson	1990	Gene genealogies and the coalescent process In: Futuyma D, Antonovics J (eds) Oxford surveys in evolutionary biology	NA	coalescent simulation	1	pritchard2000	uses	method	NA
+Lyddon	2019	General Bayesian updating and the loss-likelihood bootstrap	NA	Lyddon 2019	1	fong_2020	uses	method	NA
+Srebro	2005	Generalization error bounds for collaborative prediction with low-rank matrices	NA	Srebro 2005	1	soft_impute	uses	method	NA
+Lu	2018	Generalized Adaptive Shrinkage Methods and Applications in Genomic Studies.	NA	Lu 2018	1	cashr	shares_structure_not_equivalent	method	NA
+Armagan	2011	Generalized Beta Mixture of Gaussians	NA	Generalized Beta Mixture of Gaussians	1	hore_2016	uses	method	NA
+Nashed	1974	Generalized inverses in reproducing kernel spaces: An approach to regularization of linear operator equations	NA	Nashed 1974	1	knapik_2011	special_case_of	method	NA
+M Journée	2010	Generalized Power Method for Sparse Principal Component Analysis	NA	M Journée 2010	1	empirical_bayes_covariance_decomposition	shares_structure_not_equivalent	method	NA
+Zhang	2008	Generalized Shrinkage Estimators Adpative to Sparsity and Asymmetry of High Dimensional Parameter Spaces	NA	Zhang 2008	1	zhang_2008	uses	method	NA
+Jiang	2009	General Maximum Likelihood Empirical Bayes Estimation of Normal Means	10.1214/08-a0s638	NPMLE	1	ebnm	uses	method	NA
+N Breslow	1985	General relative risk functions for case–control studies	10.1093/oxfordjournals.aje.a114074	N Breslow 1985	1	clayton_2012	uses	method	NA
+RR Hudson	2002	Generating samples under a Wright-Fisher neutral model of genetic variation.	10.1093/bioinformatics/18.2.337	ms	1	engelhardt2010	uses	software	NA
+Choy	2008	Genetic analysis of human traits in vitro: drug response and gene expression in lymphoblastoid cell lines	10.1371/journal.pgen.1000287	confounder correction	1	pickrell2010	uses	method	NA
+BO Tayo	2011	Genetic background of patients from a university medical center in Manhattan: implications for personalized medicine	10.1371/journal.pone.0019166	BO Tayo 2011	1	annopred	uses	data	NA
+Beauchamp	2016	Genetic evidence for natural selection in humans in the contemporary United States	10.1073/pnas.1600398113	Beauchamp 2016	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Ojavee	2023	Genetic insights into the age-specific biological mechanisms governing human ovarian aging	NA	Ojavee 2023	1	coxph_susie	uses	method	NA
+Watanabe	2019	Genetic mapping of cell type specificity for complex traits	10.1038/s41467-019-11181-1	Watanabe 2019	1	prset	uses	method	NA
+Kunkle	2019	Genetic meta-analysis of diagnosed Alzheimer’s disease identifies new risk loci and implicates Aβ, tau, immunity and lipid processing	10.1038/s41588-019-0358-2	Kunkle 2019	1	prset	uses	data	NA
+Okada	2014	Genetics of rheumatoid arthritis contributes to biology and drug discovery	10.1038/nature12873	Okada 2014	1	megaprs	uses	data	NA
+RF Brondum	2012	Genome position specific priors for genomic prediction	10.1186/1471-2164-13-543	RF Brondum 2012	1	bayesr	uses	method	NA
+Kwan	2008	Genome-wide analysis of transcript isoform variation in humans.	10.1038/ng.2007.57	published regulatory or expression data	1	veyrieras2008	uses	data	NA
+R Saxena	2007	Genome-wide association analysis identifies loci for type 2 diabetes and triglyceride levels.	10.1126/science.1142358	R Saxena 2007	1	han2012	uses	data	NA
+Sanchez-Roige	2019	Genome-Wide Association Study Meta-Analysis of the Alcohol Use Disorders Identification Test (AUDIT) in Two Population-Based Cohorts	10.1176/appi.ajp.2018.18040369	Sanchez-Roige 2019	1	prset	uses	data	NA
+Teo	2009	Genome-wide comparisons of variation in linkage disequilibrium.	10.1101/gr.092189.109	Teo 2009	1	cojo	uses	method	NA
+J	2021	Genome-wide enhancer maps link risk variants to disease genes	10.1038/s41586-021-03446-x	Nasser 2021	1	ctwas	uses	data	NA
+Li	2010	Genome-wide inferring gene-phenotype relationship by walking on the heterogeneous network	10.1093/bioinformatics/btq108	Genome-wide inferring gene-phenotype relationship by walking on the heterogeneous network	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Aulchenko	2007	Genomewide rapid association using mixed model and regression: a fast and simple method for genomewide pedigree-based quantitative trait loci association analysis	10.1534/genetics.107.075614	Aulchenko 2007	1	bolt	uses	method	NA
+AGEN Type	2014	Genome-wide trans-ancestry meta-analysis provides insight into the genetic architecture of type 2 diabetes susceptibility	10.1038/ng.2897	AGEN Type 2014	1	kichaev2014	extends	data	NA
+B Devlin	1999	Genomic control for association studies	10.1111/j.0006-341x.1999.00997.x	genomic control	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Bick	2024	Genomic data in the All of Us Research Program	10.1038/s41586-023-06957-x	Bick 2024	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Yang	2011b	Genomic partitioning of genetic variation for complex traits using common SNPs	10.1038/ng.823	Yang 2011b	1	multiblup	shares_structure_not_equivalent	method	NA
+Inouye	2018	Genomic Risk Prediction of Coronary Artery Disease in 480,000 Adults: Implications for Primary Prevention	NA	Inouye 2018	1	prset	uses	data	NA
+Hayes	2009	Genomic selection in dairy cattle: progress and challenges	10.3168/jds.2008-1646	Hayes 2009	1	multiblup	derivable_under_conditions	method	NA
+Q Lu	2016	GenoWAP: GWAS signal prioritization through integrated analysis of genomic functional annotation	10.1093/bioinformatics/btv610	GenoWAP	1	annopred	uses	method	NA
+Choi	2020	GitLab	NA	GreedyRelated · GitLab repository	1	erasor	uses	software	NA
+Townes	2021	glmpca: dimension reduction of non-normally distributed data	NA	glmpca	1	poisson_multivariate_adaptive_shrinkage	uses	software	NA
+Nakajima	2013	Global analytic solution of fully-observed variational Bayesian matrix factorization	NA	Nakajima 2013	1	cebmf	shares_structure_not_equivalent	method	NA
+Lounici	2011	Global uniform risk bounds for wavelet deconvolution estimators	NA	Lounici 2011	1	hoffmann_2011	uses	method	NA
+Carbonetto	2023	GoM DE: interpreting structure in sequence count data with differential expression analysis allowing for grades of membership	10.1186/s13059-023-03067-9	Carbonetto 2023	1	cebmf	inspired_by	method	NA
+Wainwright	2008	Graphical models, exponential families, and variational inference	NA	Wainwright 2008	1	mr_ash	uses	review	NA
+Wainwright	2003	Graphical models, exponential families, and variational methods	NA	variational Bayes	1	logsdon2010	extends	method	NA
+Lauritzen	1996	Graphical models, volume 17	NA	Lauritzen 1996	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	review	NA
+Friedman	2001	Greedy function approximation: A gradient boosting machine	NA	Friedman 2001	1	colocboost	uses	method	NA
+Choi	2020	GreedyRelated · GitLab repository	NA	GreedyRelated · GitLab repository	1	erasor	uses	software	NA
+Klami	2014a	Group Factor Analysis	NA	Group Factor Analysis	1	hore_2016	uses	method	NA
+Lee	2009	Group nonnegative matrix factorization for EEG classification	NA	Lee 2009	1	cebmf	shares_structure_not_equivalent	method	NA
+Johnson	2013	gtx: Genetics ToolboX	NA	gtx	1	prsice	uses	software	NA
+Marioni	2018	GWAS on family history of Alzheimer’s disease	NA	Marioni 2018	1	prset	uses	data	NA
+King	2019	Hail-is/hail	NA	Hail	1	ctwas	uses	software	NA
+Walters	2022	Heritability of >4,000 traits & disorders in UK Biobank	NA	Walters 2022	1	gene_swap_randomization_gsr	uses	data	NA
+Dicker	2016	High-Dimensional Classification via Nonparametric Empirical Bayes and Maximum Likelihood Inference	10.1093/biomet/asv067	NPMLE	1	ebnm	uses	method	NA
+Bühlmann	2014	High-dimensional statistics with a view toward applications in biology	10.1146/annurev-statistics-022513-115545	Bühlmann 2014	1	mandozzi_2016	uses	data	NA
+Boyle	2008	High-resolution mapping and characterization of open chromatin across the genome	10.1016/j.cell.2007.12.014	Boyle 2008	1	multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays	uses	data	NA
+P Soininen	2009	High-throughput serum NMR metabonomics for cost-effective holistic studies on systemic metabolism	10.1039/b910205a	P Soininen 2009	1	bayesian_reduced_rank_regression	uses	data	NA
+Li	1989	Honest confidence regions for nonparametric regression	NA	Li 1989	1	hoffmann_2011	uses	method	NA
+Jostins	2012	Host-microbe interactions have shaped the genetic architecture of inflammatory bowel disease	10.1038/nature11582	Jostins 2012	1	benner2018	uses	data	NA
+Markowetz	2010	How to Understand the Cell by Breaking It: Network Analysis of Gene Perturbation Screens.	10.1371/journal.pcbi.1000655	Markowetz 2010	1	prset	uses	method	NA
+Eisenberg	2013	Human housekeeping genes, revisited	10.1016/j.tig.2013.05.010	Eisenberg 2013	1	mouthwash	uses	data	NA
+Donoho	1994	Ideal spatial adaptation by wavelet shrinkage	10.1093/biomet/81.3.425	Donoho 1994	1	glmnet	uses	method	NA
+Kotliar	2019	Identifying gene expression programs of cell-type identity and cellular activity with single-cell RNA-Seq	10.7554/elife.43803	consensus NMF	1	gbcd	inspired_by	method	NA
+We first outline the main ideas. The constrained risk inequality of Brown and Low	1996	implies that if an estimator has a small risk ε2 at one parameter value θ0 and (θ1 − θ0 )2 ≫ ερ where ρ is the chi-square affinity between the distributions of the data under θ0 and θ1 , then its risk at θ1 must be “large.” Now the assumption (27) means that the estimator Vb (x∗ ) has a small risk at θ0 = V0 (x∗ )	NA	Brown and Low constrained risk inequality	1	cai2008	uses	method	NA
+Bhattacharya	2007	Importance re-sampling MCMC for cross-validation in inverse problems	NA	Bhattacharya 2007	1	fong_2020	uses	method	NA
+Wahba	1978	Improper priors, spline smoothing and the problem of guarding against model errors in regression	NA	smoothing splines	1	fash	derivable_under_conditions	method	NA
+Chen	2021	Improved analyses of GWAS summary statistics by reducing data heterogeneity and errors	10.1038/s41467-021-27438-7	DENTIST	1	susierss	shares_structure_not_equivalent	method	NA
+Ormoneit	1996	Improved Gaussian mixture density estimates using Bayesian penalty terms and network averaging	NA	Ormoneit and Tresp regularization	1	extreme_deconvolution	uses	method	NA
+M Mitt	2017	Improved imputation accuracy of rare and low-frequency variants using population-specific high-coverage wgs-based imputation reference panel	10.1038/ejhg.2017.51	M Mitt 2017	1	sbayesr	uses	data	NA
+Kostem	2013	Improving the Accuracy and Efficiency of Partitioning Heritability into the Contributions of Genomic Regions	10.1016/j.ajhg.2013.03.010	Kostem 2013	1	multivariate_linear_mixed_model_mvlmm	uses	method	NA
+Hastie	1999	Imputing missing data for gene expression arrays	NA	Hastie 1999	1	soft_impute	inspired_by	method	NA
+Robertson	1961	Inbreeding in Artificial Selection Programmes.	10.1017/s0016672308009452	Robertson 1961	1	daetwyler_2008	uses	review	NA
+Stingo	2011	Incorporating biological information into linear models: A Bayesian approach to the selection of pathways and genes	NA	Stingo 2011	1	wen_2012	inspired_by	method	NA
+Adams	2010	Incorporating side information in probabilistic matrix factorization with Gaussian processes	NA	Adams 2010	1	cebmf	shares_structure_not_equivalent	method	NA
+E Eskin	2008	Increasing power in association studies by using linkage disequilibrium structure and molecular function as prior information.	10.1101/gr.072785.107	E Eskin 2008	1	han_2009	uses	method	NA
+Rubin	1976	Inference and missing data	NA	missing at random	1	wang2021	uses	method	NA
+MacKay	2003	Information theory, inference, and learning algorithms	NA	Gaussian processes	1	fash	uses	review	NA
+He	2013	Integrated model of de novo and inherited genetic variants yields greater power to identify risk genes	10.1371/journal.pgen.1003671	He 2013	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	method	NA
+A Gusev	2016	Integrative approaches for large-scale transcriptome-wide association studies	10.1038/ng.3506	FUSION	1	ctwas	uses	method	NA
+Q Lu	2016	Integrative Tissue-Specific Functional Annotations in the Human Genome Provide Novel Insights on Many Complex Traits and Improve Signal Prioritization in Genome Wide Association Studies	10.1371/journal.pgen.1005947	GenoSkyline	1	annopred	uses	data	NA
+J Novembre	2008	Interpreting principal component analyses of spatial population genetic variation.	10.1038/ng.139	stepping-stone simulation models	1	engelhardt2010	uses	method	NA
+Voight	2005	Interrogating multiple aspects of variation in a full resequencing data set to infer human population size changes	10.1073/pnas.0507325102	Voight 2005	1	logsdon2010	uses	data	NA
+Clark	2011	Introduction to statistical methods for analyzing large data sets: gene-set enrichment analysis	10.1126/scisignal.2001966	Introduction to statistical methods for analyzing large data sets: gene-set enrichment analysis	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Lun	2016	It’s DE-licious: a recipe for differential expression analyses of RNA-seq experiments using quasi-likelihood methods in edgeR	NA	edgeR quasi-likelihood	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Yuan	2023	January)	NA	Yuan 2023	1	mfsusie	shares_structure_not_equivalent	method	NA
+GH Golub	2013	Johns Hopkins Studies in the Mathematical Sciences	NA	GH Golub 2013	1	empirical_bayes_covariance_decomposition	contains_special_case	review	NA
+Johnson	1995	JohnsonNL KotzS BalakrishnanN1995Continuous Univariate DistributionsJohn wiley & sons	NA	Johnson 1995	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Obozinski	2010	Joint covariate selection and joint subspace selection for multiple classification problems	NA	Obozinski 2010	1	colocboost	uses	method	NA
+Dawid	1984	Journal of the Royal Statistical Society. Series A (General)	NA	Dawid, 1984	1	fong_2020	uses	method	NA
+doi	1992	Journal of the Royal Statistical Society: Series C (Applied Statistics)	10.2307/2347628	gradient-based optimization	1	gradvi	uses	method	NA
+Bezanson	2017	Julia: A Fresh Approach to Numerical Computing	10.1137/141000671	Bezanson 2017	1	ebnm	uses	software	NA
+Chollet	2015	Keras, 2015	NA	Chollet 2015	1	cebmf	uses	software	NA
+Butler	2002	Laplace approximations for hypergeometric functions with matrix argument	NA	hypergeometric-function approximation	1	wen2011	uses	method	NA
+Finetti	1937	La prévision: ses lois logiques, ses sources subjectives [Foresight: Its Logical Laws, Its Subjective Sources].	NA	de Finetti representation theorem	1	cashr	uses	review	NA
+Christophersen	2017	Large-scale analyses of common and rare variants identify 12 new loci associated with atrial fibrillation	10.1038/ng.3843	Christophersen 2017	1	megaprs	uses	data	NA
+Efron	2010	Large-Scale Inference: Empirical Bayes Methods for Estimation, Testing, and Prediction, volume 1 of Institute of Mathematical Statistics Monographs	10.1017/cb09780511761362	Efron 2010	1	ebnm	uses	method	NA
+Blei	2003	Latent Dirichlet Allocation	NA	Blei 2003	1	cebmf	uses	review	NA
+Y. Rosseel	2012	lavaan: An R Package for Structural Equation Modeling.	NA	lavaan	1	genetic_sensitivity_analysis	uses	software	NA
+van de Wiel	2019	Learning from a lot: empirical Bayes for high-dimensional model-based prediction	10.1111/sjos.12335	van de Wiel 2019	1	cebmf	uses	review	NA
+Ghahramani	1994a	Learning from incomplete data	NA	Ghahramani and Jordan	1	extreme_deconvolution	derivable_under_conditions	method	NA
+Lee	1999	Learning the Parts of Objects by Non-Negative Matrix Factorization	10.1038/44565	nonnegative matrix factorization	1	ebnm	uses	method	NA
+Hormozdiari	2018	Leveraging molecular quantitative trait loci to understand the genetic architecture of diseases and complex traits	10.1038/s41588-018-0148-2	Hormozdiari 2018	1	colocboost	uses	method	NA
+N Long	2013	Leveraging Prior Information to Detect Causal Variants via Multi-Variant Regression	10.1371/journal.pcbi.1003093	N Long 2013	1	bayesr	uses	method	NA
+Banerjee	2005	Likelihood ratio tests under local alternatives in regular semiparametric models	NA	semiparametric likelihood-ratio limits	1	johnson2005	uses	method	NA
+Strang	1980	Linear Algebra and Its Applications, 2nd edn (Academic Press, Inc., 1980)	NA	linear system solution	1	ldpred_funct	uses	review	NA
+Mandelbaum	1984	Linear estimators and measurable linear transformations on a Hilbert space	NA	Mandelbaum 1984	1	knapik_2011	uses	method	NA
+Lloyd-Jones	2019	Lloyd-JonesL GCTB SBayesR shrunk sparse linkage disequilibrium matrices for HM3 variants, summary statistics and predictors generated from ‘Improved polygenic prediction by Bayesian multiple regression on summary statistics’ by Lloyd-Jones, Zeng et al	10.5281/zenodo.3350914	Lloyd-Jones 2019	1	polypred	uses	data	NA
+T Duong	2013	Local significant differences from nonparametric two-sample tests	10.1080/10485252.2013.810217	T Duong 2013	1	peters_2015	uses	method	NA
+R Prentice	1979	Logistic disease incidence models and case–control studies	NA	R Prentice 1979	1	clayton_2012	uses	method	NA
+Lynch	1998	LynchMWalshB1998Genetics and the analysis of quantitative traitsSunderland, MASinauer Associates Inc	NA	Lynch 1998	1	daetwyler_2008	uses	review	NA
+Leeuw	2015	MAGMA: Generalized Gene-Set Analysis of GWAS Data	10.1371/journal.pcbi.1004219	Leeuw 2015	1	prset	uses	method	NA
+Espe	2018	Malacards: The Human Disease Database	10.5195/jmla.2018.253	Espe 2018	1	prset	uses	data	NA
+Zheng	2017	Massively parallel digital transcriptional profiling of single cells	NA	Cell Ranger	1	poisson_multivariate_adaptive_shrinkage	uses	software	NA
+McDavid	2021	MAST: model-based analysis of single sell transcriptomics	NA	MAST	1	poisson_multivariate_adaptive_shrinkage	uses	software	NA
+Pearson	1903	Mathematical contributions to the theory of evolution. XI.	NA	Pearson 1903	1	liability_threshold_model	uses	method	NA
+Henson	2024	MATLAB R-link	NA	Henson 2024	1	ebnm	uses	software	NA
+The MathWorks Inc	2021	MATLAB – The Language of Technical Computing, Version R2021a	NA	The MathWorks Inc 2021	1	ebnm	uses	software	NA
+J Dickey	1967	Matricvariate generalizations of the multivariate t distribution and the inverted multivariate t distribution	NA	J Dickey 1967	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Golub	1996	Matrix computations (3rd ed.)	NA	simultaneous orthogonal iteration	1	yang2014	inspired_by	review	NA
+Fazel	2002	Matrix Rank Minimization with Applications	NA	Fazel 2002	1	soft_impute	uses	method	NA
+Hartley	1967	Maximum-likelihood estimation for the mixed analysis of variance model	NA	Hartley 1967	1	mr_ash	uses	method	NA
+Liu	1998	Maximum likelihood estimation of factor analysis using the ECME algorithm with complete and incomplete data	NA	Liu 1998	1	ultimate_deconvolution	shares_structure_not_equivalent	method	NA
+Srebro	2005	Maximum margin matrix factorization	NA	Srebro 2005	1	soft_impute	derivable_under_conditions	method	NA
+md5sum	NA	md5sum(1): compute/check MD5 message digest - Linux man page	NA	md5sum	1	choi2018	uses	software	NA
+Barr	1999	Mean and variance of truncated normal distribution	NA	Barr 1999	1	lee_2011	uses	method	NA
+G Davey Smith	2003	'Mendelian randomization': can genetic epidemiology contribute to understanding environmental determinants of disease?	10.1093/ije/dyg070	G Davey Smith 2003	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Gao	2024	MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies	10.1038/s41588-023-01604-7	Gao 2024	1	colocboost	inspired_by	method	NA
+Cai	2015	Meta-Analysis-Based Preliminary Exploration of the Connection between ATDILI and Schizophrenia by GSTM1/T1 Gene Polymorphisms	10.1371/journal.pone.0128643	Meta-Analysis-Based Preliminary Exploration of the Connection between ATDILI and Schizophrenia by GSTM1/T1 Gene Polymorphisms	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	extends	method	NA
+DerSimonian	1986	Meta-analysis in clinical trials	10.1016/0197-2456(86)90046-2	Meta-analysis in clinical trials	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Sutton	2000	Methods for meta-analysis in medical research	NA	Methods for meta-analysis in medical research	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Lorenz	1905	Methods of measuring the concentration of wealth.	NA	Lorenz 1905	1	liability_threshold_model	shares_structure_not_equivalent	method	NA
+Raghavan	2021	Microenvironment drives cell state, plasticity, and drug response in pancreatic cancer	10.1016/j.cell.2021.11.017	Raghavan 2021	1	gbcd	uses	data	NA
+Stekhoven	2011	Missforest—non-parametric missing value imputation for mixed-type data	10.1093/bioinformatics/btr597	MissForest	1	flash	extends	method	NA
+Troyanskaya	2001	Missing value estimation methods for dna microarrays	10.1093/bioinformatics/17.6.520	Troyanskaya 2001	1	soft_impute	inspired_by	method	NA
+Zhang	2010	Mixed linear model approach adapted for genome-wide association studies	10.1038/ng.546	Zhang 2010	1	multivariate_linear_mixed_model_mvlmm	uses	method	NA
+McLachlan	1988	Mixture models: inference and applications to clustering New York, N.Y.: M	NA	McLachlan 1988	1	bayesr	uses	review	NA
+Zhao, Philip	2008	ML estimation for factor analysis: EM or non-EM? Statistics and Computing 18 109–123	NA	Zhao, Philip 2008	1	ultimate_deconvolution	shares_structure_not_equivalent	method	NA
+Hoff [2007]	2007	Model averaging and dimension selection for the singular value decomposition	10.1198/016214506000001310	Hoff [2007] 2007	1	mouthwash	uses	method	NA
+MJ Sillanpaa	2002	Model choice in gene mapping: what and why	10.1016/s0168-9525(02)02688-4	MJ Sillanpaa 2002	1	bayesr	uses	review	NA
+Meeds	2006	Modeling dyadic data with binary latent factors	NA	Meeds 2006	1	knowles2011	inspired_by	method	NA
+Love	2014	Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2	10.1186/s13059-014-0550-8	Love 2014	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Shaffer,	1986	Modified sequentially rejective multiple test procedures	NA	Shaffer, 1986	1	mandozzi_2016	uses	method	NA
+Golub	1999	Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring.	10.1126/science.286.5439.531	Golub 1999	1	cashr	uses	data	NA
+P McCullagh	1989	Monographs on Statistics and Applied Probability	NA	P McCullagh 1989	1	clayton_2012	uses	review	NA
+ApS	2018	MOSEK Rmosek Package. Release 8.1.0.51	NA	Rmosek	1	cashr	uses	software	NA
+G Hellenthal	2007	msHOT: Simulating crossover and gene conversion hotspots with Hudson's (2002) ms simulator	10.1093/bioinformatics/btl622	msHOT	1	servin2007	uses	software	NA
+Demenais	2018	Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks	10.1038/s41588-017-0014-7	Demenais 2018	1	megaprs	uses	data	NA
+Kang	2016	multiDE: a dimension reduced model based statistical method for differential expression analysis using RNA-sequencing data with multiple treatment conditions	NA	Kang 2016	1	poisson_multivariate_adaptive_shrinkage	shares_structure_not_equivalent	method	NA
+Munro	2024	Multimodal analysis of RNA sequencing data powers discovery of complex trait genetics	NA	Munro 2024	1	m_ctwas	uses	data	NA
+Sun	2012	Multiple hypothesis testing adjusted for latent variables, with an application to the AGEMAP gene expression data	10.1214/12-aoas561	LEAPP	1	mouthwash	uses	method	NA
+L Almasy	1998	Multipoint quantitative-trait linkage analysis in general pedigrees	10.1086/301844	multipoint linkage mapping	1	servin2007	shares_structure_not_equivalent	method	NA
+Turley	2018	Multi-trait analysis of genome-wide association summary statistics using MTAG	10.1038/s41588-017-0009-4	Turley 2018	1	gene_swap_randomization_gsr	uses	method	NA
+Brown	1998	Multivariate Bayesian variable selection and prediction	NA	Brown 1998	1	jam	uses	method	NA
+Neale	2018	Neale Lab Data	NA	Neale 2018	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	data	NA
+Hofree	2013	Network-based stratification of tumor mutations	10.1038/nmeth.2651	Network-based stratification of tumor mutations	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+He	2017	Neural collaborative filtering	NA	He 2017	1	cebmf	shares_structure_not_equivalent	method	NA
+Price	2010	New approaches to population stratification in genome-wide association studies	10.1038/nrg2813	population-structure adjustment	1	choi2018	uses	review	NA
+Bellenguez	2022	New insights into the genetic etiology of alzheimer’s disease and related dementias	10.1038/s41588-022-01024-z	Bellenguez 2022	1	mfsusie	uses	data	NA
+Falconer	1996	New York: Ronald Press Co	NA	New York: Ronald Press Co	1	erasor	uses	method	NA
+Di Tommaso	2017	Nextflow enables 626 reproducible computational workflows	10.1038/nbt.3820	Nextflow	1	erasor	uses	software	NA
+Lun	2017	No counts, no variance: allowing for loss of degrees of freedom when assessing biological variability from RNA-seq data	NA	edgeR quasi-likelihood	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Bertsekas	1999	Nonlinear Programming	NA	Bertsekas 1999	1	mr_ash	uses	review	NA
+M Bazaraa	1979	Nonlinear Programming: Theory and Algorithms	NA	CLG coordinate optimization	1	hoggart2008	uses	method	NA
+Carbonetto	2025	Non-negative matrix factorization algorithms generally improve topic model fits	10.1007/s11222-026-10866-0	Carbonetto 2025	1	cebmf	shares_structure_not_equivalent	method	NA
+R Zass	2006	Nonnegative Sparse PCA	NA	R Zass 2006	1	empirical_bayes_covariance_decomposition	extends	method	NA
+Townes	2023	Nonnegative spatial factorization applied to spatial genomics	10.1038/s41592-022-01687-w	Townes 2023	1	cebmf	inspired_by	method	NA
+Cordeiro	1994	Nonnull asymptotic distributions of three classic criteria in generalised linear models	NA	GLM likelihood-ratio limits	1	johnson2005	uses	method	NA
+Kalbfleisch	1978	Non-parametric Bayesian analysis of survival time data	NA	Kalbfleisch 1978	1	coxph_susie	uses	method	NA
+Risso	2014	Normalization of RNA-seq data using factor analysis of control genes or samples	NA	Risso 2014	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Barndorff-Nielsen	1982	Normal variance-mean mixtures and z distributions	10.2307/1402598	Barndorff-Nielsen 1982	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Smyth	2005	Numerical integration	NA	Gauss–Hermite quadrature	1	coxph_susie	uses	method	NA
+Clarkson	2009	Numerical linear algebra in the streaming model	NA	Clarkson 2009	1	halko_2011	shares_structure_not_equivalent	method	NA
+Nocedal	2006	Numerical Optimization	NA	quasi-Newton optimization	1	gradvi	uses	method	NA
+Björck	1994	Numerics of Gram–Schmidt orthogonalization	NA	Björck 1994	1	halko_2011	uses	method	NA
+Minka	2000	Old and new matrix algebra useful for statistics	NA	Minka 2000	1	wen_2012	uses	review	NA
+Sweeting	1986	On a converse to Scheffé’s theorem	NA	Sweeting 1986	1	zhu_2017	uses	method	NA
+Johnstone	2009	On consistency and sparsity for principal components analysis in high dimensions	NA	Johnstone-Lu sparse PCA	1	yang2014	inspired_by	method	NA
+van der Vaart	1991	On differentiable functionals	NA	van der Vaart 1991	1	knapik_2011	uses	method	NA
+Zhang	2024	On Efficient and Scalable Computation of the Nonparametric Maximum Likelihood Estimator in Mixture Models	NA	Zhang 2024	1	ebnm	uses	method	NA
+Zhou	2013	On grouping effect of elastic net	NA	On grouping effect of elastic net	1	multi_polygenic_score_mps	combines	method	NA
+V Moskvina	2008	On multiple-testing correction in genome-wide association studies.	10.1002/gepi.20331	V Moskvina 2008	1	han_2009	uses	review	NA
+Z Šidák	1968	On multivariate normal probabilities of rectangles: their dependence on correlations.	NA	Nyholt–Šidák correction	1	multiphen	uses	method	NA
+Low	1997	On nonparametric confidence intervals	NA	Low 1997	1	hoffmann_2011	uses	method	NA
+Z. Sidak	1971	On Probabilities of Rectangles in Multivariate Student Distributions: Their Dependence on Correlations	NA	Z. Sidak 1971	1	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	uses	method	NA
+Freedman	1999	On the Bernstein-von Mises theorem with infinite-dimensional parameters	NA	Freedman 1999	1	sniekers2015	uses	method	NA
+Luo	1992	On the convergence of the coordinate descent method for convex differentiable minimization	NA	Luo 1992	1	mr_ash	uses	method	NA
+Pan	2000	On the existence and computation of rank-revealing LU factorizations	NA	Pan 2000	1	halko_2011	uses	method	NA
+Fisher	1921	On the probable error of a coefficient of correlation deduced from a small sample	NA	Fisher 1921	1	corshrink	uses	method	NA
+J Neyman	1933	On the problem of the most efficient tests of statistical hypotheses	NA	J Neyman 1933	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+McCaw	2020	Operating characteristics of the rank-based inverse normal transformation for quantitative trait analysis in genome-wide association studies	10.1111/biom.13214	McCaw 2020	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Lange	2004	Optimization	NA	Lange 2004	1	wu_2009	uses	review	NA
+Lin	2020	Optimization and expansion of non-negative matrix factorization	10.1186/s12859-019-3312-5	Lin 2020	1	cebmf	contains_special_case	method	NA
+Lounici	2010	Oracle Inequalities and Optimal Inference under Group Sparsity	10.48550/arxiv.1007.1771	Lounici 2010	1	colocboost	uses	method	NA
+Jorde	1995	Origins and affinities of modern humans: a comparison of mitochondrial and nuclear genetic data	NA	microsatellite allele frequencies	1	pritchard2000	uses	data	NA
+Szegõ	1975	Orthogonal Polynomials	NA	Hermite polynomial theory	1	cashr	uses	review	NA
+M Sørensen	2022	Overlapping Community Detection via Semi-Binary Matrix Factorization: Identifiability and Algorithms	NA	M Sørensen 2022	1	empirical_bayes_covariance_decomposition	inspired_by	method	NA
+Villegas	2013	Overview of the ImageCLEF 2013 Scalable Concept Image Annotation Subtask	NA	ImageCLEF	1	blei2017	uses	data	NA
+Yang	2007	PAML 4: phylogenetic analysis by maximum likelihood.	10.1093/molbev/msm088	PAML baseml	1	veyrieras2008	uses	software	NA
+Lundy	1994	PARAFAC: Parallel factor analysis	NA	E. Lundy 1994	1	hore_2016	uses	method	NA
+Morris	1983	Parametric Empirical Bayes Inference: Theory and Applications	10.1080/01621459.1983.10477920	Morris 1983	1	ebnm	uses	method	NA
+Cox	1975	Partial likelihood	NA	partial likelihood	1	coxph_susie	uses	method	NA
+Finucane	2015	Partitioning heritability by functional category using GWAS summary statistics	NA	LD-score regression	1	ldpred	derivable_under_conditions	method	NA
+Ayers	2008	Penalized estimation of haplotype frequencies	10.1093/bioinformatics/btn236	Ayers 2008	1	wu_2009	uses	method	NA
+Pepe	2003	PepeMS2003The statistical evaluation of medical tests for classification and predictionOxfordOxford University Press	NA	Pepe 2003	1	liability_threshold_model	uses	review	NA
+E Greenshtein	2004	Persistence in high-dimensional linear predictor selection and the virtue of overparametrization	10.3150/bj/1106314846	E Greenshtein 2004	1	zhang_2008	uses	method	NA
+Stewart	1977	Perturbation of pseudo-inverses, projections, and linear least squares problems	NA	Stewart 1977	1	halko_2011	inspired_by	method	NA
+T Ge	2017	Phenome-wide heritability analysis of the UK Biobank	10.1371/journal.pgen.1006711	heritability estimation	1	ldpred_funct	uses	method	NA
+Marlin	2011	Piecewise bounds for estimating Bernoulli-logistic latent Gaussian models	NA	Marlin 2011	1	mr_ash	uses	method	NA
+MJ Sigal	2016	Play it again: teaching statistics with monte carlo simulation	10.1080/10691898.2016.1246953	SimDesign	1	genetic_sensitivity_analysis	uses	software	NA
+Chebib	2021	Pleiotropy or linkage? Their relative contributions to the genetic correlation of quantitative traits and detection by multitrait GWA studies	NA	Chebib 2021	1	colocboost	uses	method	NA
+Klami	2015	Polya-gamma augmentations for factor models	NA	non-Gaussian variational approximation	1	wang2021	uses	method	NA
+Socrates	2017	Polygenic risk scores applied to a single cohort reveal pleiotropy among hundreds of human phenotypes	NA	sample-overlap analytic correction	1	choi2018	uses	method	NA
+Mak	2018	Polygenic scores for UK Biobank scale data	NA	cross-validation	1	choi2018	uses	method	NA
+Cheung	2010	Polymorphic cis-and trans-regulation of human gene expression	10.1371/journal.pbio.1000480	Cheung 2010	1	poisson_multivariate_adaptive_shrinkage	uses	data	NA
+Reiner	2008	Polymorphisms of the HNF1A gene encoding hepatocyte nuclear factor-1 alpha are associated with C-reactive protein	NA	Reiner 2008	1	bvsr	uses	data	NA
+Lun	2016	Pooling across cells to normalize single-cell RNA sequencing data with many zero counts	10.1186/s13059-016-0947-7	alternative size factors	1	gbcd	uses	method	NA
+Shi	2021	Population-specific causal disease effect sizes in functionally important regions impacted by selection	10.1038/s41467-021-21286-1	Shi 2021	1	polypred	uses	method	NA
+Vehtari	2017	Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC	NA	Vehtari 2017	1	fong_2020	uses	method	NA
+de los Campos	2009	Predicting quantitative traits with regression models for dense molecular markers and pedigree	10.1534/genetics.109.101501	de los Campos 2009	1	bslmm	uses	method	NA
+Van der Kooij	2007	Prediction accuracy and stability of regrsssion with optimal sclaing transformations	NA	Van der Kooij 2007	1	glmnet	uses	method	NA
+RB Kline	2011	Principles and practice of structural equation modeling	NA	linear structural-equation model	1	genetic_sensitivity_analysis	uses	review	NA
+Armero	1994	Prior assessments for prediction in queues	NA	Armero 1994	1	tpb	special_case_of	method	NA
+Zhu	2013	Prioritization of candidate disease genes by topological similarity between disease and protein diffusion profiles	10.1186/1471-2105-14-s5-s5	Prioritization of candidate disease genes by topological similarity between disease and protein diffusion profiles	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Tipping	1999	Probabilistic principal component analysis	NA	Tipping 1999	1	ultimate_deconvolution	uses	method	NA
+Robbins	1951	Proceedings of the Second Berkeley Symposium on Mathematical Statistics and Probability, 1951, vol. II	NA	Robbins 1951	1	ultimate_deconvolution	extends	review	NA
+Robbins	1956	Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability, vol. 1: Contributions to the Theory of Statistics	NA	Tweedie formula	1	gradvi	uses	method	NA
+Chatterjee	2013	Projecting the performance of risk prediction based on polygenic analyses of genome-wide association studies	10.1038/ng.2579	Chatterjee 2013	1	ctsleb	inspired_by	method	NA
+Friedman	1981	Projection pursuit regression	NA	backfitting	1	susie	uses	method	NA
+Larsen	NA	Propack-software for large and sparse svd calculations	NA	Larsen NA	1	soft_impute	uses	software	NA
+C Benner	2017	Prospects of fine-mapping trait-associated genomic regions by using summary statistics from genome-wide association studies	10.1016/j.ajhg.2017.08.012	C Benner 2017	1	ctwas	uses	method	NA
+Euesden	2016	PRSlice: A new polygenic risk score approach that leverages	NA	joint base-target prioritization	1	choi2018	inspired_by	method	NA
+Purcell	NA	PurcellS & ChangC PLINK v2.00a3LM	NA	Purcell NA	1	polypred	uses	software	NA
+Van Rossum	2011	Python Programming Language	NA	Van Rossum 2011	1	ebnm	uses	software	NA
+Paszke	2019	PyTorch: an imperative style, high-performance deep learning library	NA	PyTorch	1	cebmf	uses	software	NA
+Coleman	2016	Quality control, imputation and analysis of genome-wide genotyping data from the Illumina HumanCoreExome microarray. Brief. Funct	NA	GWAS quality control	1	choi2018	uses	review	NA
+D	2020	Quantifying genetic e↵ects on disease mediated by assayed gene expression levels	NA	MESC	1	ctwas	uses	method	NA
+Higgins	2002	Quantifying heterogeneity in a meta-analysis	10.1002/sim.1186	Quantifying heterogeneity in a meta-analysis	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Shepp	1966	Radon-Nikodym derivatives of Gaussian measures	NA	integrated Wiener process	1	fash	contains_special_case	method	NA
+Motwani	1995	Randomized Algorithms	NA	Motwani 1995	1	halko_2011	uses	review	NA
+Bates	2024	RCall.jl	NA	Bates 2024	1	ebnm	uses	software	NA
+Koenker	2015	REBayes: Empirical Bayes Estimation and Inference in R	NA	REBayes	1	ash	uses	software	NA
+S Gazal	2019	Reconciling s-ldsc and ldak functional enrichment estimates	10.1038/s41588-019-0464-1	baseline-LD + LDAK	1	ldpred_funct	uses	method	NA
+Arvanitis	2022	Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity	10.1016/j.ajhg.2022.01.002	CAFEH	1	mvsusie	shares_structure_not_equivalent	method	NA
+Bishara	2015	Reducing bias and error in the correlation coefficient due to nonnormality	10.1177/0013164414557639	Bishara 2015	1	corshrink	uses	method	NA
+Eulalio	2025	regionalpcs improve discovery of DNA methylation associations with complex traits	10.1038/s41467-024-55698-6	Eulalio 2025	1	colocboost	uses	method	NA
+Mathé	2006	Regularization of some linear ill-posed problems with discretized random noisy data	NA	Mathé 2006	1	knapik_2011	derivable_under_conditions	method	NA
+Smemo	2012	Regulation of Heart Development via Transcriptional Enhancers and Epigenetic Modifications.	NA	Smemo 2012	1	cashr	uses	data	NA
+Bulik-Sullivan	2015	Relationship between LD Score and Haseman-Elston Regression	10.1101/018283	summary-statistics Haseman–Elston estimator	1	annopred	uses	method	NA
+E Zeggini	2007	Replication of genome- wide association signals in uk samples reveals risk loci for type 2 diabetes.	10.1126/science.1142364	E Zeggini 2007	1	han2012	uses	data	NA
+van der Vaart	2008	Reproducing kernel Hilbert spaces of Gaussian priors	NA	van der Vaart 2008	1	knapik_2011	special_case_of	method	NA
+Corbeil	1976	Restricted maximum likelihood (REML) estimation of variance components in the mixed model	10.2307/1267913	Corbeil 1976	1	multiblup	uses	method	NA
+AC Wood	2010	Rethinking Shared Environment as a Source of Variance Underlying Attention-Deficit/Hyperactivity Disorder Symptoms: Comment on	10.1037/a0019048	AC Wood 2010	1	genetic_sensitivity_analysis	uses	data	NA
+Lam	2020	RICOPILI: Rapid Imputation for COnsortias PIpeLIne	10.1093/bioinformatics/btz633	Lam 2020	1	polypred	uses	software	NA
+Foucher	2020	RISCA: Causal inference and prediction in cohort-based analyses	NA	Foucher 2020	1	ctsleb	uses	software	NA
+Baselmans	2021	Risk in relatives, heritability, snp-based heritability, and genetic correlations in psychiatric disorders: a review	10.1016/j.biopsych.2020.05.034	Baselmans 2021	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Friberg	2017	Rmosek: the R to MOSEK optimization interface	NA	MOSEK	1	smash	uses	software	NA
+Marioni	2008	RNA-seq: an assessment of technical reproducibility and comparison with gene expression arrays	10.1101/gr.079558.108	RNA-seq library preparation	1	pickrell2010	uses	data	NA
+C Kolomvakis	2023	Robust Binary Component Decompositions	NA	C Kolomvakis 2023	1	empirical_bayes_covariance_decomposition	inspired_by	method	NA
+Finegold	2011	Robust graphical modeling of gene networks using classical and alternative t-distributions	NA	Finegold 2011	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	method	NA
+Lange	1989	Robust statistical modeling using the tt distribution	10.2307/2290063	Lange 1989	1	mouthwash	uses	method	NA
+Hu	2017	R package version 0.1.0 (2017)	NA	My.stepwise	1	gbcd	uses	software	NA
+Gautier	2023	rpy2: Bridge between Python and R	NA	Gautier 2023	1	ebnm	uses	software	NA
+Macropol	2009	RRW: repeated random walks on genome-scale protein networks for local cluster discovery	10.1186/1471-2105-10-283	RRW: repeated random walks on genome-scale protein networks for local cluster discovery	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+Takacs	2009	Scalable collaborative filtering approaches for large recommender systems	NA	Takacs 2009	1	soft_impute	derivable_under_conditions	method	NA
+W. Zhou	2020	Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts	10.1038/s41588-020-0621-6	W. Zhou 2020	1	tlprs	uses	method	NA
+Stranger	2007	Science 2007, 315(5813):848–853	NA	Stranger 2007	1	logsdon2010	uses	data	NA
+DJ Schaid	2002	Score tests for association between traits and haplotypes when linkage phase is ambiguous.	10.1086/338688	DJ Schaid 2002	1	han_2009	uses	method	NA
+Chen	1983	Score Tests for Regression Models	NA	Chen 1983	1	wen_2012	uses	method	NA
+Ruppert	2003	Semiparametric regression: Cambridge University Press	NA	Gaussian posterior calculation	1	dudbridge2013	uses	review	NA
+A Gandy	2009	Sequential implementation of Monte Carlo tests with uniformly bounded resampling risk	10.1198/jasa.2009.tm08368	A Gandy 2009	1	denault_2021	uses	method	NA
+Zhou	2022	Set-based rare variant association tests for biobank scale sequencing data sets.Preprint at medRxiv	10.1101/2021.07.12.21260400	Zhou 2022	1	tlprs	uses	method	NA
+Combettes	2005	Signal recovery by proximal forward-backward splitting	NA	Combettes 2005	1	soft_impute	shares_structure_not_equivalent	method	NA
+P Chalmers	2020	SimDesign: Structure for Organizing Monte Carlo Simulation Designs	NA	SimDesign	1	genetic_sensitivity_analysis	uses	software	NA
+Peng	2019	Single-cell RNA-seq highlights intra-tumoral heterogeneity and malignant progression in pancreatic ductal adenocarcinoma	10.1038/s41422-019-0195-y	Peng 2019	1	gbcd	uses	data	NA
+Guan	2007	Small-world MCMC and convergence to multi-modal distributions: From slow mixing to fast mixing	NA	Guan 2007	1	bslmm	uses	method	NA
+Delouille	2004	Smooth design-adapted wavelets for nonparametric stochastic regression	NA	Delouille 2004	1	smash	uses	method	NA
+C Chelala	2009	Snpnexus: a web database for functional annotation of newly discovered and public domain single nucleotide polymorphisms	10.1093/bioinformatics/btn653	SNPnexus	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	software	NA
+AZ Dayem Ullah	2012	Snpnexus: a web server for functional annotation of novel and publicly known genetic variants (2012 update)	10.1093/nar/gks364	SNPnexus	1	a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	uses	software	NA
+He	2020	sn-spMF: Matrix Factorization Informs Tissue-Specific Genetic Regulation of Gene Expression	10.1186/s13059-020-02129-6	semi-nonnegative matrix factorization	1	ebnm	uses	method	NA
+Tikhonov	1977	Solutions of Ill-posed Problems	NA	Tikhonov 1977	1	knapik_2011	derivable_under_conditions	method	NA
+W Cochran	1954	Some methods of strengthening the common χ2 test	NA	W Cochran 1954	1	clayton_2012	derivable_under_conditions	method	NA
+H Jeffreys	1935	Some tests of significance, treated by the theory of probability	NA	H Jeffreys 1935	1	zhang_2008	uses	review	NA
+Weissbrod	2022	Source code for PolyFun	10.5281/zenodo.6139679	Weissbrod 2022	1	polypred	uses	software	NA
+Szarek	1990	Spaces with large distance from ℓ∞n\ell^{n}_{\infty} and random matrices	NA	Szarek 1990	1	halko_2011	inspired_by	method	NA
+Tipping	2001	Sparse Bayesian learning and the Relevance Vector Machine	NA	automatic relevance determination	1	mvsusie	shares_structure_not_equivalent	method	NA
+Krishnapuram	2005	Sparse multinomial logistic regression: Fast algorithms and generalization bounds	10.1109/tpami.2005.127	Krishnapuram 2005	1	glmnet	uses	method	NA
+K Adachi	2016	Sparse Principal Component Analysis Subject to Prespecified Cardinality of Loadings	10.1007/s00180-015-0608-4	K Adachi 2016	1	empirical_bayes_covariance_decomposition	shares_structure_not_equivalent	method	NA
+Zhang	2023	SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations	NA	Zhang 2023	1	susie_ash	uses	method	NA
+Tibshirani	2005	Sparsity and smoothness via the fused lasso	10.1111/j.1467-9868.2005.00490.x	fused lasso	1	prosper	shares_structure_not_equivalent	method	NA
+Pardo	2022	spatialLIBD: an R/Bioconductor package to visualize spatially-resolved transcriptomics data	10.1186/s12864-022-08601-w	Pardo 2022	1	cebmf	uses	data	NA
+Shang	2022	Spatially aware dimension reduction for spatial transcriptomics	10.1038/s41467-022-34879-1	Shang 2022	1	cebmf	uses	method	NA
+Gotelli	2002	SPECIES CO-OCCURRENCE: A META-ANALYSIS OF J	10.1890/0012-9658(2002)083[2091:scoama]2.0.co;2	standardized effect size	1	gene_swap_randomization_gsr	uses	method	NA
+Zappia	2017	Splatter: simulation of single-cell RNA sequencing data	10.1186/s13059-017-1305-0	Splat	1	gbcd	uses	software	NA
+Ueda	1998	Split and merge EM algorithm for improving Gaussian mixture density estimates	NA	split-and-merge EM	1	extreme_deconvolution	uses	method	NA
+J. West	2007	Spring research presentation: A theoretical foundation for inductive transfer	NA	J. West 2007	1	tlprs	inspired_by	review	NA
+Ori	2024	Stabilising selection enriches the tails of complex traits with rare alleles of large effect	10.1101/2024.09.12.612687	Ori 2024	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	method	NA
+Berger	1985	Statistical Decision Theory and Bayesian Analysis	NA	Berger 1985	1	mr_ash	uses	review	NA
+van der Vaart	1988	Statistical Estimation in Large Parameter Spaces	NA	van der Vaart 1988	1	knapik_2011	uses	review	NA
+RW Doerge	1997	Statistical issues in the search for genes affecting quantitative traits in experimental populations	10.1214/ss/1030037909	RW Doerge 1997	1	zhang_2008	uses	review	NA
+Datta	2008	Statistical methods to infer cooperative binding among transcription factors in Saccharomyces cerevisiae	10.1093/bioinformatics/btm523	joint transcription-factor binding model	1	ferguson2012	extends	method	NA
+—	1973	Stein’s Estimation Rule and Its Competitors–An Empirical Bayes Approach.	10.1080/01621459.1973.10481350	empirical Bayes normal means	1	cashr	uses	method	NA
+Hoffman	2013	Stochastic variational inference	NA	Hoffman 2013	1	a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression	inspired_by	method	NA
+Johnson	1996	Studying convergence of Markov chain Monte Carlo algorithms using coupled sampling paths	NA	coupling convergence diagnostics	1	johnson2005	uses	method	NA
+Song	2019	SummaryAUC: a tool for evaluating the performance of polygenic risk prediction models in validation datasets with only summary level statistics	10.1093/bioinformatics/btz176	Song 2019	1	ctsleb	uses	method	NA
+Ghahramani	1994b	Supervised learning from incomplete data via an EM approach	NA	Ghahramani and Jordan	1	extreme_deconvolution	derivable_under_conditions	method	NA
+Jensen	1906	Sur les fonctions convexes et les inégalités entre les valeurs moyennes	10.1007/bf02418571	Jensen 1906	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Leek,	2014	svaseq: removing batch effects and other unwanted noise from sequencing data	10.1093/nar/gku864	Leek, 2014	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+Z He	2011	Symmetric Nonnegative Matrix Factorization: Algorithms and Applications to Probabilistic Clustering	10.1109/tnn.2011.2172457	Z He 2011	1	empirical_bayes_covariance_decomposition	contains_special_case	method	NA
+Huang	2009	Systematic and integrative analysis of large gene lists using DAVID Bioinformatics Resources	10.1038/nprot.2008.211	DAVID	1	ferguson2012	uses	software	NA
+I Gradshteyn	1980	Tables of Integrals, Series and Products: Corrected and Enlarged Edition	NA	parabolic cylinder function	1	hoggart2008	uses	review	NA
+Daubechies	1992	Ten Lectures on Wavelets	NA	Symmlet8	1	smash	uses	review	NA
+Kolda	2009	Tensor decompositions and applications	NA	CANDECOMP/PARAFAC	1	wang2021	extends	method	NA
+Abadi	2016	TensorFlow: a system for large-scale machine learning	NA	Abadi 2016	1	cebmf	uses	software	NA
+P Armitage	1955	Test for linear trend in proportions and frequencies	NA	P Armitage 1955	1	clayton_2012	derivable_under_conditions	method	NA
+Z Yuan	2020	Testing and controlling for horizontal pleiotropy with probabilistic Mendelian randomization in transcriptome-wide association studies	10.1038/s41467-020-17668-6	Z Yuan 2020	1	ctwas	shares_structure_not_equivalent	method	NA
+van de Geer	2011	The adaptive and the thresholded Lasso for potentially misspecified models (and a lower bound for the Lasso)	NA	van de Geer 2011	1	mandozzi_2016	uses	method	NA
+JHJH Wilkinson	1965	The Algebraic Eigenvalue Problem	NA	JHJH Wilkinson 1965	1	empirical_bayes_covariance_decomposition	contains_special_case	review	NA
+Astle	2016	The allelic landscape of human blood cell trait variation and links to common complex disease	10.1016/j.cell.2016.10.042	Astle 2016	1	mvsusie	uses	data	NA
+All of Us Research Program Investigators.The “All of Us” research programNew Engl.	2019	The “All of Us” research program	10.1056/nejmsr1809937	All of Us Research Program Investigators.The “All of Us” research programNew Engl. 2019	1	prosper	uses	data	NA
+Eckart	1936	The approximation of one matrix by another of lower rank	NA	Eckart 1936	1	halko_2011	uses	method	NA
+ARIC Investigators. The Atherosclerosis Risk in Community	1989	The Atherosclerosis Risk in Community (aric) Study: design and objectives	10.1093/oxfordjournals.aje.a115184	ARIC Investigators. The Atherosclerosis Risk in Community 1989	1	sbayesr	uses	data	NA
+Li	2010	The Bayesian elastic net	10.1214/10-ba506	Li 2010	1	mr_ash	contains_special_case	method	NA
+Lippert	2013	The benefits of selecting phenotype-specific variants for applications of mixed models in genomics	10.1038/srep01815	Lippert 2013	1	bolt	uses	method	NA
+C Liu	1994	The ECME algorithm: A simple extension of EM and ECM with faster monotone convergence.	NA	ECME	1	engelhardt2010	uses	method	NA
+Robbins	1964	The empirical Bayes approach to statistical decision problems	NA	Robbins 1964	1	mr_ash	uses	method	NA
+Lloyd-Jones	2017	The Genetic Architecture of Gene Expression in Peripheral Blood	NA	Lloyd-Jones 2017	1	susie_ash	uses	data	NA
+Lindsay	1983	The Geometry of Mixture Likelihoods: A General Theory	10.1214/aos/1176346059	NPMLE	1	ebnm	uses	method	NA
+Robertson	1949	The Heritability of All-Or-None Traits - Viability of Poultry.	10.1093/genetics/34.4.395	Robertson 1949	1	daetwyler_2008	uses	method	NA
+Cavalli-Sforza	2005	The human genome diversity project: past, present and future	10.1038/nrg1596	Cavalli-Sforza 2005	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Falconer	1967	The inheritance of liability to diseases with variable age of onset, with particular reference to diabetes mellitus	10.1111/j.1469-1809.1967.tb01249.x	Falconer 1967	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Berger	1996	The intrinsic Bayes factor for model selection and prediction	NA	Berger 1996	1	fong_2020	shares_structure_not_equivalent	method	NA
+Visscher	2009	The limits of individual identification from sample allele frequencies: theory and statistical analysis	10.1371/journal.pgen.1000628	Visscher 2009	1	polypred	uses	method	NA
+J Hanley	1982	The Meaning and Use of the Area under a Receiver Operating Characteristic (ROC) Curve.	10.1148/radiology.143.1.7063747	J Hanley 1982	1	wray_2010	uses	method	NA
+JR Thompson	2011	The meta-analysis of genome-wide association studies	10.1093/bib/bbr020	JR Thompson 2011	1	bayesian_reduced_rank_regression	uses	method	NA
+Andersen & Andersen	2000	The MOSEK interior point optimizer for linear programming: an implementation of the homogeneous algorithm	NA	MOSEK	1	mixsqp	uses	method	NA
+Elsworth	2020	The MRC IEU OpenGWAS data infrastructure	10.1101/2020.08.10.244293v1	OpenGWAS	1	ctwas	uses	data	NA
+L Goodman	1970	The multivariate analysis of quantitative data: interactions among multiple classifications	NA	L Goodman 1970	1	clayton_2012	derivable_under_conditions	review	NA
+Aitchison	1989	The multivariate Poisson-log normal distribution	NA	multivariate Poisson log-normal	1	poisson_multivariate_adaptive_shrinkage	shares_structure_not_equivalent	method	NA
+Karczewski	2020	The mutational constraint spectrum quantified from variation in 141,456 humans	10.1038/s41586-020-2308-7	Karczewski 2020	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	data	NA
+Reichenberg	2022	The “New Synthesis	10.1073/pnas.2122147119	Reichenberg 2022	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+MR Nelson	2008	The Population Reference Sample, POPRES: A Resource for Population, Disease, and Pharmacological Genetics Research.	10.1016/j.ajhg.2008.08.005	POPRES	1	engelhardt2010	uses	data	NA
+Storey	2003	The Positive False Discovery Rate: A Bayesian Interpretation and the qq-value.	10.1214/aos/1074290335	q-value	1	cashr	uses	method	NA
+Candès	2009	The power of convex relaxation: Near-optimal matrix completion	NA	Candès 2009	1	soft_impute	uses	method	NA
+DM Allen	1974	The relationship between variable selection and data agumentation and a method for prediction	10.1080/00401706.1974.10489157	DM Allen 1974	1	xwing	uses	method	NA
+Tipping	2000	The relevance vector machine	NA	automatic relevance determination prior	1	engelhardt2010	uses	method	NA
+Zhang	2008	The sparsity and bias of the Lasso selection in high-dimensional linear regression	NA	Zhang 2008	1	mandozzi_2016	uses	method	NA
+Gabriel	2002	The structure of haplotype blocks in the human genome	10.1126/science.1069424	Gabriel 2002	1	jam	uses	method	NA
+Sonesson	2010	The use of communal rearing of families and DNA pooling in aquaculture genomic selection schemes.	10.1186/1297-9686-42-41	Sonesson 2010	1	cojo	shares_structure_not_equivalent	method	NA
+Reich	1972	The use of multiple thresholds in determining the mode of transmission of semi-continuous traits	10.1111/j.1469-1809.1972.tb00767.x	Reich 1972	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	derivable_under_conditions	method	NA
+Taniguchi	1991	Third-order asymptotic properties of a class of test statistics under a local alternative	NA	stochastic-process likelihood-ratio limits	1	johnson2005	uses	method	NA
+E Vartiainen	2010	Thirty-five-year trends in cardiovascular risk factors in Finland	10.1093/ije/dyp330	E Vartiainen 2010	1	bayesian_reduced_rank_regression	uses	data	NA
+Wang	2019	Three-Way Clustering of Multi-Tissue Multi-Individual Gene Expression Data Using Semi-Nonnegative Tensor Decomposition	10.1214/18-a0as1228	semi-nonnegative matrix factorization	1	ebnm	uses	method	NA
+Nagpal	2019	TIGAR: An Improved Bayesian Tool for Transcriptomic Data Imputation Enhances Gene Mapping of Complex Traits	10.1016/j.ajhg.2019.05.018	Nagpal 2019	1	sdpr	inspired_by	method	NA
+Y Li	2021	Topic Modeling on Triage Notes with Semiorthogonal Nonnegative Matrix Factorization	10.1080/01621459.2020.1862667	Y Li 2021	1	empirical_bayes_covariance_decomposition	contains_special_case	method	NA
+Sun	2020	Topics on Empirical Bayes Normal Means	NA	Sun 2020	1	ebnm	uses	method	NA
+Sun	2020	Topics on Empirical Bayes Normal Means, PhD thesis, University of Chicago, Chicago, IL	NA	Sun 2020	1	ultimate_deconvolution	extends	review	NA
+E. McArthur	2021	Topologically associating domain boundaries that are stable across diverse cell types are evolutionarily constrained and enriched for heritability	10.1016/j.ajhg.2021.01.001	TAD	1	fsusie	uses	data	NA
+Adams	2025	Trans-ancestry genome-wide study of depression identifies 697 associations implicating cell types and pharmacotherapies	10.1016/j.cell.2024.12.002	Adams 2025	1	gene_swap_randomization_gsr	uses	data	NA
+Chan-Seng-Yue	2020	Transcription phenotypes of pancreatic cancer are driven by genomic events during tumor evolution	10.1038/s41588-019-0566-9	Chan-Seng-Yue 2020	1	gbcd	uses	data	NA
+Lappalainen	2013	Transcriptome and genome sequencing uncovers functional variation in humans	10.1038/nature12531	GEUVADIS	1	dapg	uses	data	NA
+Maynard	2021	Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex	10.1038/s41593-020-00787-0	Maynard 2021	1	cebmf	uses	data	NA
+A	2019	Trans-ethnic association study of blood pressure determinants in over 750,000 individuals	NA	Giri 2019	1	ctwas	uses	data	NA
+Spielman	1993	Transmission test for linkage disequilibrium: the insulin gene region and insulin-dependent diabetes mellitus (IDDM)	NA	TDT simulation	1	pritchard2000	uses	method	NA
+A Zygmund	1988	Trigonometric series. Vol. I, II. Cambridge Mathematical Library	NA	trigonometric-series bound	1	sniekers2020	uses	review	NA
+Shammas	2014	Trisection algorithms	NA	trisection	1	gradvi	uses	method	NA
+Corte	2023	Trumpet plots: visualizing the relationship between allele frequency and effect size in genetic association studies	10.46471/gigabyte.89	trumpet plots	1	distinct_genetic_architecture_in_the_tails_of_complex_traits	uses	method	NA
+Geyer	2020	trust: Trust Region Optimization. doi:10.32614/CRAN.package.trust	10.32614/cran.package.trust	trust	1	ebnm	uses	software	NA
+Allen	2014	UK biobank data: come and get it	10.1126/scitranslmed.3008601	Allen 2014	1	prosper	uses	data	NA
+Rischard	2018	Unbiased estimation of log normalizing constants with applications to Bayesian cross-validation. arXiv preprint arXiv:1810.01382	NA	Rischard 2018	1	fong_2020	uses	method	NA
+Barton	2002	Understanding quantitative genetic variation	10.1038/nrg700	Barton 2002	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Dharmadhikari	1988	Unimodality, convexity, and applications	NA	Dharmadhikari 1988	1	mr_ash	uses	review	NA
+Galassi	2003	URL: http://www.gnu.org/software/gsl/ 2003	NA	GNU Scientific Library	1	logsdon2010	uses	software	NA
+Kruskal	1952	Use of ranks in one-criterion variance analysis	NA	Kruskal–Wallis test	1	poisson_multivariate_adaptive_shrinkage	uses	method	NA
+X Shi	2021	Using collaborative mixed models to account for imputation uncertainty in transcriptome-wide association studies	10.1007/978-1-0716-0947-7_7	X Shi 2021	1	ctwas	uses	method	NA
+Gagnon-Bartsch	2012	Using control genes to correct for unwanted variation in microarray data	10.1093/biostatistics/kxr034	Gagnon-Bartsch 2012	1	mouthwash	uses	method	NA
+Lencz	2021	Utility of polygenic embryo screening for disease depends on the selection strategy	10.7554/elife.64716	Lencz 2021	1	sibling_similarity_can_reveal_key_insights_into_genetic_architecture	uses	method	NA
+Davidon	1991	Variable Metric Method for Minimization	10.1137/0801001	quasi-Newton optimization	1	gradvi	uses	method	NA
+Davidon	1959	Variable Metric Method for Minimization	10.2172/4252678	quasi-Newton optimization	1	gradvi	uses	method	NA
+V Viallefont	2001	Variable selection and Bayesian model averaging in case-control studies	10.1002/sim.976	V Viallefont 2001	1	bayesr	uses	method	NA
+Fan	2001	Variable selection via nonconcave penalized likelihood and its oracle properties	NA	SCAD thresholding	1	yang2014	uses	method	NA
+Armagan	2009	Variational bridge regression	NA	Armagan 2009	1	tpb	uses	method	NA
+Blei	2006	Variational inference for Dirichlet process mixtures	10.1214/06-ba104	Blei 2006	1	logsdon2010	shares_structure_not_equivalent	method	NA
+Ghahramani	2000	Variational learning for switching state-space models	10.1162/089976600300015619	Ghahramani 2000	1	cebmf	uses	review	NA
+Hermosillo	2002	Variational methods for multimodal image matching	10.1023/a:1020830525823	Hermosillo 2002	1	logsdon2010	shares_structure_not_equivalent	method	NA
+Bishop	2000	Variational relevance vector machines	NA	Bishop 2000	1	tpb	uses	method	NA
+van der Maaten	2008	Visualizing data using t-sne	NA	t-SNE	1	gbcd	uses	software	NA
+Dey	2017	Visualizing the structure of RNA-seq expression data using grade of membership models	10.1371/journal.pgen.1006599	Dey 2017	1	cebmf	inspired_by	method	NA
+Shi	2013	Walking the interactome to identify human miRNA-disease associations through the functional link between miRNA targets and disease genes	10.1186/1752-0509-7-101	Walking the interactome to identify human miRNA-disease associations through the functional link between miRNA targets and disease genes	1	a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	uses	method	NA
+GP Nason	2000	Wavelet processes and adaptive estimation of the evolutionary wavelet spectrum	10.1111/1467-9868.00231	GP Nason 2000	1	denault_2021	uses	review	NA
+Härdle	1998	Wavelets, Approximation, and Statistical Applications	NA	Härdle 1998	1	hoffmann_2011	uses	review	NA
+Donoho	1995	Wavelet shrinkage; asymptopia?	NA	Donoho 1995	1	soft_impute	uses	method	NA
+Sardy	1999	Wavelet shrinkage for unequally spaced data	NA	Sardy 1999	1	smash	uses	method	NA
+Nason	2016	wavethresh: wavelets statistics and transforms	NA	wavethresh	1	smash	uses	software	NA
+de los Campos	2013	Whole-genome regression and prediction methods applied to plant and animal breeding	10.1534/genetics.112.143313	de los Campos 2013	1	bolt	inspired_by	method	NA
+Gelman	2012	Why we (usually) don’t have to worry about multiple comparisons	NA	posterior z-score	1	gbcd	uses	review	NA
+Wood	2017	WoodSN Generalized Additive Models: an Introduction with R (Chapman and Hall/CRC, 2017)	NA	mgcv	1	gbcd	uses	review	NA
+Chen	2016. ACM	XGBoost: A scalable tree boosting system	10.1145/2939672.2939785	XGBoost	1	flash	uses	method	NA

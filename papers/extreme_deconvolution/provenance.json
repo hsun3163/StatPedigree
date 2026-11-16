@@ -1,0 +1,12 @@
+{
+  "paper_id": "extreme_deconvolution",
+  "doi": "10.1214/10-AOAS439",
+  "version": "arXiv:0905.2979v2 (29 Jul 2011)",
+  "access": "full_text",
+  "route": "https://export.arxiv.org/html/0905.2979",
+  "source_sha256": "635325f5b3a0717aa34b0d99f69c28c72cd4b664d5a9ea10c5a1571ab2c0c597",
+  "raw_sha256": "bbd853cee09d3f448cb65af7fc32aca0447b40ad9d2ba50b5cdf8366a25e2e46",
+  "fetch_command": "Native scripts/fetch_paper.py --arxiv 0905.2979 executed in memory with shared tmp/fetch_events.jsonl redirected to tmp/extreme_deconvolution/fetch_events.jsonl",
+  "operator_workaround": "Fetcher hard-codes a shared event log outside this task write scope; only the in-memory log path was changed. Shared scripts untouched.",
+  "scope": "Ancestor light pass; 15 author-stated claims; parents step skipped."
+}

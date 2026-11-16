@@ -1,0 +1,4 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+zhu2011:q01	fsusie	Do the preliminary outlier-rejection robustness properties extend to the full functional mixed model?	A robustness theorem for the full FMM, beyond the simple mean+error model, with explicit conditions.	zhu2011:c08	rfmm
+zhu2011:q02	fsusie	Does the hierarchical FMM attain optimal functional estimation properties analogous to the cited single-function wavelet results?	A frequentist optimality analysis for the hierarchical fixed- and random-effect model under specified function classes and error assumptions.	zhu2011:c10	rfmm; pensky2006
+zhu2011:q03	fsusie	What model modifications preserve robust functional inference when independence across transformed coefficients is unsuitable?	An appropriate dependent-coefficient model and theoretical robustness analysis for the chosen basis and data setting.	zhu2011:c14	rfmm

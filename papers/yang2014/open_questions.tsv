@@ -1,0 +1,5 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+yang2014:q01	fsusie	Does the minimax-rate result extend to trailing-rank signals?	A theorem permitting nonzero singular values beyond the fitted rank, with explicit size and separation conditions.	yang2014:c11; yang2014:c12	ssvd
+yang2014:q02	fsusie	What theory justifies the proposed robust modifications under heavier-tailed noise?	Tail assumptions and a risk or convergence theorem for the robust initialization and adaptive threshold procedure.	yang2014:c11; yang2014:c13	ssvd
+yang2014:q03	fsusie	Are sequence-model parameter-selection equivalences preserved for sparse matrix SVD, and how does BIC compare?	An asymptotic comparison of parameter-selection rules in the sparse matrix setting.	yang2014:c09; yang2014:c10	ssvd; lshm
+yang2014:q04	fsusie	Is there an optimal threshold function within the allowed class?	A specified optimality criterion and theorem comparing admissible threshold functions.	yang2014:c04	ssvd

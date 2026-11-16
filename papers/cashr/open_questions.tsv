@@ -1,0 +1,4 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+cashr:q01	fsusie	Under what dependence and signal conditions does cashr control frequentist FDR?	A frequentist calibration theorem for estimated noise and effect distributions under explicit dependence conditions.	cashr:c09	cashr
+cashr:q02	fsusie	When do finite-grid nonnegativity constraints ensure a valid density on the full real line?	An off-grid positivity bound or a sufficient global nonnegativity condition for the finite derivative expansion.	cashr:c14	ecn; cashr
+cashr:q03	fsusie	When does alternating optimization identify a global optimum of the joint cashr objective?	A joint optimality or uniqueness result beyond separate convexity of the two parameter blocks.	cashr:c06	cashr

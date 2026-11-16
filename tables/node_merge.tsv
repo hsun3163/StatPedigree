@@ -1,0 +1,8 @@
+alias_id	canonical_id	kind	reason	evidence_claims	source
+prsice	prsice2	implementation	PRSice and PRSice-2 are software for the same clumping and thresholding score	NA	lead
+clumping_thresholding	prsice2	same_method	generic name of the estimator that PRSice-2 implements	NA	lead
+ct	prsice2	tutorial	Same LD-clumped, unshrunk GWAS-weighted genotype score with target-selected P-value thresholds.	choi2018:c04; choi2018:c05; choi2018:c07; choi2018:c08; prsice2:c02	codex
+ldpred2	ldpred	version	Same point-normal GWAS-and-LD regression and Gibbs posterior-mean fitting; grid implementation retains the LDpred method.	ldpred2:c09; ldpred2:c25; ldpred2:c35; ldpred2:c42; ldpred:c12	codex
+ldpred2_inf	ldpred_inf	version	Same Gaussian all-causal infinitesimal LDpred model, analytical posterior-mean solution, and GWAS-summary-plus-LD inputs.	ldpred2:c38; ldpred:c19	codex
+geman1984stochastic	gibbs_sampling	same_method	Geman and Geman 1984 is the source paper of the Gibbs sampler, which the generic-tool star already represents	NA	lead
+multiplicative_relative_risk	normal_log_risk	same_method	Same log-linked normal genetic-risk model, case-score distribution and sibling-recurrence-risk ROC calculation, reviewed again in 2012.	clayton_2009:c02; clayton_2009:c03; clayton_2009:c04; clayton_2009:c06; clayton_2012:c10; clayton_2012:c11; clayton_2012:c12; clayton_2012:c13; clayton_2012:c14	codex

@@ -1,0 +1,46 @@
+part_id	method_id	what
+bridgeprs_stage1	bridgeprs	stage 1: single-population prior and score
+bridgeprs_stage2	bridgeprs	stage 2: population-1 posterior used as the population-2 prior
+ser	susie	single effect regression: the L = 1 building block
+sfr	fsusie	single function regression: the one-effect building block
+simple_bfr	fsusie	one-covariate functional regression used inside SFR
+mser	mvsusie	multivariate single effect regression: the L = 1 building block
+mv_simple	mvsusie	multivariate simple regression building block
+mv_simple_normal	mvsusie	building block with a normal prior
+mv_simple_intercept	mvsusie	building block with an intercept
+mv_simple_mixture	mvsusie	building block with a mixture prior
+wavelet_ss_wc	wavelet_ss	regression for one wavelet coefficient
+poisson_multiscale	smash	Poisson version in the same paper
+bpred	ldpred	the no-LD case described in the LDpred paper
+mash_ee	mash	EE model option
+mash_ez	mash	EZ model option
+mash_bmalite	mash	BMA-lite prior option
+bvsr_probit	bvsr	probit version for binary traits
+rss_z	susierss	RSS-Z likelihood discussed in the paper
+sushie_indep	sushie	independent-effects special case
+prscs_auto	prscs	option: the global shrinkage scale is learned from the data instead of tuned
+ldpred2_auto	ldpred	LDpred2 option: causal fraction and heritability estimated in the sampler
+ldpred2_sparse	ldpred	LDpred2 option: effects allowed to be exactly zero
+ldpred_inf	ldpred	the infinitesimal option (every variant causal)
+bolt_inf	bolt	infinitesimal option
+polyfun_pred	polypred	PolyFun-pred component
+mtlprs	tlprs	multi-source version
+single_population_prs	multiethnic_prs	single-population score used as input
+adaptive_multiblup	multiblup	adaptive choice of regions
+ldpred_funct_inf	ldpred_funct	infinitesimal version
+bnm	ebglm	normal-mean building block
+coxph_ser	coxph_susie	single-effect building block
+sfmr	mfsusie	single-effect building block
+fineboost	colocboost	single-trait version
+cebnm	cebmf	covariate-moderated normal means building block
+lgp	fash	Gaussian-process prior component
+ecn	cashr	correlated-noise model
+backwash	mouthwash	fully Bayesian variant
+mr_ash_nm	mr_ash	normal-means building block
+bmsr_mix	mr_mash	single-predictor building block
+ebmnm	ultimate_deconvolution	multivariate normal means model it fits
+ebtm	ebnm_estimated_se	t-means version
+missxgb	flash	imputation step
+standout	popout	sibling-based omnibus test
+snp_stratifier	prset	SNP-level subtype model
+elastic_net	mps	penalized regression used to combine scores

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+de_bakker_2008:q01	fsusie	What weighted z-score rule and weights does this review describe, and under which conditions is the combined statistic calibrated?	The accessible abstract gives neither a weighting formula nor calibration assumptions; the relevant full-text methods and conditions are needed.	de_bakker_2008:c03	imputation_driven_meta_analysis

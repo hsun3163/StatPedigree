@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+imputation_driven_meta_analysis	de_bakker_2008	fsusie	Imputation-driven meta-analysis (review)	NA	NA	Pool statistical support for a genotype-phenotype association using meta-analysis; computational formula unavailable in the abstract.	NA	Genetic data collected on diverse genotype platforms, made uniformly exchangeable by imputation.	NA	NA	data_input=de_bakker_2008:c02; inference_algorithm=de_bakker_2008:c03

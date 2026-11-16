@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+denault_2021:q01	fsusie	Under what coefficient-dependence and sample-size conditions does the NIG approximate regional calibration control type I error?	A regional calibration theorem covering dependent wavelet coefficients and the NIG null approximation; the paper gives empirical calibration checks rather than this theorem.	denault_2021:c07; denault_2021:c11; denault_2021:c12; denault_2021:c13	ffw

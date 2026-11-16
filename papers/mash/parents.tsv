@@ -1,0 +1,24 @@
+child_method_id	parent_id	parent_name	parent_kind	proposed_type	conditions	supporting_claims	citation	note
+mash	ash	Adaptive shrinkage	method_paper	extends	multiple conditions	mash:c02	Stephens, 2017, False discovery rates: a new deal.	NA
+mash	empirical_bayes	empirical bayes	generic	uses	NA	mash:c31	NA	NA
+mash.model_likelihood	normal_means	normal means	generic	uses	NA	mash:c32	NA	NA
+mash.prior	scale_mixture_of_normals	scale mixture of normals	generic	uses	NA	mash:c33	NA	NA
+mash.inference_algorithm	extreme_deconvolution	Extreme Deconvolution	method_paper	uses	strongest effects selected; candidate model has no covariance scaling parameters	mash:c34	Bovy, 2011, Extreme Deconvolution: inferring complete distribution functions from noisy, heterogeneous and incomplete observations.	NA
+mash.inference_algorithm	sparse_factor_analysis	Sparse factor analysis	method_paper	uses	NA	mash:c35	Engelhardt, 2010, Analysis of population structure: a unifying framework and novel methods based on sparse factor analysis.	NA
+mash.inference_algorithm	principal_components_analysis	Principal components analysis	generic	uses	NA	mash:c36	NA	New generic id principal_components_analysis; no supplied generic id fits PCA/SVD.
+mash.inference_algorithm	em_algorithm	em algorithm	generic	uses	NA	mash:c37	NA	NA
+mash.inference_algorithm	squarem	SQUAREM	method_paper	uses	NA	mash:c38	Varadhan, 2008, Simple and globally convergent methods for accelerating the convergence of any EM algorithm.	NA
+mash.inference_algorithm	composite_likelihood	Composite likelihood	generic	uses	dependent rows of effect estimates	mash:c15	NA	New generic id composite_likelihood; no supplied generic id fits this objective.
+mash.inference_algorithm	conjugate_normal_model	conjugate normal model	generic	uses	normal prior component and normal likelihood; displayed inverses defined	mash:c39	NA	NA
+mash	bayes_factor	bayes factor	generic	uses	NA	mash:c40	NA	NA
+mash.inference_algorithm	cross_validation	cross validation	generic	uses	NA	mash:c41	NA	NA
+mash	eqtl_bma	Joint multi-tissue eQTL empirical Bayes framework	method_paper	contains_special_case	authors say essentially includes; exact parameter restrictions not stated here	mash:c42	Flutre, 2013, A statistical framework for joint eQTL analysis in multiple tissues.	Discussion cites references 5, 6 and 12 collectively; equivalence conditions are left unspecified.
+mash	li_multitissue_eb	Multiple-tissue eQTL empirical Bayes model	method_paper	contains_special_case	authors say essentially includes; exact parameter restrictions not stated here	mash:c43	Li, 2017, An Empirical Bayes approach for multiple tissue eQTL Analysis.	Discussion cites references 5, 6 and 12 collectively; equivalence conditions are left unspecified.
+mash	correlation_motifs	Correlation motifs	method_paper	contains_special_case	authors say essentially includes; exact parameter restrictions not stated here	mash:c44	Wei, 2015, Joint analysis of differential gene expression in multiple studies using correlation motifs.	Discussion cites references 5, 6 and 12 collectively; equivalence conditions are left unspecified.
+mash	meta_analysis	Fixed-effects and random-effects meta-analysis	generic	contains_special_case	appropriate restrictions on covariance patterns; exact restrictions not stated in this paragraph	mash:c45	NA	NA
+mash_ez	mash_ee	Exchangeable Effects model	generic	derivable_under_conditions	use Z statistics as observations and standard errors equal to 1; retain C	mash:c46	NA	NA
+mash_bmalite	eqtl_bma	BMAlite	method_paper	extends	restricted covariances; adds effect estimation and false sign rates	mash:c28	Flutre, 2013, A statistical framework for joint eQTL analysis in multiple tissues.	NA
+mash_bmalite	mash	Multivariate adaptive shrinkage	generic	special_case_of	omit data-driven covariance matrices and restrict canonical matrices and scales	mash:c47	NA	NA
+mash.data_input	simple_linear_regression	Linear regression	generic	uses	scores supplied for many effects across multiple conditions	mash:c48	NA	Optional source of summary inputs, not a required upstream estimator.
+mash.data_input	generalized_linear_model	Generalized linear models	generic	uses	scores supplied for many effects across multiple conditions	mash:c49	NA	New generic id generalized_linear_model; no supplied generic id fits GLMs.
+mash.data_input	linear_mixed_model	Linear mixed models	generic	uses	scores supplied for many effects across multiple conditions	mash:c50	NA	Optional source of summary inputs, not a required upstream estimator.

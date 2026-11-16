@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+ped_pop	ped_pop	prs	Ped/Pop	NA	NA	Compute the ratio of pedigree-based to population-based recombination rate estimates to detect selection.	Genome-wide evidence of selection from the pedigree/population recombination-rate ratio.	Pedigree-based and population-based recombination rate estimates.	NA	NA	inference_algorithm=ped_pop:c04; estimand=ped_pop:c04; data_input=ped_pop:c04

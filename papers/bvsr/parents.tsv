@@ -1,0 +1,13 @@
+child_method_id	parent_id	parent_name	parent_kind	proposed_type	conditions	supporting_claims	citation	note
+bvsr.model_likelihood	multiple_linear_regression	Multiple linear regression	generic	uses	NA	bvsr:c35	NA	NA
+bvsr.prior	spike_and_slab	Spike-and-slab prior	generic	uses	NA	bvsr:c36	NA	NA
+bvsr.inference_algorithm	mcmc	Markov chain Monte Carlo	generic	uses	NA	bvsr:c37	NA	NA
+bvsr.inference_algorithm	metropolis_hastings	Metropolis-Hastings sampling	generic	uses	NA	bvsr:c38	NA	New generic id: no supplied vocabulary entry names this MCMC kernel.
+bvsr.inference_algorithm	small_world_mcmc	Small-world MCMC	method_paper	uses	NA	bvsr:c39	Guan, 2007, Small world MCMC and convergence to multi-modal distributions: From slow mixing to fast mixing.	NA
+bvsr.inference_algorithm	sure_independence_screening	Sure independence screening	method_paper	inspired_by	NA	bvsr:c40	Fan, 2008, Sure independence screening for ultrahigh dimensional feature space (with discussion).	Soft use of marginal signals rather than a hard screening exclusion.
+bvsr.inference_algorithm	rao_blackwellization	Rao-Blackwellization	generic	uses	NA	bvsr:c41	NA	New generic id: supplied vocabulary does not include conditional-expectation variance reduction.
+bvsr.inference_algorithm	simple_linear_regression	Simple linear regression	generic	uses	Condition on other effects and hyperparameters; use residual response.	bvsr:c42	NA	NA
+bvsr.prior	mixtures_of_g_priors	Mixtures of g priors	method_paper	shares_structure_not_equivalent	Orthogonal covariates with variance one; different model-size versus n scaling.	bvsr:c43	Liang, 2008, Mixtures of g priors for Bayesian variable selection.	NA
+bvsr_probit.model_likelihood	albert_chib_probit	Latent Gaussian probit regression	method_paper	uses	NA	bvsr:c44	Albert, 1993, Bayesian analysis of binary and polychotomous response data.	NA
+bvsr_probit.inference_algorithm	mcmc	Markov chain Monte Carlo	generic	uses	NA	bvsr:c45	NA	NA
+bvsr.inference_algorithm	servin_stephens_association	Efficient multipoint association analysis	method_paper	uses	NA	bvsr:c46	Servin, 2007, Efficient multipoint analysis of association studies: Candidate regions and quantitative traits.	NA

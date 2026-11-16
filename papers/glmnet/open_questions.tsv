@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+glmnet:q01	prs	Under what conditions do warm-started logistic Newton iterations converge without step-size optimization?	A convergence argument or sufficient step conditions for the unsafeguarded Newton iterations used along the regularization path.	glmnet:c08; glmnet:c10	glmnet

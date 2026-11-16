@@ -1,0 +1,21 @@
+side	order	method_id	note
+fsusie	1	wavelet_ss	2015. Wavelet-domain association test for one SNP against a functional phenotype; scale-specific association probabilities.
+fsusie	2	ash	2017. Empirical Bayes shrinkage with a unimodal mixture prior fitted to effect estimates and standard errors.
+fsusie	3	ser	2020. One-effect regression: exactly one variable has a nonzero effect; closed-form posterior.
+fsusie	4	susie	2020. Sum of L single effects fitted by IBSS, a coordinate ascent on a variational objective.
+fsusie	5	smash	2021 (arXiv 2016). ash applied per wavelet scale for denoising.
+fsusie	6	susierss	2022. SuSiE from summary statistics; exact with in-sample LD.
+fsusie	7	mvsusie	2023 preprint, 2026 journal. SuSiE for several traits with a mixture-of-multivariate-normals prior.
+fsusie	8	sushie	2025. Shared causal variants across ancestries with correlated ancestry-specific effects.
+fsusie	9	sfr	2025. One SNP affecting a whole function; functional counterpart of SER.
+fsusie	10	fsusie	2025. Sum of R single functions in the wavelet domain with per-scale mixture priors.
+prs	1	prsice2	Clumping and thresholding (the PRSice-2 paper is 2019; the estimator is older): one SNP per locus, P-value threshold tuned on a target sample.
+prs	2	ldpred_inf	2015. Infinitesimal (Gaussian) prior; analytical posterior mean from summary statistics and LD.
+prs	3	ldpred	2015. Point-normal prior, Gibbs sampler, LD from a reference panel.
+prs	4	prscs	2019. Continuous global-local shrinkage prior; ridge and the infinitesimal model are members of the family.
+prs	5	prscs_auto	2019. Global scale learned with a half-Cauchy hyperprior.
+prs	6	ldpred2	2020. LDpred with a genetic-distance LD window; grid, auto, sparse and inf variants.
+prs	7	prscsx	2022. PRS-CS across populations with shared shrinkage scales and population-specific effects.
+prs	8	bridgeprs_stage1	2024. Per-locus Gaussian (ridge-type) prior with allele-frequency-dependent precision.
+prs	9	bridgeprs_stage2	2024. Population-1 posterior becomes the population-2 prior, precision scaled by tau.
+prs	10	bridgeprs	2024. Combination of stage 1 and stage 2 scores by ridge regression on target test data.

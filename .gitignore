@@ -1,0 +1,24 @@
+# Local paper full texts and abstracts: redistribution rights are unclear.
+/sources/*
+!/sources/stato/
+
+# Local logs, scratch work, and thesis/cohort planning.
+/codex_logs/
+/tmp/
+/temp_reference/
+/.qtest
+/reports/aim3_table.md
+/reports/aim3_phenotype_scout.md
+/reports/combination.md
+/briefs/job_pheno_scout.md
+/STATUS.md
+
+# Generated private views; docs/index.html is the public build.
+/map.html
+/vault/
+/vault.html
+
+# Python and notebook working caches.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

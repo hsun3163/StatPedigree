@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+li2017:q01	fsusie	What conditions and error-control statement underlie the reported theoretical justification for adaptive thresholding?	Full theorem statement and assumptions; the accessible abstract reports justification without specifying either.	li2017:c05; li2017:c06	mt_eqtl

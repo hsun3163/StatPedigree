@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+lassosum:q01	prs	Under what assumptions, if any, does tuning without validation data have a theoretical prediction guarantee?	The abstract supplies neither the tuning criterion nor assumptions and a theorem connecting that criterion to prediction performance.	lassosum:c03	lassosum

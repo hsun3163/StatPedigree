@@ -1,0 +1,4 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+fsusie:q01	fsusie	Under what conditions do pointwise effect intervals retain their intended coverage after single-function variational approximation and empirical-Bayes fitting?	A calibration result covering variational factorization, fitted hyperparameters and selected sentinel SNPs	fsusie:c10; fsusie:c11; fsusie:c14	fsusie
+fsusie:q02	fsusie	What interpolation error control would justify transferring posterior uncertainty from the evenly spaced grid to the original unevenly spaced observations?	An error bound and uncertainty-propagation result for the interpolation step	fsusie:c30	fsusie
+fsusie:q03	fsusie	When does coordinate-wise ELBO optimization reach an adequate joint solution rather than a suboptimal stationary point?	A global optimization or approximation-quality result for the stated factorized family	fsusie:c10; fsusie:c11	fsusie; sfr

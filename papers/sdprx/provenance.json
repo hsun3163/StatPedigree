@@ -1,0 +1,27 @@
+{
+  "paper_id": "sdprx",
+  "doi": "10.1016/j.ajhg.2022.11.007",
+  "pmcid": "PMC9892700",
+  "access": "abstract_only",
+  "version_used": "PMC deposited 2023 journal abstract and editorial summary; body absent from efetch XML",
+  "native_fetch": "PYTHONDONTWRITEBYTECODE=1 python tmp/sdprx/fetch.py",
+  "scope": "ancestor light pass; parents skipped",
+  "route_outcomes": {
+    "NCBI PMC efetch": "HTTP 200; XML has abstract and editorial summary, no body",
+    "Europe PMC fullTextXML": "HTTP 500",
+    "PMC HTML": "HTTP 403 Forbidden",
+    "Europe PMC HTML": "HTTP 403 Forbidden",
+    "PMC browser": "Checking your browser - reCAPTCHA",
+    "Europe PMC preprint search": "HTTP 200; hitCount=0",
+    "supplement": "Article with id PMC9892700 is not open access one"
+  },
+  "operator_workaround": "Native fetch_paper.py hardcodes shared tmp/fetch_events.jsonl and supplementary response paths. ScopedRoot in tmp/sdprx/fetch.py maps ROOT / tmp to tmp/sdprx; shared scripts unchanged.",
+  "unavailable_components": [
+    "prior",
+    "inference_algorithm",
+    "formal guarantees",
+    "stated limitations",
+    "named earlier-method relationships"
+  ],
+  "seed_note": "Single appended seed row records planned repository access; this provenance records actual abstract_only access."
+}

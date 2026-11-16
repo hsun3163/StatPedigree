@@ -1,0 +1,36 @@
+{
+  "paper_id": "torus",
+  "access": "full_text",
+  "version_used": "bioRxiv v1 (2015-11-16)",
+  "preprint_title": "Effective QTL Discovery Incorporating Genomic Annotations",
+  "preprint_doi": "10.1101/032003",
+  "published_doi": "10.1214/16-AOAS952",
+  "identity_evidence": "bioRxiv metadata API published field connects this preprint with Wen 2016",
+  "source_routes": [
+    "https://www.biorxiv.org/content/10.1101/032003v1.full",
+    "https://www.biorxiv.org/content/10.1101/032003v1.full.pdf"
+  ],
+  "source_sha256": {
+    "torus.txt": "e488129069c3e6285a568c83943db705c919975c47082c2d433c4b9eb0477b1d",
+    "torus.raw.pdf": "1e45ad0cfebc1fc753cfd9acb5bbc8eae05302851d1bf4bf13836ad8fc8db9bb",
+    "torus.raw.html": "54160155edf29c2096c9ed2f95f421a717f623cae9b7b8f195486eea07b7a7d1",
+    "torus.metadata.json": "2b1a18b6064bb680135e19a1bf3dce8d527bbf64a45074055a537d95517130f7"
+  },
+  "source_caveat": "HTML equations are images with generic Embedded Image alt text; raw same-version PDF retains equations. Claims use the retained prose rather than reconstructing unseen formula text. Appendices are included in the main source.",
+  "invocation_workaround": "Executed scripts/fetch_paper.py in memory with only its shared tmp/fetch_events.jsonl path redirected to tmp/torus/fetch_events.jsonl. Shared script unchanged. PYTHONDONTWRITEBYTECODE=1 used.",
+  "recovered_failures": [
+    "error building bubblewrap command: Fatal error: cannot enforce sandbox read-only path /hpc/users/sunh14/.codex because it crosses writable symlink /hpc/users/sunh14/.codex",
+    "503 Server Error: Service Temporarily Unavailable for url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Molecular+QTL+discovery+incorporating+genomic+annotations%22&format=json&resultType=core",
+    "bioRxiv JATS route HTTP 429 (HTML and PDF retrieved successfully)"
+  ],
+  "validation_command": "python scripts/check_spans.py torus",
+  "validation_output": "torus kept=15 rejected=0",
+  "counts": {
+    "methods.tsv": 1,
+    "claims.tsv": 15,
+    "claims.checked.tsv": 15,
+    "open_questions.tsv": 1,
+    "rejects.tsv": 0
+  },
+  "review": "Required files verified; 15-claim and two-method caps satisfied; parents skipped; no shared tables, scripts or vault files written; one absent seed row appended under lock."
+}

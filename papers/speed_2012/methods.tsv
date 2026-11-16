@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+ldak	speed_2012	prs	LD-adjusted kinship (LDAK)	SNP-based mixed-model heritability analysis with a kinship matrix weighting SNPs by local LD; sampling distribution unspecified in abstract	NA	NA	SNP-based narrow-sense heritability h2	Genome-wide SNPs genotyped in unrelated individuals	NA	NA	model_likelihood=speed_2012:c06; estimand=speed_2012:c03; data_input=speed_2012:c02

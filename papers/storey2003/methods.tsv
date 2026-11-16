@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+qvalue	storey2003	fsusie	Storey-Tibshirani q value	NA	NA	NA	Per-feature q value measuring significance in terms of false discovery rate	Tested genomewide features; specific statistical inputs are not stated in the accessible abstract	NA	NA	whole_method=storey2003:c02; estimand=storey2003:c04; estimand=storey2003:c05; data_input=storey2003:c01

@@ -1,0 +1,5 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+bvsr:q01	fsusie	Under what designs and signal configurations does the stated sampler provide accurate PIPs and PVE at a fixed computational budget?	A finite-run mixing or Monte Carlo error bound for the full sampler including strongly correlated distant covariates.	bvsr:c22; bvsr:c39	bvsr
+bvsr:q02	fsusie	How close is the induced PVE prior to uniform across model sizes and correlated designs?	A quantified bound on the approximation from uniform h to the induced PVE distribution.	bvsr:c16; bvsr:c17	bvsr
+bvsr:q03	fsusie	When does the fixed-normal-quantile binary approximation preserve target posterior summaries?	An approximation-error result comparing the constrained quantile scheme with an identified unconstrained probit posterior.	bvsr:c31; bvsr:c32; bvsr:c33	bvsr_probit
+bvsr:q04	fsusie	How robust are PIPs and PVE to clustered functional effects and heavy-tailed effect or residual distributions?	A robustness or calibration analysis for deviations from independent inclusion and normal-effect/residual assumptions.	bvsr:c24; bvsr:c25; bvsr:c10	bvsr

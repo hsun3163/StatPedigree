@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+caviar	hormozdiari2014	fsusie	CAVIAR	NA	NA	NA	Variant-level posterior causal probabilities allowing multiple causal variants; locus-level sets intended to contain all causal variants at high confidence.	NA	NA	NA	estimand=hormozdiari2014:c03; estimand=hormozdiari2014:c04

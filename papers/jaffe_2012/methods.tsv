@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+bump_hunting	jaffe_2012	fsusie	Bump hunting	NA	NA	Pipeline modeling measurement error, removing batch effects, detecting regions and attaching statistical uncertainty; fitting details unavailable in abstract.	Genomic regions of interest with attached statistical uncertainty.	Genome-wide DNA methylation measurements.	NA	NA	inference_algorithm=jaffe_2012:c04; estimand=jaffe_2012:c04; data_input=jaffe_2012:c05

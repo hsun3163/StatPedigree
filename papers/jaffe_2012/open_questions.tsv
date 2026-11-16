@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+jaffe_2012:q01	fsusie	Under what model assumptions is the uncertainty attached to detected regions calibrated?	The accessible abstract does not specify the sampling model, region-selection uncertainty procedure or conditions for a calibration guarantee.	jaffe_2012:c04	bump_hunting

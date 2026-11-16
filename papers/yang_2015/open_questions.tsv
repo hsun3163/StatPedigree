@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+yang_2015:q01	fsusie	Under what conditions does finite LD and MAF stratification yield unbiased variance estimates beyond the simulated causal-variant scenarios?	A derivation specifying sufficient within-group MAF and LD matching conditions and the applicable sampling regime; the main text reports simulations and refers theory to a Supplementary Note not included in the fetched repository package.	yang_2015:c09; yang_2015:c12	greml_ldms

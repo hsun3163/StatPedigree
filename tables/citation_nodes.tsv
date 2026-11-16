@@ -1,0 +1,200 @@
+node_id	kind	title	first_author	year	venue	doi	pmid	pmcid	n_citations
+a_flexible_empirical_bayes_approach_to_generalized_linear_models_with_applications_to_sparse_logistic_regression	method_paper	A Flexible Empirical Bayes Approach to Generalized Linear Models, with Applications to Sparse Logistic Regression	Xie D	2026	arXiv (Cornell University)	10.48550/arxiv.2601.21217	NA	NA	NA
+a_new_method_for_identifying_causal_genes_of_schizophrenia_and_anti_tuberculosis_drug_induced_hepatotoxicity	method_paper	A new method for identifying causal genes of schizophrenia and anti-tuberculosis drug-induced hepatotoxicity	Huang Tao	2016	Scientific Reports	10.1038/srep32571	NA	PMC5007646	NA
+a_unified_framework_for_association_analysis_with_multiple_related_phenotypes	method_paper	A Unified Framework for Association Analysis with Multiple Related Phenotypes	Stephens M	2013	PLoS ONE	10.1371/journal.pone.0065245	23861737	PMC3702528	NA
+albert_chib1993	method_paper	Bayesian Analysis of Binary and Polychotomous Response Data	Albert	1993	Journal of the American Statistical Association	10.1080/01621459.1993.10476321	NA	NA	NA
+annopred	method_paper	Leveraging functional annotations in genetic risk prediction for human complex diseases.	Hu Y	2017	PLoS Computational Biology	10.1371/journal.pcbi.1005589	28594818	PMC5481142	NA
+ash	method_paper	False discovery rates: a new deal.	Stephens M	2017	Biostatistics (Oxford, England)	10.1093/biostatistics/kxw041	27756721	PMC5379932	NA
+barbieri_2004	method_paper	Optimal predictive model selection	Barbieri MM	2004	The Annals of Statistics	10.1214/009053604000000238	NA	NA	1005
+bayes_alphabet	method_paper	Prediction of total genetic value using genome-wide dense marker maps.	Meuwissen TH	2001	Genetics	10.1093/genetics/157.4.1819	11290733	PMC1461589	8114
+bayesian_lasso	method_paper	Bayesian LASSO for Quantitative Trait Loci Mapping	Yi N	2008	Genetics	10.1534/genetics.107.085589	18505874	PMC2429858	199
+bayesian_reduced_rank_regression	method_paper	Assessing multivariate gene-metabolome associations with rare variants using Bayesian reduced rank regression	Marttinen P	2014	Bioinformatics	10.1093/bioinformatics/btu140	NA	PMC4080737	NA
+bayesr	method_paper	Simultaneous discovery, estimation and prediction analysis of complex traits using a bayesian mixture model.	Moser G	2015	PLoS genetics	10.1371/journal.pgen.1004969	25849665	PMC4388571	326
+benner2018	method_paper	Refining fine-mapping: effect sizes and regional heritability	Benner C	2018	bioRxiv	10.1101/318618	39787248	PMC11753704	29
+berger1980	method_paper	A Robust Generalized Bayes Estimator and Confidence Region for a Multivariate Normal Mean	Berger J	1980	The Annals of Statistics	10.1214/aos/1176345068	NA	NA	NA
+besag1986statistical	intermediate	On the Statistical Analysis of Dirty Pictures	Julian E. Besag	1986	Journal of the Royal Statistical Society Series B (Statistical Methodology)	10.1111/j.2517-6161.1986.tb01412.x	NA	NA	4219
+bhattacharjee_2012	method_paper	A Subset-Based Approach Improves Power and Interpretation for the Combined Analysis of Genetic Association Studies of Heterogeneous Traits	Bhattacharjee S	2012	American Journal of Human Genetics	10.1016/j.ajhg.2012.03.015	22560090	PMC3376551	NA
+blei2017	method_paper	Variational Inference: A Review for Statisticians	Blei DM	2017	Journal of the American Statistical Association	10.1080/01621459.2017.1285773	NA	NA	4578
+bolt	method_paper	Efficient Bayesian mixed-model analysis increases association power in large cohorts.	Loh PR	2015	Nature genetics	10.1038/ng.3190	25642633	PMC4342297	1429
+bridgeprs	method_paper	BridgePRS leverages shared genetic effects across ancestries to increase polygenic risk score portability.	Hoggart CJ	2024	Nature genetics	10.1038/s41588-023-01583-9	NA	PMC10786716	NA
+bslmm	method_paper	Polygenic modeling with bayesian sparse linear mixed models.	Zhou X	2013	PLoS Genetics	10.1371/journal.pgen.1003264	23408905	PMC3567190	810
+buliksullivan2015	method_paper	LD Score regression distinguishes confounding from polygenicity in genome-wide association studies.	Bulik-Sullivan BK	2015	Nature genetics	10.1038/ng.3211	25642630	PMC4495769	NA
+bvsr	method_paper	Bayesian variable selection regression for genome-wide association studies and other large-scale problems	Guan Y	2011	Annals of Applied Statistics	10.1214/11-aoas455	NA	NA	NA
+cai2008	method_paper	Adaptive variance function estimation in heteroscedastic nonparametric regression	Cai TT	2008	The Annals of Statistics	10.1214/07-aos509	NA	NA	NA
+cashr	method_paper	Solving the Empirical Bayes Normal Means Problem with Correlated Noise	Sun L	2018	arXiv (Cornell University)	10.48550/arxiv.1812.07488	NA	NA	NA
+cebmf	method_paper	Covariate-moderated Empirical Bayes Matrix Factorization	Denault WRP	2025	Advances in neural information processing systems	10.52202/085713-1573	NA	PMC13353771	NA
+chen2015	method_paper	Fine Mapping Causal Variants with an Approximate Bayesian Method Using Marginal Test Statistics.	Chen W	2015	Genetics	10.1534/genetics.115.176107	25948564	PMC4512539	NA
+chipman2001	method_paper	The Practical Implementation of Bayesian Model Selection	Chipman H	2001	IMS Lecture Notes - Monograph Series 38:65-116	10.1214/lnms/1215540964	NA	NA	NA
+choi2018	method_paper	A guide to performing Polygenic Risk Score analyses	Choi SW	2018	bioRxiv	10.1101/416545	32709988	PMC7612115	2075
+chun2020non	intermediate	Non-parametric Polygenic Risk Prediction via Partitioned GWAS Summary Statistics	Chun	2020	Am J Hum Genet	10.1016/j.ajhg.2020.05.004	32470373	PMC7332650	44
+clayton_2009	method_paper	Prediction and interaction in complex disease genetics: experience in type 1 diabetes.	Clayton DG	2009	PLoS genetics	10.1371/journal.pgen.1000540	19584936	PMC2703795	NA
+clayton_2012	method_paper	Link functions in multi-locus genetic models: implications for testing, prediction, and interpretation.	Clayton D	2012	Genetic Epidemiology	10.1002/gepi.21635	22508388	PMC3505800	NA
+cojo	method_paper	Conditional and joint multiple-SNP analysis of GWAS summary statistics identifies additional variants influencing complex traits.	Yang J	2012	Nature genetics	10.1038/ng.2213	22426310	PMC3593158	NA
+colocboost	method_paper	Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain	Cao X	2025	medRxiv	10.1101/2025.04.17.25326042	NA	NA	NA
+conneely_2007	method_paper	So Many Correlated Tests, So Little Time! Rapid Adjustment of P Values for Multiple Correlated Tests	Conneely KN	2007	American Journal of Human Genetics	10.1086/522036	17966093	PMC2276357	NA
+corshrink	method_paper	CorShrink: Empirical Bayes shrinkage estimation of correlations, with applications	Dey KK	2018	bioRxiv (Cold Spring Harbor Laboratory)	10.1101/368316	NA	NA	NA
+coxph_susie	method_paper	Bayesian variable selection in a Cox proportional hazards model with the “Sum of Single Effects” prior	Yang Y	2025	arXiv	10.48550/arxiv.2506.06233	NA	NA	NA
+ctsleb	method_paper	A new method for multiancestry polygenic prediction improves performance across diverse populations.	Zhang H	2023	Nature Genetics	10.1038/s41588-023-01501-z	37749244	PMC10923245	NA
+ctwas	method_paper	Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits.	Zhao S	2024	Nature Genetics	10.1038/s41588-023-01648-9	NA	PMC10864181	NA
+daetwyler_2008	method_paper	Accuracy of predicting the genetic risk of disease using a genome-wide approach.	Daetwyler HD	2008	PLOS ONE	10.1371/journal.pone.0003395	18852893	PMC2561058	532
+dap	method_paper	Efficient Integrative Multi-SNP Association Analysis via Deterministic Approximation of Posteriors.	Wen X	2016	American Journal of Human Genetics	10.1016/j.ajhg.2016.03.029	27236919	PMC4908152	NA
+dapg	method_paper	Bayesian Multi-SNP Genetic Association Analysis: Control of FDR and Use of Summary Statistics	Lee Y	2018	bioRxiv	10.1101/316471	NA	NA	NA
+dbslmm	method_paper	Accurate and Scalable Construction of Polygenic Scores in Large Biobank Data Sets.	Yang S	2020	American Journal of Human Genetics	10.1016/j.ajhg.2020.03.013	32330416	PMC7212266	130
+de_bakker_2008	method_paper	Practical aspects of imputation-driven meta-analysis of genome-wide association studies.	de Bakker PI	2008	Human molecular genetics	10.1093/hmg/ddn288	18852200	PMC2782358	NA
+denault_2021	method_paper	Detecting differentially methylated regions using a fast wavelet-based approach to functional association analysis.	Denault WRP	2021	BMC Bioinformatics	10.1186/s12859-021-03979-y	33568045	PMC7876806	NA
+distinct_genetic_architecture_in_the_tails_of_complex_traits	method_paper	Distinct genetic architecture in the tails of complex traits.	Paul F. O'Reilly	2026	Nature	10.1038/s41586-026-10516-5	NA	PMC13372694	NA
+dudbridge2013	method_paper	Power and predictive accuracy of polygenic risk scores.	Dudbridge F	2013	PLoS genetics	10.1371/journal.pgen.1003348	23555274	PMC3605113	NA
+ebayesthresh	method_paper	Empirical Bayes selection of wavelet thresholds	Johnstone IM	2005	The Annals of Statistics	10.1214/009053605000000345	NA	NA	NA
+ebnm	method_paper	ebnm: An R Package for Solving the Empirical Bayes Normal Means Problem Using a Variety of Prior Families	Willwerscheid J	2025	Journal of Statistical Software	10.18637/jss.v114.i03	42369193	PMC13308579	NA
+empirical_bayes_covariance_decomposition	method_paper	Empirical Bayes Covariance Decomposition, and a Solution to the Multiple Tuning Problem in Sparse PCA	Kang J	2026	Journal of Computational and Graphical Statistics	10.1080/10618600.2026.2653766	NA	PMC13249372	NA
+empirical_bayes_estimation_of_normal_means_accounting_for_uncertainty_in_estimated_standard_errors	method_paper	Empirical Bayes estimation of normal means, accounting for uncertainty in estimated standard errors	Lu M	2019	arXiv (Cornell University)	10.48550/arxiv.1901.10679	NA	NA	NA
+engelhardt2010	method_paper	Analysis of population structure: a unifying framework and novel methods based on sparse factor analysis.	Engelhardt BE	2010	PLoS genetics	10.1371/journal.pgen.1001117	20862358	PMC2940725	NA
+eqtl_bma	method_paper	A statistical framework for joint eQTL analysis in multiple tissues	Flutre	2013	PLoS Genetics	10.1371/journal.pgen.1003486	23671422	PMC3649995	NA
+erasor	method_paper	EraSOR: a software tool to eliminate inflation caused by sample overlap in polygenic score analyses.	Choi SW	2022	GigaScience	10.1093/gigascience/giad043	37326441	PMC10273836	NA
+erbe2012improving	intermediate	Improving accuracy of genomic predictions within and between dairy cattle breeds with imputed high-density single nucleotide polymorphism panels	Erbe	2012	J Dairy Sci	10.3168/jds.2011-5019	22720968	NA	663
+extreme_deconvolution	method_paper	Extreme deconvolution: Inferring complete distribution functions from noisy, heterogeneous and incomplete observations	Bovy J	2011	The Annals of Applied Statistics	10.1214/10-aoas439	NA	NA	NA
+falke2013spectrum	intermediate	The spectrum of mutations controlling complex traits and the genetics of fitness in plants	Falke KC	2013	Curr Opin Genet Dev	10.1016/j.gde.2013.10.006	24268985	NA	19
+fash	method_paper	Empirical Bayes Shrinkage of Functional Effects, with Application to Analysis of Dynamic eQTLs	Zhang Z	2026	arXiv (Cornell University)	10.48550/arxiv.2602.03077	NA	NA	NA
+ferguson2012	method_paper	A new approach for the joint analysis of multiple ChIP-seq libraries with application to histone modification.	Ferguson JP	2012	Statistical applications in genetics and molecular biology	10.1515/1544-6115.1660	22499701	PMC3770480	NA
+finemap	method_paper	FINEMAP: efficient variable selection using summary data from genome-wide association studies	Benner C	2016	Bioinformatics	10.1093/bioinformatics/btw018	26773131	PMC4866522	791
+finucane_2015	method_paper	Partitioning heritability by functional annotation using genome-wide association summary statistics.	Finucane HK	2015	Nature genetics	10.1038/ng.3404	26414678	PMC4626285	NA
+flash	method_paper	Novel Missing Data Imputation Approaches Enhance Quantitative Trait Loci Discovery in Multi-Omics Analysis	Qi Z	2023	medRxiv	10.1101/2023.11.29.23299181	NA	NA	NA
+fong_2020	method_paper	On the marginal likelihood and cross-validation	Fong E	2020	Biometrika	10.1093/biomet/asz077	NA	NA	NA
+fregene	method_paper	Fregene: Simulation of realistic sequence-level data in populations and ascertained samples	O'Reilly PF	2008	BMC Bioinformatics	10.1186/1471-2105-9-364	NA	PMC2542380	NA
+fsusie	method_paper	fSuSiE enables fine-mapping of QTLs from genome-scale molecular profiles.	Denault WRP	2025	bioRxiv : the preprint server for biology	10.1101/2025.08.17.670732	NA	PMC12363973	NA
+gbcd	method_paper	Dissecting tumor transcriptional heterogeneity from single-cell RNA-seq data by generalized binary covariance decomposition	Liu Y	2025	Nature Genetics	10.1038/s41588-024-01997-z	39747597	PMC12035913	NA
+geman1984stochastic	stato_source	Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images	Geman	1984	IEEE Trans Pattern Anal Mach Intell	10.1109/tpami.1984.4767596	22499653	NA	18186
+gemma	method_paper	Genome-wide efficient mixed-model analysis for association studies	Zhou X	2012	Nature Genetics	10.1038/ng.2310	22706312	PMC3386377	NA
+gene_swap_randomization_gsr	method_paper	Modeling pathway overlap increases accuracy of GWAS gene set enrichment	Cote AC	2026	medRxiv	10.64898/2026.09.03.26362206	NA	NA	NA
+genetic_sensitivity_analysis	method_paper	Genetic sensitivity analysis: Adjusting for genetic confounding in epidemiological associations	Pingault J-B	2021	PLoS Genetics	10.1371/journal.pgen.1009590	NA	PMC8238188	NA
+george1997	method_paper	Approaches for Bayesian variable selection	George EI	1997	Statistica Sinica	NA	NA	NA	1160
+glmnet	method_paper	Regularization Paths for Generalized Linear Models via Coordinate Descent.	Friedman J	2010	Journal of Statistical Software	10.18637/jss.v033.i01	20808728	PMC2929880	NA
+gradvi	method_paper	Gradient-based optimization for variational empirical Bayes multiple regression	Banerjee S	2024	arXiv (Cornell University)	10.48550/arxiv.2411.14570	NA	NA	NA
+habier2011extension	stato_source	Extension of the Bayesian alphabet for genomic selection	Habier	2011	BMC Bioinformatics	10.1186/1471-2105-12-186	21605355	PMC3144464	1283
+halko_2011	method_paper	Finding structure with randomness: Probabilistic algorithms for constructing approximate matrix decompositions	Halko N	2011	SIAM Review	10.1137/090771806	NA	NA	4400
+han2011	method_paper	Random-effects model aimed at discovering associations in meta-analysis of genome-wide association studies.	Han B	2011	American journal of human genetics	10.1016/j.ajhg.2011.04.014	21565292	PMC3146723	NA
+han2012	method_paper	Interpreting meta-analyses of genome-wide association studies.	Han B	2012	PLoS genetics	10.1371/journal.pgen.1002555	22396665	PMC3291559	NA
+han_2009	method_paper	Rapid and accurate multiple testing correction and power estimation for millions of correlated markers.	Han B	2009	PLoS genetics	10.1371/journal.pgen.1000456	19381255	PMC2663787	NA
+hastings1970monte	stato_source	Monte Carlo sampling methods using Markov chains and their applications	W. Keith Hastings	1970	Biometrika	10.1093/biomet/57.1.97	NA	NA	16472
+hoffmann_2011	method_paper	On adaptive inference and confidence bands	Hoffmann M	2011	Annals of Statistics	10.1214/11-aos903	NA	NA	NA
+hoggart2008	method_paper	Simultaneous analysis of all SNPs in genome-wide and re-sequencing association studies.	Hoggart CJ	2008	PLoS genetics	10.1371/journal.pgen.1000130	18654633	PMC2464715	230
+hore_2016	method_paper	Tensor decomposition for multiple-tissue gene expression experiments.	Hore V	2016	Nature genetics	10.1038/ng.3624	27479908	PMC5010142	NA
+hormozdiari2014	method_paper	Identifying Causal Variants at Loci with Multiple Signals of Association	Hormozdiari F	2014	Genetics	10.1534/genetics.114.167908	25104515	PMC4196608	NA
+horseshoe	method_paper	The horseshoe estimator for sparse signals	Carvalho CM	2010	Biometrika	10.1093/biomet/asq017	NA	NA	NA
+jaffe_2012	method_paper	Bump hunting to identify differentially methylated regions in epigenetic epidemiology studies.	Jaffe AE	2012	International journal of epidemiology	10.1093/ije/dyr238	22422453	PMC3304533	NA
+jam	method_paper	JAM: A Scalable Bayesian Framework for Joint Analysis of Marginal SNP Effects.	Newcombe PJ	2016	Genetic epidemiology	10.1002/gepi.21953	27027514	PMC4817278	NA
+johnson2005	method_paper	Bayesian model selection using test statistics	Hu J	2008	Journal of the Royal Statistical Society. Series B, Statistical methodology	10.1111/j.1467-9868.2008.00678.x	19829756	PMC2760999	NA
+johnstone2004	method_paper	Needles and straw in haystacks: Empirical Bayes estimates of possibly sparse sequences	Johnstone IM	2004	The Annals of Statistics	10.1214/009053604000000030	NA	NA	NA
+jordan1999	method_paper	An Introduction to Variational Methods for Graphical Models	Jordan MI	1999	Machine Learning	10.1023/a:1007665907178	NA	NA	NA
+kichaev2014	method_paper	Integrating functional data to prioritize causal variants in statistical fine-mapping studies.	Kichaev G	2014	PLoS genetics	10.1371/journal.pgen.1004722	25357204	PMC4214605	NA
+knapik_2011	method_paper	Bayesian inverse problems with Gaussian priors	Knapik BT	2011	The Annals of Statistics	10.1214/11-aos920	NA	NA	NA
+knowles2011	method_paper	Nonparametric Bayesian sparse factor models with application to gene expression modeling	Knowles D	2011	The Annals of Applied Statistics	10.1214/10-aoas435	NA	NA	NA
+kolaczyk1999	method_paper	Bayesian Multiscale Models for Poisson Processes	Kolaczyk ED	1999	Journal of the American Statistical Association	10.1080/01621459.1999.10474197	NA	NA	NA
+lassosum	method_paper	Polygenic scores via penalized regression on summary statistics.	Mak TSH	2017	Genetic Epidemiology	10.1002/gepi.22050	28480976	NA	435
+ldpred	method_paper	Modeling Linkage Disequilibrium Increases Accuracy of Polygenic Risk Scores.	Vilhjálmsson BJ	2015	American journal of human genetics	10.1016/j.ajhg.2015.09.001	26430803	PMC4596916	1148
+ldpred2	method_paper	LDpred2: better, faster, stronger.	Privé F	2021	Bioinformatics (Oxford, England)	10.1093/bioinformatics/btaa1029	33326037	PMC8016455	NA
+ldpred_funct	method_paper	Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets.	Márquez-Luna C	2021	Nature communications	10.1038/s41467-021-25171-9	34663819	PMC8523709	NA
+lee2016	method_paper	Identification of differentially methylated loci using wavelet-based functional mixed models.	Lee W	2016	Bioinformatics	10.1093/bioinformatics/btv659	26559505	PMC4907398	NA
+lee_2011	method_paper	Estimating Missing Heritability for Disease from Genome-wide Association Studies	Lee SH	2011	American Journal of Human Genetics	10.1016/j.ajhg.2011.02.002	21376301	PMC3059431	NA
+lent_2018	method_paper	Comparison of novel and existing methods for detecting differentially methylated regions.	Lent S	2018	BMC genetics	10.1186/s12863-018-0637-4	NA	PMC6156895	NA
+li2017	method_paper	An empirical Bayes approach for multiple tissue eQTL analysis.	Li G	2017	Biostatistics	10.1093/biostatistics/kxx048	29029013	PMC6366007	NA
+liability_threshold_model	method_paper	A unifying framework for evaluating the predictive power of genetic variants based on the level of heritability explained.	So HC	2010	PLoS genetics	10.1371/journal.pgen.1001230	21151957	PMC2996330	NA
+lloydjones2019improved	intermediate	Improved polygenic prediction by Bayesian multiple regression on summary statistics	Lloyd-Jones	2019	Nat Commun	10.1038/s41467-019-12653-0	31704910	PMC6841727	549
+logsdon2010	method_paper	A variational Bayes algorithm for fast and accurate multiple locus genome-wide association analysis.	Logsdon BA	2010	BMC Bioinformatics	10.1186/1471-2105-11-58	20105321	PMC2824680	NA
+lynch_1998	method_paper	Genetics and Analysis of Quantitative Traits	Lynch M	1998	Sinauer Associates (book)	10.1002/(sici)1096-8644(199903)108:3	NA	NA	3912
+m_ctwas	method_paper	Integrating multi-omics and multi-context QTL data with GWAS reveals the genetic architecture of complex traits and improves the discovery of risk genes	Qian S	2025	medRxiv	10.64898/2025.12.19.25342620	NA	NA	NA
+mallat1989	method_paper	A theory for multiresolution signal decomposition: the wavelet representation	Mallat SG	1989	IEEE Transactions on Pattern Analysis and Machine Intelligence	10.1109/34.192463	NA	NA	NA
+maller2012	method_paper	Bayesian refinement of association signals for 14 loci in 3 common diseases.	Maller JB	2012	Nature genetics	10.1038/ng.2435	23104008	PMC3791416	NA
+malo2008	method_paper	Accommodating linkage disequilibrium in genetic-association analyses via ridge regression.	Malo N	2008	American journal of human genetics	10.1016/j.ajhg.2007.10.012	18252218	PMC2427310	NA
+mandozzi_2016	method_paper	Hierarchical Testing in the High-Dimensional Setting with Correlated Variables	Mandozzi J	2016	Journal of the American Statistical Association	10.1080/01621459.2015.1007209	NA	NA	36
+mash	method_paper	Flexible statistical methods for estimating and testing effects in genomic studies with multiple conditions.	Urbut SM	2019	Nature genetics	10.1038/s41588-018-0268-8	30478440	PMC6309609	NA
+megaprs	method_paper	Improved genetic prediction of complex traits from individual-level data or summary statistics	Zhang Q	2021	Nature Communications	10.1038/s41467-021-24485-y	34234142	PMC8263809	NA
+meuwissen2001prediction	stato_source	Prediction of total genetic value using genome-wide dense marker maps	Meuwissen	2001	Genetics	10.1093/genetics/157.4.1819	11290733	PMC1461589	8114
+meuwissen2009fast	stato_source	A fast algorithm for BayesB type of prediction of genome-wide estimates of genetic value	Meuwissen	2009	Genet Sel Evol	10.1186/1297-9686-41-2	19284681	PMC2637029	123
+mfsusie	method_paper	mfSuSiE enables multi-cell-type fine-mapping and multi-omic integration of chromatin accessibility QTLs in aging brain.	Liu A	2025	bioRxiv (Cold Spring Harbor Laboratory)	10.1101/2025.11.25.690439	NA	NA	NA
+mixsqp	method_paper	A Fast Algorithm for Maximum Likelihood Estimation of Mixture Proportions Using Sequential Quadratic Programming	Kim Y	2020	Journal of Computational and Graphical Statistics	10.1080/10618600.2019.1689985	33762803	PMC7986967	34
+morris2008	method_paper	Bayesian analysis of mass spectrometry proteomic data using wavelet-based functional mixed models.	Morris JS	2008	Biometrics	10.1111/j.1541-0420.2007.00895.x	17888041	PMC2659628	NA
+morris_2015	method_paper	Functional Regression	Morris JS	2015	Annual Review of Statistics and Its Application	10.1146/annurev-statistics-010814-020413	NA	NA	469
+mouthwash	method_paper	Empirical Bayes shrinkage and false discovery rate estimation, allowing for unwanted variation.	Gerard D	2020	Biostatistics (Oxford, England)	10.1093/biostatistics/kxy029	29985984	PMC8204175	NA
+mr_ash	method_paper	A Flexible Empirical Bayes Approach to Multiple Linear Regression, and Connections with Penalized Regression	Kim	2022	arXiv	10.48550/arxiv.2208.10910	NA	NA	NA
+mr_mash	method_paper	A flexible empirical Bayes approach to multivariate multiple regression, and its improved accuracy in predicting multi-tissue gene expression from genotypes	Morgante F	2023	PLoS Genetics	10.1371/journal.pgen.1010539	37418505	PMC10355440	9
+multi_polygenic_score_mps	method_paper	Multi-polygenic score approach to trait prediction	Krapohl E	2018	Molecular Psychiatry	10.1038/mp.2017.163	28785111	PMC5681246	NA
+multiblup	method_paper	MultiBLUP: improved SNP-based prediction for complex traits.	Speed D	2014	Genome Research	10.1101/gr.169375.113	24963154	PMC4158754	216
+multiethnic_prs	method_paper	Multiethnic polygenic risk scores improve risk prediction in diverse populations.	Márquez-Luna C	2017	Genetic Epidemiology	10.1002/gepi.22083	29110330	PMC5726434	NA
+multiphen	method_paper	MultiPhen: Joint Model of Multiple Phenotypes Can Increase Discovery in GWAS	O'Reilly PF	2012	PLoS ONE	10.1371/journal.pone.0034861	22567092	PMC3342314	NA
+multiscale_poisson_process_approaches_for_detecting_and_estimating_differences_from_high_throughput_sequencing_assays	method_paper	Multiscale Poisson process approaches for detecting and estimating differences from high-throughput sequencing assays	Shim H	2024	The Annals of Applied Statistics	10.1214/23-aoas1828	NA	NA	NA
+multivariate_linear_mixed_model_mvlmm	method_paper	Efficient Algorithms for Multivariate Linear Mixed Models in Genome-wide Association Studies	Zhou X	2014	Nature Methods	10.1038/nmeth.2848	24531419	PMC4211878	NA
+multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods	method_paper	Multivariate simulation framework reveals performance of multi-trait GWAS methods	Porter HF	2017	Scientific Reports	10.1038/srep38837	NA	PMC5347376	NA
+mvsusie	method_paper	Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model.	Zou Y	2026	Nature genetics	10.1038/s41588-025-02486-7	NA	PMC12900646	NA
+park2008bayesian	stato_source	The Bayesian Lasso	Park	2008	Journal of the American Statistical Association	10.1198/016214508000000337	NA	NA	3005
+pclocate	method_paper	Fine-Scale Estimation of Location of Birth from Genome-Wide Single-Nucleotide Polymorphism Data	Hoggart CJ	2012	Genetics	10.1534/genetics.111.135657	NA	PMC3276643	NA
+ped_pop	method_paper	Confounding between recombination and selection, and the Ped/Pop method for detecting selection.	O'Reilly PF	2008	Genome research	10.1101/gr.067181.107	NA	PMC2493435	NA
+perezrodriguez2012comparison	stato_source	Comparison between linear and non-parametric regression models for genome-enabled prediction in wheat	Perez-Rodriguez P	2012	G3 (Bethesda)	10.1534/g3.112.003665	23275882	PMC3516481	236
+peters_2015	method_paper	De novo identification of differentially methylated regions in the human genome.	Peters TJ	2015	Epigenetics & Chromatin	10.1186/1756-8935-8-6	25972926	PMC4429355	NA
+pickrell2010	method_paper	Understanding mechanisms underlying human gene expression variation with RNA sequencing.	Pickrell JK	2010	Nature	10.1038/nature08872	20220758	PMC3089435	NA
+poisson_multivariate_adaptive_shrinkage	method_paper	A flexible model for correlated count data, with application to multicondition differential expression analyses of single-cell RNA sequencing data	Liu Y	2024	The Annals of Applied Statistics	10.1214/24-aoas1894	NA	NA	NA
+polypred	method_paper	Leveraging fine-mapping and multipopulation training data to improve cross-population polygenic risk scores.	Weissbrod O	2022	Nature Genetics	10.1038/s41588-022-01036-9	35393596	PMC9009299	NA
+portability_of_245_polygenic_scores_when_derived_from_the_uk_biobank_and_applied_to_9_ancestry_groups_from_the_same_cohort	method_paper	Portability of 245 polygenic scores when derived from the UK Biobank and applied to 9 ancestry groups from the same cohort	Privé F	2022	The American Journal of Human Genetics	10.1016/j.ajhg.2021.11.008	34995502	PMC8764121	NA
+pritchard2000	method_paper	Association Mapping in Structured Populations	Pritchard JK	2000	American Journal of Human Genetics	10.1086/302959	10827107	PMC1287075	NA
+prosper	method_paper	An ensemble penalized regression method for multi-ancestry polygenic risk prediction	Zhang J	2024	Nature Communications	10.1038/s41467-024-47357-7	38622117	PMC11271575	NA
+prscs	method_paper	Polygenic prediction via Bayesian regression and continuous shrinkage priors.	Ge T	2019	Nature communications	10.1038/s41467-019-09718-5	30992449	PMC6467998	1914
+prscsx	method_paper	Improving polygenic prediction in ancestrally diverse populations.	Ruan Y	2022	Nature genetics	10.1038/s41588-022-01054-7	35513724	PMC9117455	NA
+prset	method_paper	PRSet: Pathway-based polygenic risk score analyses and software	Choi SW	2023	PLoS genetics	10.1371/journal.pgen.1010624	NA	PMC9937466	NA
+prsice	method_paper	PRSice: Polygenic Risk Score software.	Euesden J	2015	Bioinformatics	10.1093/bioinformatics/btu848	25550326	PMC4410663	NA
+prsice2	method_paper	PRSice-2: Polygenic Risk Score software for biobank-scale data.	Choi SW	2019	GigaScience	10.1093/gigascience/giz082	31307061	PMC6629542	NA
+sbayesr	method_paper	Improved polygenic prediction by Bayesian multiple regression on summary statistics.	Lloyd-Jones LR	2019	Nature communications	10.1038/s41467-019-12653-0	31704910	PMC6841727	549
+sblup	method_paper	Genetic evidence of assortative mating in humans	Robinson MR	2017	Nature Human Behaviour	10.1038/s41562-016-0016	NA	NA	NA
+scheet2006	method_paper	A Fast and Flexible Statistical Model for Large-Scale Population Genotype Data: Applications to Inferring Missing Genotypes and Haplotypic Phase	Scheet P	2006	American Journal of Human Genetics	10.1086/502802	16532393	PMC1424677	NA
+sdpr	method_paper	A fast and robust Bayesian nonparametric method for prediction of complex traits using summary statistics.	Zhou G	2021	PLoS Genetics	10.1371/journal.pgen.1009697	34310601	PMC8341714	NA
+sdprx	method_paper	SDPRX: A statistical method for cross-population prediction of complex traits.	Zhou G	2023	American Journal of Human Genetics	10.1016/j.ajhg.2022.11.007	NA	PMC9892700	NA
+servin2007	method_paper	Imputation-based analysis of association studies: candidate regions and quantitative traits.	Servin B	2007	PLoS Genetics	10.1371/journal.pgen.0030114	17676998	PMC1934390	NA
+shen_2017	method_paper	Detect differentially methylated regions using non-homogeneous hidden Markov model for methylation array data.	Shen L	2017	Bioinformatics (Oxford, England)	10.1093/bioinformatics/btx467	29036320	PMC6355111	NA
+sibling_similarity_can_reveal_key_insights_into_genetic_architecture	method_paper	Sibling similarity can reveal key insights into genetic architecture	O'Reilly PF	2025	eLife	10.7554/elife.87522.3	NA	PMC11709432	NA
+sis	method_paper	Sure Independence Screening for Ultra-High Dimensional Feature Space	Fan J	2008	Journal of the Royal Statistical Society Series B	10.1111/j.1467-9868.2008.00674.x	19603084	NA	NA
+smash	method_paper	Flexible signal denoising via flexible empirical Bayes shrinkage	Xing Z	2021	Journal of Machine Learning Research	10.48550/arxiv.1605.07787	38149302	PMC10751020	8
+sniekers2015	method_paper	Adaptive Bayesian credible sets in regression with a Gaussian process prior	Sniekers S	2015	arXiv	10.1214/15-ejs1078	NA	NA	47
+sniekers2020	method_paper	Adaptive Bayesian credible bands in regression with a Gaussian process prior.	Sniekers S	2020	Sankhya A	10.1007/s13171-019-00185-0	32863677	PMC7442042	NA
+soft_impute	method_paper	Spectral Regularization Algorithms for Learning Large Incomplete Matrices.	Mazumder R	2010	Journal of machine learning research : JMLR	NA	21552465	PMC3087301	NA
+speed_2012	method_paper	Improved heritability estimation from genome-wide SNPs.	Speed D	2012	American Journal of Human Genetics	10.1016/j.ajhg.2012.10.010	23217325	PMC3516604	NA
+squarem	method_paper	Simple and globally convergent methods for accelerating the convergence of any EM algorithm	Varadhan R	2008	Scandinavian Journal of Statistics	10.1111/j.1467-9469.2007.00585.x	NA	NA	NA
+sss	method_paper	Shotgun Stochastic Search for “Large p” Regression	Hans C	2007	Journal of the American Statistical Association	10.1198/016214507000000121	NA	NA	NA
+storey2003	method_paper	Statistical significance for genomewide studies	Storey JD	2003	Proceedings of the National Academy of Sciences of the United States of America	10.1073/pnas.1530509100	12883005	PMC170937	NA
+structure	method_paper	Inference of population structure using multilocus genotype data.	Pritchard JK	2000	Genetics	10.1093/genetics/155.2.945	10835412	PMC1461096	NA
+sushie	method_paper	Improved multiancestry fine-mapping identifies cis-regulatory variants underlying molecular traits and disease risk.	Lu Z	2025	Nature genetics	10.1038/s41588-025-02262-7	NA	PMC12767540	NA
+susie	method_paper	A simple new approach to variable selection in regression, with application to genetic fine mapping.	Wang G	2020	Journal of the Royal Statistical Society. Series B, Statistical methodology	10.1111/rssb.12388	37220626	PMC10201948	1211
+susie_ash	method_paper	SuSiE 2.0: improved methods and implementations for genetic fine-mapping and phenotype prediction	McCreight	2025	bioRxiv	10.1101/2025.11.25.690514	NA	NA	NA
+susierss	method_paper	"Fine-mapping from summary data with the ""Sum of Single Effects"" model."	Zou Y	2022	PLoS genetics	10.1371/journal.pgen.1010299	35853082	PMC9337707	NA
+szabo_2015	method_paper	Frequentist coverage of adaptive nonparametric Bayesian credible sets	Szabo B	2015	The Annals of Statistics	10.1214/14-aos1270	NA	NA	NA
+tlprs	method_paper	The construction of cross-population polygenic risk scores using transfer learning.	Zhao Z	2022	American journal of human genetics	10.1016/j.ajhg.2022.09.010	NA	PMC9674947	NA
+torus	method_paper	Molecular QTL discovery incorporating genomic annotations using Bayesian false discovery rate control	Wen X	2016	The Annals of Applied Statistics	10.1214/16-aoas952	NA	NA	NA
+tpb	method_paper	Generalized Beta Mixtures of Gaussians	Armagan A	2011	Advances in Neural Information Processing Systems	10.48550/arxiv.1107.4976	25364213	PMC4214276	117
+uffelmann2021genome	intermediate	Genome-wide association studies	Uffelmann	2021	NA	10.1038/s43586-021-00056-9	NA	NA	NA
+ultimate_deconvolution	method_paper	Improved methods for empirical Bayes multivariate multiple testing and effect size estimation	Yang Y	2024	arXiv (Cornell University)	10.48550/arxiv.2406.08784	NA	NA	NA
+unknownunknownpaper	stato_source	NA	NA	NA	NA	NA	NA	PMC3382275	NA
+van_der_vaart_2008	method_paper	Rates of contraction of posterior distributions based on Gaussian process priors	van der Vaart AW	2008	The Annals of Statistics	10.1214/009053607000000613	NA	NA	NA
+varbvs	method_paper	Scalable Variational Inference for Bayesian Variable Selection in Regression, and Its Accuracy in Genetic Association Studies	Carbonetto P	2012	Bayesian Analysis	10.1214/12-ba703	NA	NA	NA
+vash	method_paper	Variance adaptive shrinkage (vash): flexible empirical Bayes estimation of variances	Lu M	2016	Bioinformatics	10.1093/bioinformatics/btw483	27436563	PMC5181563	NA
+veyrieras2008	method_paper	High-resolution mapping of expression-QTLs yields insight into human gene regulation.	Veyrieras JB	2008	PLoS genetics	10.1371/journal.pgen.1000214	18846210	PMC2556086	NA
+wakefield_abf	method_paper	Bayes factors for genome-wide association studies: comparison with P-values.	Wakefield J	2009	Genetic Epidemiology	10.1002/gepi.20359	18642345	NA	NA
+wang2021	method_paper	Empirical Bayes Matrix Factorization.	Wang W	2021	Journal of machine learning research : JMLR	10.48550/arxiv.1802.06931	37920532	PMC10621241	NA
+wang_2016	method_paper	Wavelet speech enhancement based on nonnegative matrix factorization	Wang SS	2016	arXiv	10.1109/lsp.2016.2571727	NA	NA	25
+wavelet_ss	method_paper	WAVELET-BASED GENETIC ASSOCIATION ANALYSIS OF FUNCTIONAL PHENOTYPES ARISING FROM HIGH-THROUGHPUT SEQUENCING ASSAYS.	Shim H	2015	The annals of applied statistics	10.1214/14-aoas776	29399242	PMC5795621	NA
+wen2011	method_paper	Bayesian Methods for Genetic Association Analysis with Heterogeneous Subgroups: From Meta-Analyses to Gene-Environment Interactions	Wen X	2014	The Annals of Applied Statistics	10.1214/13-aoas695	26413181	PMC4583155	NA
+wen2014	method_paper	Bayesian model selection in complex linear systems, as illustrated in genetic association studies.	Wen X	2014	Biometrics	10.1111/biom.12112	24350677	PMC3954315	NA
+wen_2012	method_paper	Bayesian Analysis of Multiway Tables in Association Studies: A Model Comparison Approach	Wen X	2012	arXiv	10.48550/arxiv.1208.4621	NA	NA	2
+wfmm	method_paper	Wavelet-based functional mixed models.	Morris JS	2006	Journal of the Royal Statistical Society. Series B, Statistical methodology	10.1111/j.1467-9868.2006.00539.x	19759841	PMC2744105	NA
+wray_2010	method_paper	The genetic interpretation of area under the ROC curve in genomic profiling.	Wray NR	2010	PLoS Genetics	10.1371/journal.pgen.1000864	20195508	PMC2829056	NA
+wu_2009	method_paper	Genome-wide association analysis by lasso penalized logistic regression.	Wu TT	2009	Bioinformatics	10.1093/bioinformatics/btp041	19176549	PMC2732298	NA
+xpass	method_paper	A unified framework for cross-population trait prediction by leveraging the genetic correlation of polygenic traits.	Cai M	2021	American journal of human genetics	10.1016/j.ajhg.2021.03.002	33770506	PMC8059341	111
+xu2003estimating	intermediate	Estimating polygenic effects using markers of the entire genome.	Xu	2003	Genetics	10.1093/genetics/163.2.789	12618414	PMC1462468	387
+xwing	method_paper	Quantifying portable genetic effects and improving cross-ancestry genetic prediction with GWAS summary statistics.	Miao J	2023	Nature Communications	10.1038/s41467-023-36544-7	NA	PMC9929290	NA
+yang2010common	intermediate	Common SNPs explain a large proportion of the heritability for human height	Yang	2010	Nat Genet	10.1038/ng.608	20562875	PMC3232052	4488
+yang2014	method_paper	A Sparse SVD Method for High-dimensional Data	Yang D	2014	NA	NA	NA	NA	NA
+yang_2011_yang_2011	method_paper	Genomic inflation factors under polygenic inheritance.	Yang J	2011	European journal of human genetics : EJHG	10.1038/ejhg.2011.39	21407268	PMC3137506	NA
+yang_2015	method_paper	Genetic variance estimation with imputed variants finds negligible missing heritability for human height and body mass index.	Yang J	2015	Nature genetics	10.1038/ng.3390	26323059	PMC4589513	NA
+zaitlen_2010	method_paper	Leveraging genetic variability across populations for the identification of causal variants.	Zaitlen N	2010	American journal of human genetics	10.1016/j.ajhg.2009.11.016	20085711	PMC2801753	NA
+zhang2005	method_paper	Mapping multiple Quantitative Trait Loci by Bayesian classification.	Zhang M	2005	Genetics	10.1534/genetics.104.034181	15520261	PMC1449613	28
+zhang_2008	method_paper	Variable selection for large p small n regression models with incomplete data: mapping QTL with epistases.	Zhang M	2008	BMC Bioinformatics	10.1186/1471-2105-9-251	18510743	PMC2435550	NA
+zhou2013polygenic	intermediate	Polygenic modeling with Bayesian sparse linear mixed models	Zhou	2013	PLoS Genet	10.1371/journal.pgen.1003264	23408905	PMC3567190	810
+zhu2011	method_paper	Robust, Adaptive Functional Regression in Functional Mixed Model Framework	Zhu	2011	Journal of the American Statistical Association	10.1198/jasa.2011.tm10370	22308015	PMC3270884	NA
+zhu_2017	method_paper	Bayesian large-scale multiple regression with summary statistics from genome-wide association studies	Zhu X	2017	The Annals of Applied Statistics	10.1214/17-aoas1046	29399241	PMC5796536	NA

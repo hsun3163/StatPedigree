@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+johnson2005:q01	fsusie	What conditions provide a bound on the discrepancy between TBF-based posterior model probabilities and the full-data posterior across the model space?	A uniform approximation-error bound beyond the stated nested-model approximation and the linear-model selection-consistency theorem.	johnson2005:c06; johnson2005:c10	hu_johnson_lrtbf

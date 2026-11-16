@@ -1,0 +1,5 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+finemap:q01	fsusie	When does a finite SSS run capture enough posterior mass to control SNP inclusion error?	A finite-iteration posterior-mass coverage certificate or bound under stated LD and effect conditions.	finemap:c27; finemap:c33	finemap
+finemap:q02	fsusie	What accuracy is retained when external LD differs from the GWAS LD?	A quantitative bound linking correlation-estimation mismatch to posterior error.	finemap:c28; finemap:c29	finemap
+finemap:q03	fsusie	How much does the binary-trait normal likelihood change posterior probabilities?	An approximation-error bound under specified case fractions, sample sizes and effects.	finemap:c09	finemap
+finemap:q04	fsusie	What posterior information is removed by the collinearity exclusion threshold?	A bound on posterior mass of excluded configurations for a chosen correlation threshold.	finemap:c22	finemap

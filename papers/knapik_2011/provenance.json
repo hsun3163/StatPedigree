@@ -1,0 +1,27 @@
+{
+  "paper_id": "knapik_2011",
+  "source_url": "https://export.arxiv.org/html/1103.2692v2",
+  "version": "arXiv:1103.2692v2 (23 Feb 2012)",
+  "access": "full_text",
+  "source_sha256": "51cf5d5e519ea9e0fd6ac60d1470ab057de554c6cc9553f482eefbd3e16c8fa1",
+  "claim_count": 15,
+  "method_rows": 1,
+  "open_question_count": 1,
+  "parents": "skipped as requested",
+  "fetch_invocation": "import scripts/fetch_paper.py; scoped ROOT; main with --arxiv 1103.2692v2",
+  "operator_notes": [
+    "Fetcher get() uses both ROOT / tmp and ROOT / tmp/fetch_events.jsonl: initial ScopedRoot only redirected the former, causing one shared fetch event append. No other jobs files changed intentionally.",
+    "Sandbox startup failed before execution: error building bubblewrap command: Fatal error: cannot enforce sandbox read-only path /hpc/users/sunh14/.codex because it crosses writable symlink /hpc/users/sunh14/.codex. Recovered through reviewed host execution.",
+    "Diagnostic rg pattern failed: error: unclosed character class. Recovered with fixed-string search.",
+    "Read of intended redirected fetch log failed: No such file or directory. Identified missed combined path mapping."
+  ],
+  "acceptance": {
+    "methods.tsv": 1,
+    "claims.tsv": 15,
+    "claims.checked.tsv": 15,
+    "open_questions.tsv": 1,
+    "rejects.tsv": 0
+  },
+  "span_check": "knapik_2011 kept=15 rejected=0",
+  "final_review": "Required files, light-pass caps, component claim IDs, assumption references, exact spans, and unique seed row verified."
+}

@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+caviarbf	chen2015	fsusie	CAVIAR Bayes factor (CAVIARBF)	Bayesian fine-mapping framework; specific likelihood unavailable in the abstract	NA	NA	Association and fine-mapping questions; specific posterior summaries unavailable in the abstract	Marginal test statistics; complete input specification unavailable in the abstract	NA	NA	model_likelihood=chen2015:c02; estimand=chen2015:c04; data_input=chen2015:c03

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+multiblup:q01	prs	Under what conditions can adaptively selected regional variance estimates be interpreted as variance explained?	A validity result for variance estimation after phenotype-dependent region selection; the paper states the interpretation for a priori GSM construction and distant relatedness.	multiblup:c10; multiblup:c13	multiblup; adaptive_multiblup

@@ -1,0 +1,14 @@
+{
+  "paper_id": "engelhardt2010",
+  "access": "full_text",
+  "source": "Europe PMC PMC2940725 journal OA JATS",
+  "claims_kept": 15,
+  "claims_rejected": 0,
+  "method_rows": 2,
+  "open_questions": 2,
+  "supplement": "unavailable after bounded repository retries",
+  "supplement_error": "500 Server Error: Internal Server Error for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2940725/supplementaryFiles",
+  "fetcher_workaround": "tmp/engelhardt2010/fetch_scoped.py redirects hard-coded shared tmp writes without changing scripts/fetch_paper.py",
+  "equations": "JATS equation images are absent from converted text; no missing formula reconstructed; raw XML retained.",
+  "review": "Five required TSVs exist; exact spans pass; TSV cells contain no tabs or newlines; no parents step, merge or commit."
+}

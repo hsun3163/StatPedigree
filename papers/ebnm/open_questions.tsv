@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+ebnm:q01	fsusie	Under what conditions are intervals based on an estimated prior calibrated after accounting for prior-estimation uncertainty?	A calibration result or uncertainty-adjusted construction for the selected prior family and fitting procedure.	ebnm:c14; ebnm:c15	ebnm

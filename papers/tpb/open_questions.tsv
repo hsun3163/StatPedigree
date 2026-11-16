@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+tpb:q01	prs	Under what conditions does the proposed variational iteration accurately approximate the joint posterior in high-dimensional regression?	A stated approximation-error bound or accuracy theorem for the variational family under specified design, dimension and hyperparameter conditions; the paper supplies updates and empirical comparisons.	tpb:c06; tpb:c08	tpb

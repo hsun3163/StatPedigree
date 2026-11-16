@@ -1,0 +1,17 @@
+{
+  "paper_id": "wfmm",
+  "access": "abstract_only",
+  "version_used": "PMC abstract (Morris and Carroll 2006)",
+  "source_file": "sources/wfmm.txt",
+  "full_text_unreachable": [
+    "XML response: The publisher of this article does not allow downloading of the full text in XML form.",
+    "PMC HTML: HTTP 403; 403 Forbidden",
+    "Europe PMC HTML: HTTP 403; Just a moment..."
+  ],
+  "supplement": "SUPPLEMENT unavailable in Europe PMC OA package: Article with id PMC2744105 is not open access one",
+  "shared_script_bugs": [
+    "fetch_paper.py treats HTTP-200 XML without a body as full text; used abstract_only explicitly in all claims and this status file.",
+    "fetch_paper.py writes shared tmp/fetch_events.jsonl; invocation remapped immediate tmp files into tmp/wfmm without changing shared code."
+  ],
+  "scope": "Only wfmm source, paper files and tmp/wfmm written; seed row already present."
+}

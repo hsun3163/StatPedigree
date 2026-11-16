@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+dap	dap	fsusie	Deterministic approximation of posteriors (DAP)	NA	NA	Deterministic approximation of posteriors; fitting details unavailable in the abstract.	Joint enrichment analysis and identification of multiple causal variants.	Genomic annotations incorporated into GWAS or molecular QTL association analysis; required data representation unspecified.	NA	NA	inference_algorithm=dap:c02; estimand=dap:c03; data_input=dap:c04

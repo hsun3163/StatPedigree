@@ -1,0 +1,3 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+dudbridge2013:q01	prs	Under what LD and subject-relatedness structures do the analytic power and accuracy expressions remain calibrated?	A derivation or controlled approximation for correlated markers and related subjects replacing the ideal independence conditions.	dudbridge2013:c06; dudbridge2013:c07	dudbridge2013
+dudbridge2013:q02	prs	What finite-marker conditions ensure adequate accuracy of the random-effects moment approximation?	A finite-marker error bound for realised genetic variance and covariance relative to their random-effects expectations.	dudbridge2013:c09	dudbridge2013

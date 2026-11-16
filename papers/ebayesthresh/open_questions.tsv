@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+ebayesthresh:q01	fsusie	How does sampling variability in noise-variance estimation affect the stated risk bounds?	A risk analysis propagating estimation error in the noise variance through levelwise marginal likelihood and threshold selection.	ebayesthresh:c10; ebayesthresh:c11; ebayesthresh:c12	ebayesthresh

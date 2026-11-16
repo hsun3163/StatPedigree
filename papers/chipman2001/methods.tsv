@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+bayesian_model_selection	chipman2001	fsusie	Bayesian model selection (review framework)	NA	Prior distributions describe uncertainty about unknown quantities; family unspecified.	NA	Posterior distribution summarizing remaining uncertainty relevant to model selection.	Observed data; format unspecified in the abstract.	NA	NA	prior=chipman2001:c01; estimand=chipman2001:c02; data_input=chipman2001:c02

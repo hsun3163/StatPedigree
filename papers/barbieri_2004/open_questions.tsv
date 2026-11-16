@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+barbieri_2004:q01	fsusie	Which additional conditions ensure median probability model predictive optimality for nonnested correlated designs outside the stated theorem conditions?	A predictive-risk characterization yielding a sufficient condition beyond diagonal or semi-orthogonal designs and the nested common-shrinkage settings, while excluding the Section 6.2 counterexample.	barbieri_2004:c09; barbieri_2004:c10; barbieri_2004:c11; barbieri_2004:c14	median_probability_model

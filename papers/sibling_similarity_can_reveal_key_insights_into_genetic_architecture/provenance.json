@@ -1,0 +1,40 @@
+{
+  "paper_id": "sibling_similarity_can_reveal_key_insights_into_genetic_architecture",
+  "access": "full_text",
+  "version_used": "PMC11709432.1; eLife 2025-01-08; deposited DOI 10.7554/eLife.87522",
+  "identity": {
+    "pmcid": "PMC11709432",
+    "pmcid-ver": "PMC11709432.1",
+    "pmcaid": "11709432",
+    "pmcaiid": "11709432",
+    "pmid": "39773384",
+    "doi": "10.7554/eLife.87522",
+    "publisher-id": "87522"
+  },
+  "first_author_deposited": "Tade Souaiaia",
+  "hint_author": "Paul F. O'Reilly (last author in deposited article)",
+  "hint_doi": "10.7554/elife.87522.3",
+  "version_note": "The hinted version suffix .3 is not asserted for the deposited PMC article. The appended seed preserves the supplied hint; deposited identity is recorded here.",
+  "route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11709432/fullTextXML",
+  "supplement_note": "Fetched and read; contains the reporting checklist, not additional mathematical derivations. Appendices 1-3 are in the main source.",
+  "scope": "Ancestor light pass: 15 claims; one framework method; parents skipped.",
+  "fetch_workaround": "Native fetch_paper.py logs to shared tmp/fetch_events.jsonl and may write shared temporary supplement responses. fetch_scoped.py redirects direct tmp file opens to this paper-scoped tmp directory without modifying shared scripts.",
+  "files": {
+    "sibling_similarity_can_reveal_key_insights_into_genetic_architecture.supp.raw.zip": {
+      "bytes": 812357,
+      "sha256": "a4b60f309b3af05faba415ad097f3f0b3b82c7c039c28b69ba20830ccc01d571"
+    },
+    "sibling_similarity_can_reveal_key_insights_into_genetic_architecture.txt": {
+      "bytes": 72380,
+      "sha256": "4f2e795af3b6237ad2d7a5b4529b726a5ddd7e9c8eb91886495642814cc79701"
+    },
+    "sibling_similarity_can_reveal_key_insights_into_genetic_architecture.raw.xml": {
+      "bytes": 389700,
+      "sha256": "4ae69d5530e3edbafb2a85fa06f27ad6900c9c238bc75933e19f024bc80676a1"
+    },
+    "sibling_similarity_can_reveal_key_insights_into_genetic_architecture.supp.txt": {
+      "bytes": 9184,
+      "sha256": "05aba450135247052aee30f05ea570f2ac1245fd5e8e84405f671842ad159509"
+    }
+  }
+}

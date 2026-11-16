@@ -1,0 +1,176 @@
+method_id	side	x	y	tier	short	labels
+wfmm	fsusie	0.6	0	3	WFMM	2006|wavelet functional mixed model|abstract only
+wavelet_ss	fsusie	0.6	1	2	Wavelet test	2015|one SNP vs a function|wavelet-domain test
+wavelet_ss_wc	fsusie	0	2	3	one-coefficient regression	building block
+ash	fsusie	2.2	1	1	ash	2017|unimodal mixture prior|empirical Bayes shrinkage|input: estimates + SEs
+smash	fsusie	1.4	2.4	2	smash	2021|ash at each wavelet scale|signal denoising
+poisson_multiscale	fsusie	0.7	3.3	3	Poisson multiscale	variant of smash
+bvsr	fsusie	3.4	0	3	BVSR	2011|Bayesian variable selection|sparsity prior, MCMC
+ser	fsusie	3.4	1	2	SER	2020|exactly one nonzero effect|closed-form posterior
+susie	fsusie	3.4	2	1	SuSiE	2020|sum of L single effects|IBSS coordinate ascent|credible sets + PIPs
+mash	fsusie	4.6	1	3	mash	2019|many conditions at once|mixture of MVN prior
+finemap	fsusie	5.8	1.9	3	FINEMAP	2016|search over causal sets|summary stats + LD
+susierss	fsusie	4.8	3	2	SuSiE-RSS	2022|SuSiE from summary stats|exact with in-sample LD
+rss_z	fsusie	5.8	3.6	3	RSS-Z model	building block
+mvsusie	fsusie	4.0	4	1	mvSuSiE	2023|several traits at once|mixture of MVN prior|fitted through MSER
+mser	fsusie	4.9	4.6	3	MSER	multivariate SER
+mvsusie_rss	fsusie	4.0	5	3	mvSuSiE-RSS	summary-statistic form
+mv_simple	fsusie	5.6	5.2	3	multivariate simple regression	building block
+mv_simple_normal	fsusie	6.2	4.6	3	normal prior	building block
+mv_simple_intercept	fsusie	6.4	5.4	3	with intercept	building block
+mv_simple_mixture	fsusie	5.4	6	3	mixture prior	building block
+sushie	fsusie	3.2	4.8	1	SuShiE	2025|several ancestries|shared causal variant|correlated effects
+sushie_indep	fsusie	2.8	5.8	3	SuShiE-indep	named in the papers
+sfr	fsusie	0.6	5.2	2	SFR	2025|one SNP, whole function|functional SER
+simple_bfr	fsusie	0	4.4	3	simple functional regression	building block
+fsusie	fsusie	1.6	6	1	fSuSiE	2025|sum of single functions|wavelet domain|per-scale mixture prior
+infinitesimal	prs	2.0	0	3	infinitesimal model	named in the papers
+ridge	prs	3.6	0	3	ridge regression	named in the papers
+horseshoe	prs	5.0	0.8	3	horseshoe	named in the papers|not read yet
+bpred	prs	0.2	1.2	3	Bpred	building block
+ldpred	prs	1.4	1.4	1	LDpred	2015|point-normal prior|Gibbs sampler|reference-panel LD
+ldpred_inf	prs	0.6	2.2	2	LDpred-inf	2015|Gaussian prior|analytic posterior mean
+prsice2	prs	2.6	2.7	2	C+T	one SNP per locus|P-value threshold|no prior
+ldpred2	prs	1.4	3	2	LDpred2	2020|LDpred, windowed LD|grid over p and h2
+ldpred2_inf	prs	0.5	3.8	3	LDpred2-inf	p = 1
+ldpred2_auto	prs	1.2	4.2	3	LDpred2-auto	p and h2 estimated|no validation set
+ldpred2_sparse	prs	2.0	3.9	3	LDpred2 sparse	variant
+prscs	prs	3.4	2	1	PRS-CS	2019|global-local shrinkage|ridge is a member|summary stats + LD ref
+prscs_auto	prs	5.0	2.8	2	PRS-CS-auto	2019|global scale learned|no validation set
+prscsx	prs	3.4	3.8	1	PRS-CSx	2022|several populations|shrinkage scales shared|effects pop-specific
+bridgeprs_stage1	prs	4.4	4.4	2	BridgePRS stage 1	2024|per-locus Gaussian prior|ridge-equivalent
+bridgeprs_stage2	prs	4.6	5.4	2	BridgePRS stage 2	2024|pop-1 posterior as prior|precision scaled by tau
+bridgeprs	prs	2.6	6	1	BridgePRS	2024|stage 1 + stage 2 scores|shares effect sizes|needs target tuning data
+stato_0000235	stato	0	0	2	genetic association study	STATO:0000235|STATO term
+stato_0000091	stato	1	0	2	GWAS	STATO:0000091|STATO term
+stato_0000390	stato	2	0	2	regression model	STATO:0000390|STATO term
+stato_0000108	stato	3	0	1	linear regression	STATO:0000108|STATO term
+stato_0000464	stato	4	0	2	linear mixed model	STATO:0000464|STATO term
+stato_0000143	stato	5	0	2	Bayesian model selection	STATO:0000143|STATO term
+stato_0000266	stato	6	0	2	Bayes factor	STATO:0000266|STATO term
+stato_0000455	stato	7	0	2	credible interval	STATO:0000455|STATO term
+stato_0000334	stato	8	0	2	mixture distribution	STATO:0000334|STATO term
+obi_0200163	stato	9	0	2	FDR correction	OBI:0200163|STATO term
+stato_0000530	stato	10	0	1	Bayesian model	STATO:0000530|STATO term
+stato_0000531	stato	11	0	2	prior distribution	STATO:0000531|STATO term
+stato_0000532	stato	12	0	2	posterior distribution	STATO:0000532|STATO term
+stato_gap	stato	13	0	2	not in STATO	ontology gaps
+stato_0000155	stato	14	0	2	meta analysis	STATO:0000155|STATO term
+stato_0000428	stato	15	0	2	maximum likelihood	STATO:0000428|STATO term
+stato_0000336	stato	16	0	2	BLUP	STATO:0000336|STATO term
+stato_0000338	stato	17	0	1	breeding value from genotypes	STATO:0000338|STATO term
+stato_0000537	stato	18	0	2	Metropolis-Hastings	STATO:0000537|STATO term
+stato_0000536	stato	19	0	2	Gibbs sampling	STATO:0000536|STATO term
+stato_0000481	stato	20	0	2	GBLUP	STATO:0000481|STATO term
+stato_0000483	stato	21	0	2	Bayes A	STATO:0000483|STATO term
+stato_0000484	stato	22	0	2	Bayes B	STATO:0000484|STATO term
+stato_0000533	stato	23	0	2	Bayes C pi	STATO:0000533|STATO term
+stato_0000492	stato	24	0	2	Bayesian LASSO	STATO:0000492|STATO term
+stato_0000480	stato	25	0	2	RR-BLUP	STATO:0000480|STATO term
+hastings1970monte	cite	4.4	-2.2	2	Metropolis-Hastings	Hastings 1970|MCMC sampling
+geman1984stochastic	cite	5.6	-2.2	2	Gibbs sampler	Geman & Geman 1984|sampling one variable at a time
+meuwissen2001prediction	cite	7.6	-2.3	2	BayesA / BayesB	Meuwissen 2001|genomic prediction from dense markers
+meuwissen2009fast	cite	8.6	-1.9	2	fast BayesB	Meuwissen 2009|non-MCMC algorithm for BayesB
+habier2011extension	cite	9.6	-2.3	2	BayesC pi / BayesD pi	Habier 2011|extends the Bayesian alphabet
+park2008bayesian	cite	10.6	-1.9	2	Bayesian LASSO	Park & Casella 2008|Laplace prior on effects
+perezrodriguez2012comparison	cite	11.6	-2.3	2	genomic prediction comparison	Pérez-Rodríguez 2012|linear vs non-parametric models
+xu2003estimating	cite	6.4	-1.5	2	Bayesian shrinkage of marker effects	Xu 2003|all markers fitted together
+yang2010common	cite	7.6	-1.3	2	GREML heritability	Yang 2010|mixed model on all SNPs
+lloydjones2019improved	cite	12.8	-1.4	2	SBayesR	Lloyd-Jones 2019|Bayesian regression on summary stats
+chun2020non	cite	13.5	-0.5	2	NPS	Chun 2020|non-parametric shrinkage PRS
+falke2013spectrum	cite	13.3	-2.0	2	review, no method	Falke 2013|genetics of complex traits in plants
+wavelet_transform	gen	0.49	-3.4	2	wavelet transform	generic tool|named by 3 papers
+wavelet_shrinkage	gen	1.46	-3.4	2	wavelet shrinkage	generic tool|named by 4 papers
+normal_means	gen	2.43	-3.4	2	normal means	generic tool|named by 3 papers
+empirical_bayes	gen	3.40	-3.4	1	empirical Bayes	generic tool|named by 6 papers
+mixture_model	gen	4.37	-3.4	2	mixture model	generic tool|named by 4 papers
+variational_inference	gen	5.34	-3.4	2	variational inference	generic tool|named by 5 papers
+coordinate_ascent	gen	6.31	-3.4	2	coordinate ascent	generic tool|named by 4 papers
+em_algorithm	gen	7.29	-3.4	2	EM algorithm	generic tool|named by 7 papers
+bayes_factor	gen	8.26	-3.4	2	Bayes factor	generic tool|named by 7 papers
+spike_and_slab	gen	9.23	-3.4	2	spike-and-slab prior	generic tool|named by 4 papers
+summary_statistics_likelihood	gen	10.20	-3.4	2	summary-statistic likelihood	generic tool|named by 6 papers
+marginal_gwas_regression	gen	11.17	-3.4	2	marginal GWAS regression	generic tool|named by 6 papers
+clumping_thresholding	gen	12.14	-3.4	2	clumping + thresholding	generic tool|named by 2 papers
+cross_validation	gen	13.11	-3.4	2	cross validation	generic tool|named by 4 papers
+fdr	gen	0.49	-4.3	2	false discovery rate	generic tool|named by 2 papers
+multivariate_regression	gen	1.46	-4.3	2	multivariate regression	generic tool|named by 2 papers
+simple_linear_regression	gen	2.43	-4.3	2	simple linear regression	generic tool|named by 7 papers
+multiple_linear_regression	gen	3.40	-4.3	1	multiple linear regression	generic tool|named by 11 papers
+bayesian_linear_regression	gen	4.37	-4.3	1	Bayesian linear regression	generic tool|named by 4 papers
+conjugate_normal_model	gen	5.34	-4.3	2	conjugate normal model	generic tool|named by 7 papers
+scale_mixture_of_normals	gen	6.31	-4.3	2	scale mixture of normals	generic tool|named by 6 papers
+global_local_shrinkage	gen	7.29	-4.3	2	global-local shrinkage	generic tool|named by 2 papers
+linear_mixed_model	gen	8.26	-4.3	2	linear mixed model	generic tool|named by 2 papers
+blup	gen	9.23	-4.3	2	BLUP	generic tool|named by 1 paper
+logistic_regression	gen	10.20	-4.3	2	logistic regression	generic tool|named by 3 papers
+meta_analysis	gen	11.17	-4.3	2	meta analysis	generic tool|named by 3 papers
+mcmc	gen	12.14	-4.3	2	MCMC	generic tool|named by 3 papers
+gibbs_sampling	gen	13.11	-4.3	2	Gibbs sampling	generic tool|named by 4 papers
+bvsr_probit	fsusie	2.7	0.4	3	BVSR probit	variant
+mash_ee	fsusie	5.2	0.3	3	mash EE	variant
+mash_ez	fsusie	5.7	0.9	3	mash EZ	variant
+mash_bmalite	fsusie	6.2	0.3	3	mash BMA-lite	variant
+bolt	prs	0	0	2	BOLT-LMM	NA
+cojo	prs	0	0	2	COJO	NA
+dudbridge2013	prs	0	0	2	polygenic score	NA
+tpb	prs	0	0	2	TPB prior	NA
+ebayesthresh	fsusie	0	0	2	EbayesThresh	NA
+varbvs	fsusie	0	0	2	varbvs	NA
+dapg	fsusie	0	0	2	DAP-G	NA
+multiblup	prs	0	0	2	MultiBLUP	NA
+sblup	prs	0	0	2	SBLUP	NA
+xpass	prs	0	0	2	XPASS	NA
+annopred	prs	0	0	2	AnnoPred	NA
+ldpred_funct	prs	0	0	2	LDpred-funct	NA
+polypred	prs	0	0	2	PolyPred	NA
+bayesr	prs	0	0	2	BayesR	NA
+sbayesr	prs	0	0	2	SBayesR	NA
+megaprs	prs	0	0	2	MegaPRS	NA
+sdpr	prs	0	0	2	SDPR	NA
+sdprx	prs	0	0	2	SDPRX	NA
+bslmm	prs	0	0	2	BSLMM	NA
+dbslmm	prs	0	0	2	DBSLMM	NA
+xwing	prs	0	0	2	X-Wing	NA
+ctsleb	prs	0	0	2	CT-SLEB	NA
+multiethnic_prs	prs	0	0	2	multiethnic PRS	NA
+tlprs	prs	0	0	2	TL-PRS	NA
+bayes_alphabet	prs	0	0	2	BayesA / BayesB	NA
+lassosum	prs	0	0	2	lassosum	NA
+prosper	prs	0	0	2	PROSPER	NA
+lasso	gen	0	0	2	lasso	NA
+ebnm_estimated_se	fsusie	0	0	2	EBNM with SE uncertainty	NA
+vash	fsusie	0	0	2	vash	NA
+cashr	fsusie	0	0	2	cashr	NA
+mouthwash	fsusie	0	0	2	MOUTHWASH	NA
+corshrink	fsusie	0	0	2	CorShrink	NA
+fash	fsusie	0	0	2	FASH	NA
+ebnm	fsusie	0	0	2	ebnm	NA
+ebmf	fsusie	0	0	2	flash (EBMF)	NA
+cebmf	fsusie	0	0	2	cEBMF	NA
+gbcd	fsusie	0	0	2	GBCD	NA
+ebcd	fsusie	0	0	2	EBCD	NA
+poisson_multivariate_adaptive_shrinkage	fsusie	0	0	2	Poisson mash	NA
+ultimate_deconvolution	fsusie	0	0	2	Ultimate Deconvolution	NA
+multiseq	fsusie	0	0	2	multiseq	NA
+mr_ash	fsusie	0	0	2	mr.ash	NA
+mr_mash	fsusie	0	0	2	mr.mash	NA
+gradvi	fsusie	0	0	2	GradVI	NA
+ebglm	fsusie	0	0	2	EB GLM	NA
+susie_ash	fsusie	0	0	2	SuSiE-ash	NA
+coxph_susie	fsusie	0	0	2	CoxPH-SuSiE	NA
+ctwas	fsusie	0	0	2	cTWAS	NA
+m_ctwas	fsusie	0	0	2	M-cTWAS	NA
+mfsusie	fsusie	0	0	2	mfSuSiE	NA
+stephens_multivariate_association	fsusie	0	0	2	multivariate association 2013	NA
+bayesian_reduced_rank_regression	prs	0	0	2	Bayesian reduced rank regr.	NA
+gemma	fsusie	0	0	2	GEMMA	NA
+multivariate_linear_mixed_model_mvlmm	fsusie	0	0	2	mvLMM	NA
+colocboost	fsusie	0	0	2	ColocBoost	NA
+multiphen	prs	0	0	2	MultiPhen	NA
+prset	prs	0	0	2	PRSet	NA
+erasor	prs	0	0	2	EraSOR	NA
+mps	prs	0	0	2	multi-polygenic score	NA
+gsens	prs	0	0	2	Gsens	NA
+popout	prs	0	0	2	POPout	NA
+conditional_sibling_inference	prs	0	0	2	sibling inference	NA

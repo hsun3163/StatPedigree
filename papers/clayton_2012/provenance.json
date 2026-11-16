@@ -1,0 +1,18 @@
+{
+  "paper_id": "clayton_2012",
+  "title": "Link Functions in Multi-Locus Genetic Models: Implications for Testing, Prediction, and Interpretation",
+  "doi": "10.1002/gepi.21635",
+  "pmcid": "PMC3505800",
+  "version_used": "PMC deposited journal article (2012)",
+  "access": "full_text",
+  "route": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3505800/fullTextXML",
+  "source_sha256": "a424e1ac19498d7dac61c8e68a75b457a696895be1449413b3dab8d9ffa26668",
+  "fetch_invocation": "Native fetch_paper.main with --pmcid PMC3505800; ROOT redirected to tmp/clayton_2012 to isolate shared fetch_events.jsonl and supplement-response writes; resulting sources copied to authorized sources/clayton_2012.*",
+  "supplement": "Native fetch retained OA ZIP: 0 text documents; image assets only.",
+  "limitations": [
+    "Image-only equations omitted by native converter; no numeric formulas reconstructed.",
+    "Citation hint about log-odds-ratio-weighted genotypes is unverified; retained claims report explicit log-link risk model only.",
+    "Light ancestor pass, at most 15 claims and 2 method rows; parents skipped."
+  ],
+  "review": "All populated method components cite definition claims; prior/penalty and parameter-fitting algorithm for the prediction model are not supplied; assumptions separated from choices."
+}

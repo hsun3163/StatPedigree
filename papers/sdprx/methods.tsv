@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+sdprx	sdprx	prs	SDPRX	Qualitative joint two-population effect model with LD adjustment; null, population-specific and correlated shared effects; sampling likelihood unavailable in abstract	NA	NA	PRS prediction for non-European populations; exact estimator unavailable in abstract	GWAS summary statistics from European and non-European populations	NA	NA	model_likelihood=sdprx:c03; estimand=sdprx:c04; data_input=sdprx:c02

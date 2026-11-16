@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+kichaev2014:q01	fsusie	Under what conditions does the fixed non-centrality approximation preserve calibration of posterior causal probabilities?	A stated calibration result for the plug-in approximation, or a fully specified effect-size integration treatment with a corresponding calibration argument.	kichaev2014:c08; kichaev2014:c14	paintor

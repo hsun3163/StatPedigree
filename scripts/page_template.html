@@ -1,0 +1,344 @@
+<title>Stattree Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600&display=swap">
+<style>
+/* Layout: first view is a pan-and-zoom sky (one star per method, pedigree top to bottom); a tapped star opens its card in a sheet.
+   Other tabs are reading columns. Evidence (quoted spans) opens in a second sheet on top. */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --ink: #18212b; --muted: #5a6675; --line: #dde2e8;
+  --accent: #0b6e6e; --accent-soft: #e2f1f0; --warn: #8a5a00; --warn-soft: #fbf0d6; --quote: #eef1f5;
+  --text: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --head: "IBM Plex Sans Condensed", "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  /* the sky is a night sky in both themes, by design */
+  --sky: #070b16; --sky-2: #121a33; --sky-ink: #eef2ff; --sky-muted: #9aa6c6; --sky-line: #55648c;
+  --star-a: #7be6d6; --star-b: #ffc670; --star-x: #8f9ab8; --star-s: #8fb4ff; --star-c: #f0a3bd; --star-g: #b5e48c; --bridge: #c79bff;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #11161c; --surface: #1a212a; --ink: #e6ebf0; --muted: #9aa7b5; --line: #2c3642;
+  --accent: #5cc4c0; --accent-soft: #173534; --warn: #e6b450; --warn-soft: #3a2e12; --quote: #222b36; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #11161c; --surface: #1a212a; --ink: #e6ebf0; --muted: #9aa7b5; --line: #2c3642;
+  --accent: #5cc4c0; --accent-soft: #173534; --warn: #e6b450; --warn-soft: #3a2e12; --quote: #222b36; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--text); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 46rem; margin: 0 auto; padding-block: 1rem 6rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 600 1.9rem/1.1 var(--head); margin: .5rem 0 .25rem; letter-spacing: .01em; }
+h2 { font: 600 1.5rem/1.2 var(--head); margin: 1.5rem 0 .25rem; text-wrap: balance; }
+h3 { font: 600 1.12rem/1.3 var(--text); margin: 0; text-wrap: balance; }
+.view > h3 { margin: 1.75rem 0 .5rem; }
+h4 { font: 500 .72rem/1 var(--text); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 .4rem; }
+p { margin: .5rem 0; } a { color: var(--accent); }
+.draft { display: inline-block; background: var(--warn-soft); color: var(--warn); font: 500 .75rem/1 var(--text); letter-spacing: .06em; text-transform: uppercase; padding: .35rem .55rem; border-radius: 3px; }
+.stats { color: var(--muted); font-size: .9rem; }
+.lead { color: var(--muted); max-width: 38rem; } .hint { font-size: .88rem; color: var(--muted); }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin-top: .75rem; }
+nav .tabs { display: flex; gap: .25rem; overflow-x: auto; scrollbar-width: none; }
+nav a { flex: none; padding: .7rem .7rem; color: var(--muted); text-decoration: none; font-weight: 500; font-size: .95rem; border-bottom: 2px solid transparent; }
+nav a[aria-current="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.method, .rowcard, .q { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 1rem; margin: .9rem 0; display: flex; flex-direction: column; gap: .9rem; min-width: 0; }
+.q { gap: .2rem; } .qq { font-weight: 500; }
+.step { font: 500 .8rem var(--mono); color: var(--accent); margin-right: .25rem; }
+.note { color: var(--muted); font-size: .92rem; margin: .2rem 0 0; }
+ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: .45rem; }
+ul.plain, ul.edges { list-style: none; padding-left: 0; }
+ul.edges li { padding-left: .7rem; border-left: 2px solid var(--line); }
+.when { color: var(--muted); } .enote { font-size: .88rem; color: var(--muted); margin-top: .15rem; }
+dl.comp { margin: 0; display: grid; grid-template-columns: 5.2rem minmax(0, 1fr); gap: .35rem .6rem; }
+dl.comp dt { color: var(--muted); font-size: .85rem; padding-top: .1rem; } dl.comp dd { margin: 0; overflow-wrap: anywhere; }
+.rowcard dl.comp { grid-template-columns: 1fr; gap: .1rem; } .rowcard dl.comp dd { margin-bottom: .55rem; }
+.chip { font: 500 .7rem/1 var(--mono); color: var(--accent); background: var(--accent-soft); border: 0; border-radius: 3px; padding: .28rem .4rem; cursor: pointer; white-space: nowrap; vertical-align: .08em; }
+.chip:focus-visible, nav a:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible, .close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip.dead, .chip.demo { cursor: default; color: var(--muted); background: var(--quote); }
+.kind, .lbl { font: 500 .66rem/1 var(--text); letter-spacing: .06em; text-transform: uppercase; color: var(--warn); background: var(--warn-soft); padding: .2rem .35rem; border-radius: 3px; white-space: nowrap; }
+.lbl { color: var(--muted); background: var(--quote); }
+details.fold { border-top: 1px solid var(--line); padding-top: .7rem; }
+details.fold > summary { cursor: pointer; font-weight: 500; list-style-position: outside; margin-left: 1rem; }
+details.fold[open] > summary { margin-bottom: .6rem; }
+details.diagram, details.blocks, .view > details.fold { border: 1px solid var(--line); border-radius: 6px; padding: .7rem 1rem; margin: .9rem 0; background: var(--surface); }
+.n { font: 500 .75rem var(--mono); color: var(--muted); }
+.scroll { overflow-x: auto; } table { border-collapse: collapse; font-size: .9rem; min-width: 34rem; }
+th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bottom: 1px solid var(--line); } th { color: var(--muted); font-weight: 500; }
+code { font: .85em var(--mono); background: var(--quote); padding: .05rem .25rem; border-radius: 3px; overflow-wrap: anywhere; }
+.search { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0; }
+.search input, .search select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: .6rem .7rem; min-width: 0; }
+.search input { flex: 1 1 14rem; }
+.hit { border-bottom: 1px solid var(--line); padding: .7rem 0; cursor: pointer; } .hit small { color: var(--muted); display: block; margin-bottom: .15rem; }
+#sheet { position: fixed; inset: auto 0 0 0; z-index: 20; background: var(--surface); border-top: 1px solid var(--line); box-shadow: 0 -8px 30px rgb(0 0 0 / .18); max-height: 78%; overflow-y: auto;
+  padding: 1rem max(16px, env(safe-area-inset-right, 0px)) calc(1.25rem + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+#sheet .in { max-width: 44rem; margin: 0 auto; display: flex; flex-direction: column; gap: .7rem; }
+#sheet .top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+#sheet .id { font: 500 .8rem var(--mono); color: var(--muted); }
+.close { font: inherit; background: var(--quote); color: var(--ink); border: 0; border-radius: 6px; padding: .45rem .8rem; cursor: pointer; }
+#sheet .k { font-size: 1.05rem; font-weight: 500; margin: 0; }
+.method blockquote, #msheet blockquote { margin: .35rem 0; background: var(--quote); border-radius: 6px; padding: .6rem .8rem; font-size: .9rem; overflow-wrap: anywhere; }
+#sky .hit { stroke: transparent; stroke-width: 18; vector-effect: non-scaling-stroke; fill: none; pointer-events: stroke; cursor: pointer; }
+#sky .edge { pointer-events: none; } #sky .edge.pick { opacity: 1 !important; stroke-width: 2.5; }
+#sheet blockquote { margin: 0; background: var(--quote); border-radius: 6px; padding: .75rem .9rem; font-size: .92rem; overflow-wrap: anywhere; }
+#sheet .meta { font-size: .85rem; color: var(--muted); margin: 0; } #sheet p { margin: 0; }
+.badges { display: flex; flex-wrap: wrap; gap: .35rem; }
+.wrap.mapmode { max-width: none; padding-block: .6rem 1rem; }
+.mapmode .lead, .mapmode .stats { display: none; }
+.mapmode h1 { display: inline; font-size: 1.15rem; margin-left: .5rem; vertical-align: middle; }
+.mapmode nav { margin-top: .35rem; }
+#sky { position: relative; margin-top: .6rem; height: calc(100dvh - 8.2rem); min-height: 24rem; border-radius: 10px; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; cursor: grab;
+  background: radial-gradient(60% 50% at 25% 30%, #16264a 0%, transparent 70%), radial-gradient(50% 45% at 78% 72%, #2a1d44 0%, transparent 70%), var(--sky); }
+#sky svg { width: 100%; height: 100%; display: block; }
+#sky text { font-family: var(--text); fill: var(--sky-ink); paint-order: stroke; stroke: var(--sky); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+#sky .title { font: 600 58px var(--head); letter-spacing: .04em; fill: var(--sky-muted); opacity: .8; stroke: none; }
+#sky .title.fsusie { fill: var(--star-a); } #sky .title.prs { fill: var(--star-b); } #sky .title.stato { fill: var(--star-s); }
+#sky .edge { stroke: var(--sky-line); stroke-width: 1.4; vector-effect: non-scaling-stroke; fill: none; opacity: .8; stroke-linejoin: round; }
+#sky .edge.sec { display: none; stroke-dasharray: 4 4; } #sky .has-sel .edge.sec.on { display: block; }
+#sky .edge.ge { stroke: var(--star-g); opacity: .28; stroke-width: 1; }
+#sky .edge.soft { stroke-dasharray: 5 5; opacity: .55; } #sky .edge.x { stroke: var(--bridge); stroke-dasharray: 2 6; opacity: .5; }
+#sky .el text { font-size: 10px; fill: var(--sky-muted); } #sky .el { display: none; } #sky .lvl2 .el { display: block; }
+#sky .node { cursor: pointer; } #sky .node:focus-visible { outline: none; } #sky .node:focus-visible .core { stroke: var(--sky-ink); stroke-width: 2; }
+#sky .a .core { fill: var(--star-a); } #sky .b .core { fill: var(--star-b); } #sky .ext .core { fill: var(--star-x); }
+#sky .g .core { fill: var(--star-g); } #sky .g .glow { fill: url(#gg); } #sky .title.gen { fill: var(--star-g); }
+#sky .c .core { fill: var(--star-c); } #sky .c .glow { fill: url(#gc); } #sky .edge.ci { stroke: var(--star-c); opacity: .22; stroke-width: 1; stroke-dasharray: 1 4; }
+#sky .s .core { fill: var(--star-s); } #sky .s .glow { fill: url(#gs); } #sky .edge.st { stroke: var(--star-s); opacity: .16; stroke-width: 1; }
+#sky .a .glow { fill: url(#ga); } #sky .b .glow { fill: url(#gb); } #sky .ext .glow { fill: url(#gx); }
+#sky .hitbox { fill: transparent; }
+#sky .nm { font-size: 13px; font-weight: 600; } #sky .t3 .nm { font-size: 11px; font-weight: 500; fill: var(--sky-muted); }
+#sky .lb { font-size: 10.5px; fill: var(--sky-muted); display: none; } #sky .lb.yr { fill: var(--sky-ink); font-family: var(--mono); }
+#sky .lvl0 .t2 .nm, #sky .lvl0 .t3 .nm, #sky .lvl1 .t3 .nm { display: none; }
+#sky .lvl2 .lb, #sky .node.sel .lb, #sky .node.sel .nm, #sky .node.nb .nm { display: block; }
+#sky .ring { fill: none; stroke: var(--sky-ink); stroke-width: 1.5; display: none; } #sky .sel .ring { display: block; }
+#sky .has-sel .node:not(.sel):not(.nb) { opacity: .28; } #sky .has-sel .edge:not(.on) { opacity: .1; } #sky .has-sel .edge.on { opacity: 1; stroke-width: 2; } #sky .has-sel .el:not(.on) { display: none; } #sky .has-sel .el.on { display: block; }
+.zoom { position: absolute; right: max(10px, env(safe-area-inset-right, 0px)); bottom: 10px; display: flex; flex-direction: column; gap: 6px; }
+.zoom button { width: 44px; height: 44px; border-radius: 8px; border: 1px solid var(--sky-line); background: var(--sky-2); color: var(--sky-ink); font: 500 1.2rem var(--text); cursor: pointer; }
+.zoom button:focus-visible { outline: 2px solid var(--sky-ink); outline-offset: 2px; }
+.legend { position: absolute; left: max(10px, env(safe-area-inset-left, 0px)); bottom: 10px; font-size: .72rem; color: var(--sky-muted); display: flex; flex-direction: column; gap: .2rem; pointer-events: none; background: rgb(7 11 22 / .6); padding: .4rem .55rem; border-radius: 6px; }
+.legend i { display: inline-block; width: 22px; border-top: 2px solid var(--sky-line); vertical-align: middle; margin-right: .4rem; }
+.legend i.soft { border-top-style: dashed; } .legend i.x { border-top: 2px dotted var(--bridge); }
+.legend b { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin: 0 .3rem 0 0; } .legend .row { display: flex; flex-wrap: wrap; gap: .1rem .7rem; align-items: center; }
+.skyhint { position: absolute; left: 0; right: 0; top: 10px; text-align: center; font-size: .8rem; color: var(--sky-muted); pointer-events: none; transition: opacity .4s; }
+#msheet { position: fixed; inset: auto 0 0 0; z-index: 15; background: var(--surface); border-top: 1px solid var(--line); border-radius: 14px 14px 0 0; box-shadow: 0 -8px 30px rgb(0 0 0 / .3); max-height: 58%; overflow-y: auto;
+  padding: .8rem max(16px, env(safe-area-inset-right, 0px)) calc(1.25rem + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+#msheet .in { max-width: 44rem; margin: 0 auto; display: flex; flex-direction: column; gap: .9rem; min-width: 0; }
+#msheet .bar { display: flex; justify-content: flex-end; position: sticky; top: 0; height: 0; z-index: 1; }
+#msheet header { padding-right: 4.5rem; } #msheet h3 { font: 600 1.35rem/1.2 var(--head); }
+@media (min-width: 900px) { #msheet { inset: 0 0 0 auto; width: 27rem; max-height: none; border-radius: 0; border-top: 0; border-left: 1px solid var(--line); padding-top: calc(1rem + env(safe-area-inset-top, 0px)); } }
+</style>
+<div class="wrap">
+  <span class="draft">Unverified draft map</span>
+  <h1>Stattree Map</h1>
+  <p class="lead">What each method assumes, what its guarantees rest on, why it was built, and how the methods relate. Every statement is tied to a quoted sentence from the paper; nothing beyond that match has been checked.</p>
+  <p class="stats">{{STATS}}</p>
+  <nav><div class="tabs">
+    <a href="#map">Map</a><a href="#fsusie">Path to fSuSiE</a><a href="#prs">Path to BridgePRS</a><a href="#aim3">Aim 3</a><a href="#combination">Combination</a><a href="#questions">Open questions</a><a href="#claims">All claims</a>
+  </div></nav>
+  <section class="view" id="v-map">
+    <div id="sky">
+      <svg id="svg" class="lvl0" role="application" aria-label="Pedigree map of methods. Each star is one method.">
+        <defs>
+          <radialGradient id="ga"><stop offset="0" style="stop-color:var(--star-a);stop-opacity:.55"/><stop offset="1" style="stop-color:var(--star-a);stop-opacity:0"/></radialGradient>
+          <radialGradient id="gb"><stop offset="0" style="stop-color:var(--star-b);stop-opacity:.55"/><stop offset="1" style="stop-color:var(--star-b);stop-opacity:0"/></radialGradient>
+          <radialGradient id="gx"><stop offset="0" style="stop-color:var(--star-x);stop-opacity:.4"/><stop offset="1" style="stop-color:var(--star-x);stop-opacity:0"/></radialGradient>
+          <radialGradient id="gg"><stop offset="0" style="stop-color:var(--star-g);stop-opacity:.5"/><stop offset="1" style="stop-color:var(--star-g);stop-opacity:0"/></radialGradient>
+          <radialGradient id="gc"><stop offset="0" style="stop-color:var(--star-c);stop-opacity:.5"/><stop offset="1" style="stop-color:var(--star-c);stop-opacity:0"/></radialGradient>
+          <radialGradient id="gs"><stop offset="0" style="stop-color:var(--star-s);stop-opacity:.5"/><stop offset="1" style="stop-color:var(--star-s);stop-opacity:0"/></radialGradient>
+        </defs>
+        <g id="world"></g>
+      </svg>
+      <div class="skyhint" id="skyhint">Pinch or scroll to zoom in · drag to move · tap a star or a line for details</div>
+      <div class="legend">
+        <span class="row"><span><b style="background:var(--star-a)"></b>SuSiE family</span><span><b style="background:var(--star-b)"></b>PRS family</span><span><b style="background:var(--star-s)"></b>STATO term</span><span><b style="background:var(--star-g)"></b>generic tool</span><span><b style="background:var(--star-c)"></b>cited paper</span></span>
+        <span><i></i>is a kind of: the class above, made more specific (tap the line for the paper's sentence)</span>
+        <span><i class="soft"></i>dashed: placed by the map-maker, no stating sentence found yet</span>
+        <span>A method with two or three lines coming down into it is their shared child: it inherits a core part from each.</span>
+        <span>Tap a star to see the other methods it takes components from.</span>
+        <span>Every line is a quoted sentence: tap it. Similarity, inspiration and bare citations are not drawn.</span>
+        <span>Time runs downward: the year is at the left of each row. A line always goes from a component (above) to the method built on it (below).</span>
+        <span>If A leads to B and B to C, the direct A to C line is left out. Bigger star: more sourced claims.</span>
+      </div>
+      <div class="zoom"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zfit" aria-label="Show the whole map">⤢</button></div>
+    </div>
+  </section>
+  {{VIEWS}}
+</div>
+<div id="msheet" hidden role="dialog" aria-label="Method details"><div class="in">
+  <div class="bar"><button class="close" id="m-close">Close</button></div>
+  <div id="m-body" class="in"></div>
+</div></div>
+<div id="sheet" hidden role="dialog" aria-label="Source of this statement"><div class="in">
+  <div class="top"><span class="id" id="s-id"></span><button class="close" id="s-close">Close</button></div>
+  <p class="k" id="s-k"></p><div class="badges" id="s-b"></div>
+  <p id="s-a"></p><p id="s-s"></p>
+  <blockquote id="s-q"></blockquote><p class="meta" id="s-l"></p><p id="s-p"></p>
+</div></div>
+<script>
+const C = {{DATA}};
+const $ = id => document.getElementById(id);
+const G = {{GRAPH}};
+const views = ["map", "fsusie", "prs", "aim3", "combination", "questions", "claims"];
+const NODE = {}; G.nodes.forEach(n => NODE[n.id] = n);
+function show() {
+  let h = location.hash.slice(1), star = null;
+  if (h.startsWith("m-") && NODE[h.slice(2)]) { star = h.slice(2); h = "map"; }
+  if (!views.includes(h)) h = "map";
+  views.forEach(v => { $("v-" + v).hidden = v !== h; });
+  document.querySelector(".wrap").classList.toggle("mapmode", h === "map");
+  document.querySelectorAll("nav a").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + h));
+  window.scrollTo(0, 0);
+  if (h === "map") { initMap(); if (star) select(star); } else $("msheet").hidden = true;
+}
+
+/* ---- the sky ---- */
+const U = 240, NS = "http://www.w3.org/2000/svg", sky = $("sky"), svg = $("svg"), world = $("world");
+const mk = (t, a, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.append(e); return e; };
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+let T = { x: 0, y: 0, s: 1 }, box = null, fitS = 1, wide = null, sel = null, anim = 0, els = [];
+function initMap() {
+  const r = sky.getBoundingClientRect(); if (!r.width) return;
+  const w = true;  // one layout at every width: generic statistics on top, both families below
+  if (w !== wide) { wide = w; build(); fit(false); if (sel) mark(); } else if (!box) fit(false);
+}
+function build() {
+  world.textContent = ""; els = [];
+  G.nodes.forEach(n => { n.X = n.x * U; n.Y = n.y * U; });
+  const xs = G.nodes.map(n => n.X), ys = G.nodes.map(n => n.Y);
+  box = { x0: Math.min(...xs) - 2.2 * U, y0: Math.min(...ys) - U, x1: Math.max(...xs) + U, y1: Math.max(...ys) + 1.2 * U };
+  (G.rows || []).forEach(r => mk("text", { class: "title", x: Math.min(...xs) - 1.1 * U, y: r.y * U + 20, "text-anchor": "end" }, world).textContent = r.t);
+  G.edges.forEach(e => {
+    const a = NODE[e.a], b = NODE[e.b], cls = "edge" + (e.sec ? " sec" : e.ge ? " ge" : e.ci ? " ci" : e.st ? " st" : e.x ? " x" : e.soft ? " soft" : "");
+    e.P = (e.pts || [[a.x, a.y], [b.x, b.y]]).map(p => [p[0] * U, p[1] * U]);
+    e.line = mk("polyline", { class: cls, points: e.P.map(p => p.join(",")).join(" ") }, world);
+    const m0 = e.P[Math.floor((e.P.length - 1) / 2)], m1 = e.P[Math.ceil((e.P.length - 1) / 2)];
+    e.lab = mk("g", { class: "el" }, world); e.mx = (m0[0] + m1[0]) / 2; e.my = (m0[1] + m1[1]) / 2;
+    mk("text", { "text-anchor": "middle", dy: "0.35em" }, e.lab).textContent = e.w.join(" · ");
+    els.push(e);
+  });
+  els.forEach((e, i) => e.sec || mk("polyline", { class: "hit", "data-e": i, points: e.P.map(p => p.join(",")).join(" ") }, world));
+  G.nodes.forEach(n => {
+    const r = n.ext ? 3.5 : 4.5 + Math.sqrt(n.c) * .95;
+    const g = mk("g", { class: "node t" + n.t + (n.ext ? " ext" : n.side === "gen" ? " g" : n.side === "cite" ? " c" : n.side === "stato" ? " s" : n.side === "fsusie" ? " a" : " b"), "data-n": n.id, tabindex: 0, role: "button", "aria-label": n.n + ". " + n.l.join(", ") }, world);
+    mk("circle", { class: "hitbox", r: Math.max(22, r + 10) }, g);
+    mk("circle", { class: "glow", r: r * 3 }, g); mk("circle", { class: "core", r }, g); mk("circle", { class: "ring", r: r + 5 }, g);
+    mk("text", { class: "nm", "text-anchor": "middle", y: r + 17 }, g).textContent = n.n;
+    n.l.forEach((l, i) => { const t = mk("text", { class: "lb", "text-anchor": "middle", y: r + 32 + i * 13.5 }, g); t.textContent = l; if (/^\d{4}$/.test(l)) t.classList.add("yr"); });
+    n.g = g;
+  });
+}
+function apply() {
+  world.setAttribute("transform", `translate(${T.x},${T.y}) scale(${T.s})`);
+  const px = T.s * U, f = clamp(px / 110, .6, 1.2) / T.s;
+  G.nodes.forEach(n => n.g.setAttribute("transform", `translate(${n.X},${n.Y}) scale(${f})`));
+  els.forEach(e => e.lab.setAttribute("transform", `translate(${e.mx},${e.my}) scale(${1 / T.s})`));
+  const lvl = px < 75 ? 0 : px < 185 ? 1 : 2;
+  svg.classList.remove("lvl0", "lvl1", "lvl2"); svg.classList.add("lvl" + lvl);
+}
+function fly(x, y, s, jump) {
+  cancelAnimationFrame(anim);
+  const a = { ...T }, t0 = performance.now(), d = jump || matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 450;
+  const step = now => { const u = d ? Math.min(1, (now - t0) / d) : 1, e = u * (2 - u);
+    T.s = a.s + (s - a.s) * e; T.x = a.x + (x - a.x) * e; T.y = a.y + (y - a.y) * e; apply(); if (u < 1) anim = requestAnimationFrame(step); };
+  step(t0);
+}
+function fit(animate) {
+  const r = sky.getBoundingClientRect(), W = box.x1 - box.x0, H = box.y1 - box.y0;
+  fitS = Math.min(r.width / W, r.height / H);
+  fly((r.width - W * fitS) / 2 - box.x0 * fitS, (r.height - H * fitS) / 2 - box.y0 * fitS, fitS, !animate);
+}
+function zoomAt(cx, cy, k) {
+  const s = clamp(T.s * k, fitS * .7, 3.2); k = s / T.s;
+  T.x = cx - (cx - T.x) * k; T.y = cy - (cy - T.y) * k; T.s = s;
+}
+function mark() {
+  svg.classList.toggle("has-sel", !!sel);
+  const nb = new Set();
+  els.forEach(e => { const on = sel && (e.a === sel || e.b === sel); e.line.classList.toggle("on", !!on); e.lab.classList.toggle("on", !!on); if (on) { nb.add(e.a); nb.add(e.b); } });
+  G.nodes.forEach(n => { n.g.classList.toggle("sel", n.id === sel); n.g.classList.toggle("nb", n.id !== sel && nb.has(n.id)); });
+}
+function selectEdge(i) {
+  const e = els[i]; sel = null; mark();
+  svg.classList.add("has-sel"); e.line.classList.add("on", "pick"); e.lab.classList.add("on");
+  [e.a, e.b].forEach(x => NODE[x].g.classList.add("nb"));
+  const b = $("m-body"); b.textContent = "";
+  const add = (tag, cls, txt, par) => { const x = document.createElement(tag); if (cls) x.className = cls; if (txt) x.textContent = txt; (par || b).append(x); return x; };
+  const head = add("header"), h = add("h3", "", "", head);
+  [e.a, e.b].forEach((x, k) => { if (k) h.append(" — "); const a = add("a", "mref", NODE[x].n, h); a.href = "#m-" + x; });
+  add("p", "note", "What the sources say about this link", head);
+  (e.ev || []).forEach(v => { const s = add("section"); add("h4", "", v.t, s); add("p", "", v.s, s); if (v.q) add("blockquote", "", "“" + v.q + "”", s); add("p", "enote", v.src, s); });
+  $("msheet").hidden = false; $("msheet").scrollTop = 0;
+}
+function select(id) {
+  els.forEach(e => e.line.classList.remove("pick"));
+  sel = id && NODE[id] ? id : null; mark();
+  if (!sel) { $("msheet").hidden = true; return; }
+  const card = $("m-" + sel);
+  $("m-body").innerHTML = card ? card.innerHTML : "";
+  $("m-body").querySelectorAll("[id]").forEach(e => e.removeAttribute("id"));
+  $("msheet").hidden = false; $("msheet").scrollTop = 0;
+  const r = sky.getBoundingClientRect(), n = NODE[sel], side = innerWidth >= 900, s = Math.max(T.s, 200 / U);
+  const tx = side ? (r.width - 432) / 2 : r.width / 2, ty = side ? r.height * .42 : r.height * .2;
+  fly(tx - n.X * s, ty - n.Y * s, s);
+}
+const P = new Map(); let downN = null, downE = null, moved = 0;
+sky.addEventListener("pointerdown", e => {
+  if (e.target.closest(".zoom")) return;
+  cancelAnimationFrame(anim); sky.setPointerCapture(e.pointerId); P.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (P.size === 1) { downN = e.target.closest("[data-n]"); downE = e.target.closest("[data-e]"); moved = 0; }
+  $("skyhint").style.opacity = 0;
+});
+sky.addEventListener("pointermove", e => {
+  const p = P.get(e.pointerId); if (!p) return;
+  const dx = e.clientX - p.x, dy = e.clientY - p.y;
+  if (P.size === 1) { T.x += dx; T.y += dy; moved += Math.abs(dx) + Math.abs(dy); }
+  else if (P.size === 2) {
+    let o; P.forEach((v, k) => { if (k !== e.pointerId) o = v; });
+    const r = sky.getBoundingClientRect(), d0 = Math.hypot(p.x - o.x, p.y - o.y), d1 = Math.hypot(e.clientX - o.x, e.clientY - o.y);
+    T.x += dx / 2; T.y += dy / 2;
+    if (d0 > 0) zoomAt((e.clientX + o.x) / 2 - r.left, (e.clientY + o.y) / 2 - r.top, d1 / d0);
+    moved = 99;
+  }
+  p.x = e.clientX; p.y = e.clientY; apply();
+});
+const up = e => {
+  if (!P.delete(e.pointerId) || P.size) return;
+  if (moved < 8 && e.type === "pointerup") { if (!downN && downE) selectEdge(+downE.dataset.e); else select(downN ? downN.dataset.n : null); }
+};
+sky.addEventListener("pointerup", up); sky.addEventListener("pointercancel", up);
+sky.addEventListener("wheel", e => { e.preventDefault(); cancelAnimationFrame(anim); const r = sky.getBoundingClientRect();
+  zoomAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * (e.ctrlKey ? .01 : .0015))); apply(); $("skyhint").style.opacity = 0; }, { passive: false });
+sky.addEventListener("keydown", e => { const n = e.target.closest("[data-n]"); if (n && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); select(n.dataset.n); } });
+const zb = k => () => { const r = sky.getBoundingClientRect(), a = { ...T }; zoomAt(r.width / 2, r.height / 2, k); const b = { ...T }; T = a; fly(b.x, b.y, b.s); };
+$("zin").addEventListener("click", zb(1.7)); $("zout").addEventListener("click", zb(1 / 1.7)); $("zfit").addEventListener("click", () => { select(null); fit(true); });
+$("m-close").addEventListener("click", () => select(null));
+$("msheet").addEventListener("click", e => { const a = e.target.closest("a.mref"); if (a && NODE[a.getAttribute("href").slice(3)]) { e.preventDefault(); select(a.getAttribute("href").slice(3)); } });
+addEventListener("resize", () => { if (!$("v-map").hidden && box) fit(false); });
+addEventListener("hashchange", show); show();
+function open(id) {
+  const c = C[id]; if (!c) return;
+  $("s-id").textContent = id + " · " + c.m;
+  $("s-k").textContent = c.k;
+  $("s-b").innerHTML = "";
+  [c.role, c.kind, c.tag].forEach(t => { const s = document.createElement("span"); s.className = t === "theorem" || t === "agent-inferred" ? "kind" : "lbl"; s.textContent = t; $("s-b").append(s); });
+  $("s-a").textContent = c.a && c.a !== "NA" ? "Holds when: " + c.a : "";
+  $("s-s").textContent = c.s && c.s !== "NA" ? "Scope: " + c.s : "";
+  $("s-q").textContent = "“" + c.q + "”";
+  $("s-l").textContent = "Source: " + c.l + (c.e && c.e !== "NA" ? " · " + c.e : "");
+  $("s-p").textContent = c.p && c.p !== "NA" ? "Rests on: " + c.p : "";
+  $("sheet").hidden = false; $("sheet").scrollTop = 0;
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-c]");
+  if (b) { open(b.dataset.c); return; }
+  if (e.target.id === "s-close" || !e.target.closest("#sheet")) $("sheet").hidden = true;
+});
+document.addEventListener("keydown", e => { if (e.key !== "Escape") return; if (!$("sheet").hidden) $("sheet").hidden = true; else select(null); });
+function search() {
+  const q = $("q").value.trim().toLowerCase(), r = $("role").value, out = [];
+  for (const id in C) {
+    const c = C[id];
+    if (r && c.role !== r) continue;
+    if (q && !(c.k + " " + c.m + " " + c.a + " " + id).toLowerCase().includes(q)) continue;
+    out.push(id); if (out.length === 60) break;
+  }
+  $("results").innerHTML = "";
+  out.forEach(id => { const d = document.createElement("div"); d.className = "hit"; d.dataset.c = id;
+    const s = document.createElement("small"); s.textContent = C[id].m + " · " + C[id].role; d.append(s, C[id].k); $("results").append(d); });
+  if (!out.length) $("results").textContent = "No statement matches. Try a shorter word.";
+}
+$("q").addEventListener("input", search); $("role").addEventListener("change", search); search();
+</script>

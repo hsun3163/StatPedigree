@@ -1,0 +1,78 @@
+method_paper	stato_id	source_node	length	path
+bayesian_lasso	STATO:0000483	bayes_alphabet	1	bayesian_lasso > bayes_alphabet
+bayesian_lasso	STATO:0000484	bayes_alphabet	1	bayesian_lasso > bayes_alphabet
+bayesr	STATO:0000483	bayes_alphabet	1	bayesr > bayes_alphabet
+bayesr	STATO:0000484	bayes_alphabet	1	bayesr > bayes_alphabet
+bayesr	STATO:0000533	habier2011extension	1	bayesr > habier2011extension
+blei2017	STATO:0000536	geman1984stochastic	1	blei2017 > geman1984stochastic
+blei2017	STATO:0000537	hastings1970monte	1	blei2017 > hastings1970monte
+bolt	STATO:0000483	bayes_alphabet	1	bolt > bayes_alphabet
+bolt	STATO:0000483	meuwissen2009fast	1	bolt > meuwissen2009fast
+bolt	STATO:0000484	bayes_alphabet	1	bolt > bayes_alphabet
+bolt	STATO:0000484	meuwissen2009fast	1	bolt > meuwissen2009fast
+bridgeprs	STATO:0000480	perezrodriguez2012comparison	NA	NA
+bslmm	STATO:0000483	bayes_alphabet	1	bslmm > bayes_alphabet
+bslmm	STATO:0000484	bayes_alphabet	1	bslmm > bayes_alphabet
+bslmm	STATO:0000492	park2008bayesian	1	bslmm > park2008bayesian
+bslmm	STATO:0000533	habier2011extension	1	bslmm > habier2011extension
+bvsr	STATO:0000537	hastings1970monte	1	bvsr > hastings1970monte
+daetwyler_2008	STATO:0000483	bayes_alphabet	1	daetwyler_2008 > bayes_alphabet
+daetwyler_2008	STATO:0000484	bayes_alphabet	1	daetwyler_2008 > bayes_alphabet
+dbslmm	STATO:0000483	bayes_alphabet	1	dbslmm > bayes_alphabet
+dbslmm	STATO:0000484	bayes_alphabet	1	dbslmm > bayes_alphabet
+dbslmm	STATO:0000533	habier2011extension	1	dbslmm > habier2011extension
+finemap	STATO:0000536	geman1984stochastic	1	finemap > geman1984stochastic
+finemap	STATO:0000537	hastings1970monte	1	finemap > hastings1970monte
+gradvi	STATO:0000492	park2008bayesian	1	gradvi > park2008bayesian
+hoggart2008	STATO:0000483	bayes_alphabet	1	hoggart2008 > bayes_alphabet
+hoggart2008	STATO:0000484	bayes_alphabet	1	hoggart2008 > bayes_alphabet
+horseshoe	STATO:0000492	park2008bayesian	1	horseshoe > park2008bayesian
+lassosum	STATO:0000483	bayes_alphabet	1	lassosum > bayes_alphabet
+lassosum	STATO:0000484	bayes_alphabet	1	lassosum > bayes_alphabet
+lassosum	STATO:0000533	habier2011extension	1	lassosum > habier2011extension
+ldpred	STATO:0000480	perezrodriguez2012comparison	NA	NA
+ldpred	STATO:0000483	meuwissen2009fast	1	ldpred > meuwissen2009fast
+ldpred	STATO:0000484	meuwissen2009fast	1	ldpred > meuwissen2009fast
+ldpred	STATO:0000533	habier2011extension	2	ldpred > bslmm > habier2011extension
+ldpred	STATO:0000533	habier2011extension	2	ldpred > erbe2012improving > habier2011extension
+ldpred	STATO:0000536	geman1984stochastic	3	ldpred > daetwyler_2008 > xu2003estimating > geman1984stochastic
+ldpred	STATO:0000536	geman1984stochastic	3	ldpred > meuwissen2009fast > besag1986statistical > geman1984stochastic
+ldpred2	STATO:0000480	perezrodriguez2012comparison	3	ldpred2 > chun2020non > falke2013spectrum > perezrodriguez2012comparison
+ldpred2	STATO:0000533	habier2011extension	2	ldpred2 > prscs > habier2011extension
+ldpred2	STATO:0000533	habier2011extension	2	ldpred2 > sbayesr > habier2011extension
+ldpred2	STATO:0000536	geman1984stochastic	3	ldpred2 > prscs > xu2003estimating > geman1984stochastic
+ldpred2	STATO:0000536	geman1984stochastic	3	ldpred2 > uffelmann2021genome > finemap > geman1984stochastic
+malo2008	STATO:0000480	perezrodriguez2012comparison	NA	NA
+morris_2015	STATO:0000492	park2008bayesian	1	morris_2015 > park2008bayesian
+mr_ash	STATO:0000483	bayes_alphabet	1	mr_ash > bayes_alphabet
+mr_ash	STATO:0000483	meuwissen2009fast	1	mr_ash > meuwissen2009fast
+mr_ash	STATO:0000484	bayes_alphabet	1	mr_ash > bayes_alphabet
+mr_ash	STATO:0000484	meuwissen2009fast	1	mr_ash > meuwissen2009fast
+mr_ash	STATO:0000492	park2008bayesian	1	mr_ash > park2008bayesian
+mr_ash	STATO:0000533	habier2011extension	1	mr_ash > habier2011extension
+mr_mash	STATO:0000483	bayes_alphabet	1	mr_mash > bayes_alphabet
+mr_mash	STATO:0000484	bayes_alphabet	1	mr_mash > bayes_alphabet
+mr_mash	STATO:0000492	park2008bayesian	1	mr_mash > park2008bayesian
+mr_mash	STATO:0000533	habier2011extension	1	mr_mash > habier2011extension
+multiblup	STATO:0000483	bayes_alphabet	1	multiblup > bayes_alphabet
+multiblup	STATO:0000484	bayes_alphabet	1	multiblup > bayes_alphabet
+multiblup	STATO:0000533	habier2011extension	1	multiblup > habier2011extension
+prscs	STATO:0000483	bayes_alphabet	1	prscs > bayes_alphabet
+prscs	STATO:0000483	meuwissen2009fast	2	prscs > ldpred > meuwissen2009fast
+prscs	STATO:0000483	meuwissen2009fast	2	prscs > yang2010common > meuwissen2009fast
+prscs	STATO:0000484	bayes_alphabet	1	prscs > bayes_alphabet
+prscs	STATO:0000492	park2008bayesian	2	prscs > bslmm > park2008bayesian
+prscs	STATO:0000492	park2008bayesian	2	prscs > tpb > park2008bayesian
+prscs	STATO:0000533	habier2011extension	1	prscs > habier2011extension
+prscs	STATO:0000536	geman1984stochastic	2	prscs > xu2003estimating > geman1984stochastic
+sbayesr	STATO:0000483	bayes_alphabet	1	sbayesr > bayes_alphabet
+sbayesr	STATO:0000484	bayes_alphabet	1	sbayesr > bayes_alphabet
+sbayesr	STATO:0000533	habier2011extension	1	sbayesr > habier2011extension
+susie	STATO:0000483	bayes_alphabet	1	susie > bayes_alphabet
+susie	STATO:0000484	bayes_alphabet	1	susie > bayes_alphabet
+tpb	STATO:0000492	park2008bayesian	1	tpb > park2008bayesian
+varbvs	STATO:0000492	park2008bayesian	1	varbvs > park2008bayesian
+xpass	STATO:0000533	habier2011extension	1	xpass > habier2011extension
+zhang2005	STATO:0000483	bayes_alphabet	1	zhang2005 > bayes_alphabet
+zhang2005	STATO:0000484	bayes_alphabet	1	zhang2005 > bayes_alphabet
+zhu2011	STATO:0000492	park2008bayesian	1	zhu2011 > park2008bayesian

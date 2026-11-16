@@ -1,0 +1,4 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+susierss:q01	fsusie	Under which conditions does the precise summary z-score likelihood extend to logistic regression or mixed models?	A derivation of the joint mean and covariance in model (20) for those non-simple-regression settings.	susierss:c38	susierss; rss_z
+susierss:q02	fsusie	When do credible sets retain nominal coverage with approximate reference LD and variational posterior inference?	A coverage result controlling LD misspecification and posterior approximation; the exact-data equivalence alone does not supply it.	susierss:c11; susierss:c15; susierss:c24; susierss:c36	susierss; susie
+susierss:q03	fsusie	What additional conditions ensure refinement reaches a globally optimal ELBO solution?	A global convergence result or structural condition eliminating suboptimal local optima; objective nondecrease alone is insufficient.	susierss:c23; susierss:c24	susierss; susie

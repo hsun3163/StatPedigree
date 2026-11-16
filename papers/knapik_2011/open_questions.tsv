@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+knapik_2011:q01	fsusie	How does empirical or hierarchical Bayes choice of prior scale affect contraction and frequentist credible-set coverage?	A theorem analyzing the random data-dependent scale and its induced posterior bias and spread.	knapik_2011:c15	gaussian_inverse

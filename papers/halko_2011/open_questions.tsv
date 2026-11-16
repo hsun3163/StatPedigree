@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+halko_2011:q01	fsusie	Can power-enhanced randomized approximation for slowly decaying spectra be accelerated to O(m n log(k)) using fast random transforms such as the SRFT?	An algorithm and analysis achieving that accelerated complexity for the iterative scheme; section 4.6 explicitly states that this is not currently known.	halko_2011:c09; halko_2011:c10	randomized_matrix_decomposition

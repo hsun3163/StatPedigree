@@ -1,0 +1,2 @@
+method_id	paper_id	side	name	model_likelihood	prior	inference_algorithm	estimand	data_input	assumptions	tunable_settings	component_claims
+pclocate	pclocate	prs	pcLOCATE	Fully Bayesian town-of-birth probability model conditional on individual PC values; sampling likelihood unspecified in the abstract.	NA	NA	Estimated longitude and latitude of birth obtained by averaging over towns.	Individual PC values.	NA	NA	model_likelihood=pclocate:c03; estimand=pclocate:c04; data_input=pclocate:c05

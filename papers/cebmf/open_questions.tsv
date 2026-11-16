@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+cebmf:q01	fsusie	When a cEBNM subproblem is solved approximately, which optimization accuracy or acceptance condition preserves ascent of the cEBMF ELBO?	A stated bound or update acceptance condition connecting an approximate cEBNM solve to a nondecreasing ELBO; Proposition 1 identifies the exact maximizing update.	cebmf:c06; cebmf:c11; cebmf:c13	cebmf; cebnm

@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+torus:q01	fsusie	Under what conditions does Bayesian FDR thresholding retain its exact-posterior guarantee after plugging in approximate-EM enrichment estimates and truncated PIPs?	A calibration or error bound for the empirical Bayes null posteriors jointly with approximate EM; the fixed-parameter truncation inequality alone does not quantify plug-in estimation error.	torus:c06; torus:c09; torus:c10; torus:c11; torus:c15	torus

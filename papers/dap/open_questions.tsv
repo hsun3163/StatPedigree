@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+dap:q01	fsusie	Under which model, prior and approximation conditions does DAP achieve the accuracy described in the abstract?	Open full-text methods and theoretical statements specifying the likelihood, prior, approximation rule and any accuracy conditions or bounds.	dap:c02; dap:c05	dap

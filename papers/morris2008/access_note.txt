@@ -1,0 +1,6 @@
+Access used: abstract_only. Source retained from PMC efetch XML, which contains no article body.
+Fetcher bug: successful XML responses without a body are not marked abstract_only.
+Scoped invocation workaround: shared tmp/fetch_events.jsonl redirected to tmp/morris2008/fetch_events.jsonl.
+Open route outcomes: PMC HTML HTTP 403; Europe PMC fullTextXML HTTP 500 Internal Server Error; Europe PMC HTML HTTP 403.
+Supplement response: Article with id PMC2659628 is not open access one
+Prior and fitting algorithm remain NA because the abstract does not state them. No parent extraction performed.

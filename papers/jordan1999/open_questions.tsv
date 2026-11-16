@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+jordan1999:q01	fsusie	Under which conditions do the variational transformations provide the probability bounds described in the abstract, and what are their directions and tightness?	Full-text definitions of the transformations, bound statements and their conditions; these are unavailable in the retained abstract.	jordan1999:c03; jordan1999:c04	variational_graphical

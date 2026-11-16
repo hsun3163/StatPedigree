@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods:q01	prs	How would fine-scale method rankings change if all tests were calibrated to the same type I error rate in each scenario?	Scenario-specific thresholds giving equal type I error for Frequentist and Bayesian procedures, followed by a calibrated comparison.	multivariate_simulation_framework_reveals_performance_of_multi_trait_gwas_methods:c09	multivariate_simulation_framework

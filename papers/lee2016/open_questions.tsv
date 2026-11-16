@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+lee2016:q01	fsusie	Under what assumptions does modeling spatial and between-sample correlation improve differential-methylation detection beyond the reported simulation?	A specified sampling model and a power comparison under explicit assumptions; the abstract provides only a simulation statement and potential benefit.	lee2016:c02; lee2016:c05	wfmm

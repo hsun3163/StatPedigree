@@ -1,0 +1,2 @@
+oq_id	side	question	missing_premise	related_claims	related_methods
+wen2014:q01	fsusie	Under precisely which effect priors and asymptotic regimes does the BIC connection establish consistent Bayes-factor model selection?	Qualifying W_g class, regularity conditions and dimension-growth regime from Appendix F; the open supplement package is unavailable and the main text states only most W_g matrices.	wen2014:c13	ssmr_bms; bic
